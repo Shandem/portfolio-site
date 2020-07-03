@@ -1,19 +1,30 @@
-
+@import url(https://allfont.net/allfont.css?fonts=tinet);
 .about{
     display: flex;
     flex-direction: row;
     flex: left;
     width: 800px;
     justify-content: space-around;
-    margin: auto;
+    margin: 20px auto;
     padding-bottom: 20px;
     padding-top: 40px;
+    font-family: 'Tinet', arial;
+    font-size: 19px;
+    background-color: #BED6FA;
+    border-radius: 45px;
+    height: 360px;
+    
     
 }
 .me{
+    margin-top: 25px;
     border-radius: 45px;
+    height: 300px;
+    width: 290px;
 }
 .blurb{
     width: 400px;
     text-align:  left;
+    letter-spacing: 1px;
+    line-height: 1.6;
 }

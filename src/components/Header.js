@@ -5,8 +5,8 @@ import './Header.scss'
 const Header = (props) => {
   return (
     <header>
-      <div className="name">
-       <h1>Joshuah Gutierrez</h1>
+      <div>
+       <h1 className="name">Joshuah Gutierrez</h1>
       </div>
 
     </header>
