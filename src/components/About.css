@@ -1,0 +1,19 @@
+
+.about{
+    display: flex;
+    flex-direction: row;
+    flex: left;
+    width: 800px;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    
+}
+.me{
+    border-radius: 45px;
+}
+.blurb{
+    width: 400px;
+    text-align:  left;
+}

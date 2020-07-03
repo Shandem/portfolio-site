@@ -1,0 +1,25 @@
+.Thecity{
+    width: 1200px;
+    height: 400px;
+    border-radius: 45px;
+    padding-bottom: 20px;
+
+}
+.monterey, .bayarea{
+    padding: 20px 0px;
+}
+.pokeball, .rotom{
+    width: 600px;
+    height: 400px;
+    border-radius: 45px;
+
+}
+.cssart{
+    display: flex;
+    flex-direction: row;
+    flex: left;
+    width: 1000px;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 20px;
+}

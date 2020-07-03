@@ -1,0 +1,27 @@
+.project{
+    display: flex;
+    flex-direction: row;
+    flex: left;
+    width: 1000px;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 20px;
+    background-color: #BED6FA;
+    border-radius: 45px;
+}
+.screenshot{
+    border-radius: 45px;
+    margin-bottom: 20px;
+}
+.detailContainer{
+    width: 500px;
+    text-align:  left;
+    padding-left: 20px;
+}
+.tcgpic, .dexpic, .gaymeit{
+    width: 600px;
+    height: 400px;
+}
+.gaymeitcontain{
+    margin-bottom: 20px;
+}

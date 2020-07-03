@@ -1,0 +1,45 @@
+@import url(https://allfont.net/allfont.css?fonts=bleeding-cowboys);
+header {
+    background: #9F71AD;
+    text-align: left;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+  
+    a {
+      color: #fff;
+      transition: color 0.3s ease;
+    
+  
+      &:hover {
+        color: darken(#fff, 20%)
+      }
+    }
+  
+    ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+  
+      li {
+        list-style-type: none;
+        padding: 0px 10px;
+        font-size: 20px;
+        font-family: 'SF Comic Script Bold', arial;
+      }
+    }
+  }
+  .footer{
+    padding-top: 10px;
+    background: #9F71AD;
+  }
+.logo  {
+    font-size: 40px;
+    font-family: 'SF Comic Script Bold', arial;
+    background: -webkit-linear-gradient(180deg,#EF1C25,#F78620,#FFE600,#118A43, #4D52A6, #7F2987,#000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .name{
+    font-family: 'Bleeding Cowboys', arial;
+  }

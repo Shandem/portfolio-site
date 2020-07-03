@@ -1,3 +1,10 @@
+.background{
+  width: 800px;
+  height: 800px;
+}
+body{
+  background-color: #939CAD;
+}
 .App {
   text-align: center;
 }
