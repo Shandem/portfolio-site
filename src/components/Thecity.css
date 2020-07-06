@@ -1,3 +1,4 @@
+@import url(https://allfont.net/allfont.css?fonts=tinet);
 .Thecity{
     width: 1200px;
     height: 400px;
@@ -8,7 +9,7 @@
 .monterey, .bayarea{
     padding: 20px 0px;
 }
-.pokeball, .rotom{
+.rotom{
     width: 600px;
     height: 400px;
     border-radius: 45px;
@@ -22,4 +23,151 @@
     justify-content: space-around;
     margin: auto;
     padding-top: 20px;
+    
 }
+.tracker{
+    display: flex;
+    flex-direction: row;
+    flex: left;
+    width: 1200px;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-left: 0px;
+    padding-top: 20px;
+}
+.rotom-blurb{
+   margin-left: -200px;
+}
+.official-ball{
+    height: 200px;
+    width: 200px;
+}
+
+#pokeball{
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    border-radius: 50%;
+    background: radial-gradient(circle at 100px 100px, #C22A00, #000);
+    height: 450px;
+    width: 450px;
+}
+#bottom-half{
+    
+    margin: auto;
+    z-index: 1;
+    height: 225px;
+    width: 450px;
+    border-radius: 0 0 450px 450px;
+    background: radial-gradient(circle at 100px 100px, white, #000);
+    margin-top: 0px
+}
+
+#bar{
+    z-index: 2;
+    top: 0; bottom:0; left: 0; right: 0;
+    margin: auto;
+    height: 20px;
+    width: 450px;
+    background:black;
+   margin-top: 205px;
+}
+#center{
+    z-index: 3;
+    margin-top: -47px;
+    margin-left: 160px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color:whitesmoke;
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 13px solid black;
+}
+.blurb{
+    width: 400px;
+    text-align:  left;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-family: 'Tinet', arial;
+}
+@keyframes color {
+    0% {
+      background-color: #222;
+    }
+    50% {
+      background-color: whitesmoke;
+    }
+    100% {
+      background-color: #222;
+    }
+}
+
+/* Below is css for Rotom*/
+.rotom_full{
+    transform: scale(0.5);
+    position: relative;
+  }
+.dexneck {
+    width: 60px;
+    height: 100px;
+    z-index: 1;
+    background: #d44338;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -90px;
+  }
+  .dexneck-right {
+    width: 70px;
+    height: 60px;
+    background: #d44338;
+    border-radius: 5px 60px 0px 0px;
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 450px;
+  }
+  .dexneck-tip {
+    width: 0;
+    height: 0;
+    border-right: 40px solid #d44338;
+    border-top: 75px solid transparent;
+    border-left: 45px solid transparent;
+    border-bottom: 30px solid #d44338;
+    border-radius:  5px 0px 5px 5px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -200px;
+    margin-left: 450px;
+  }
+.dexbody {
+    width: 1000px;
+    height: 450px;
+    border: 1px solid #000;
+    background: #d44338;
+    border-radius: 20px;
+  }
+.rotom_head{
+    position: absolute;
+    height:350px;
+    width:350px;
+    border-radius: 300px;
+    background: transparent;
+    border: 3px solid black;
+    margin-left: 31%;
+    top:11%;
+}
+
+.dextail {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #d44338;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    position: relative;
+    margin-left:450px;
+  }

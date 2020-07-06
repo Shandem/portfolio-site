@@ -3,9 +3,19 @@ import './Thecity.css'
 
 const Pokeball = () => {
     return (
-        <div className='cssart'>
-            <img src={process.env.PUBLIC_URL + '/pokeball.png'} className='pokeball' alt="Pokeball CSS art"/>
-            <p>This pokeball is CSS art im uniquely proud of</p>
+        <div className='cssart'>  
+                <div id="pokeball">
+                    <div id="layer1">
+                    <div id="center"></div>
+                        <div id="bar"></div>
+                        <div id="bottom-half"></div>
+                    </div>  
+            </div>
+            <p className='blurb'>Here is some custom CSS art I put together. It is a recreation of 
+            Nintendo's iconic Pokeball from the Pokemon franchise. I have provided
+            an image of an official Pokeball for your reference <br/>
+            <img src={process.env.PUBLIC_URL + '/Poke-Ball-Gloss.png'} alt='a official Pokeball for refrence' className='official-ball'></img>
+            </p>
         </div>
     );
 }
