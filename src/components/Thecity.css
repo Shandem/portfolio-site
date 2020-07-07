@@ -15,6 +15,18 @@
     border-radius: 45px;
 
 }
+.pokeball{
+  animation: spin infinite 10s linear;
+ 
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .cssart{
     display: flex;
     flex-direction: row;
@@ -53,29 +65,33 @@
     border-radius: 50%;
     background: radial-gradient(circle at 100px 100px, #C22A00, #000);
     height: 450px;
-    width: 450px;
+    width: 450px;  
 }
 #bottom-half{
-    
+    position: absolute;
     margin: auto;
     z-index: 1;
     height: 225px;
     width: 450px;
     border-radius: 0 0 450px 450px;
     background: radial-gradient(circle at 100px 100px, white, #000);
-    margin-top: 0px
+    margin-top: 210px;
+    border-top: 20px black solid;
 }
 
 #bar{
+position: absolute;
     z-index: 2;
     top: 0; bottom:0; left: 0; right: 0;
     margin: auto;
     height: 20px;
     width: 450px;
     background:black;
-   margin-top: 205px;
+   margin-top: 1680px;
+   margin-left: 250px;
 }
 #center{
+  position: absolute;
     z-index: 3;
     margin-top: -47px;
     margin-left: 160px;
@@ -88,7 +104,7 @@
     animation-iteration-count: infinite;
     border: 13px solid black;
     position: absolute;
-    margin-top: -50px;
+    margin-top: 165px;
 }
 .blurb{
     width: 400px;
