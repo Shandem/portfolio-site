@@ -14,6 +14,7 @@ const Project0 = () => {
                         <a href="https://pages.git.generalassemb.ly/Shandem2005/Project-0/" target="_blank" rel="noopener noreferrer"> Live version</a>
                     </h6>
                 <p>
+
                     The goal of the project was to make a web based video game. 
                     I took the Pokemon Trading Card game and created a clone using 
                     front end javascript.
