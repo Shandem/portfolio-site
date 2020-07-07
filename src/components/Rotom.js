@@ -29,7 +29,10 @@ const Rotom = () => {
             </div>  
                 <div class="dextail"></div>
             </div>
-        <p className='rotom-blurb'>This pokeball is CSS art im uniquely proud of <br/> 
+        <p className='rotom-blurb'>This is another bit of CSS art. His name is Rotom from the Pokemon franchise. I wanted to 
+            take on something more difficult than the  Pokeball, and with this project focused on making a Poke-dex clone 
+            Rotom was a natural choice. I have provided an image of Rotom for your reference.
+        <br/> <br/>
         <img src={process.env.PUBLIC_URL + '/rotom-dex.jpg'} alt='Rotom for refrence' className='rotom-pic'></img>
         </p>
     </div>

@@ -8,6 +8,8 @@ const Header = (props) => {
       <div>
        <h1 className="name">Joshuah Gutierrez</h1>
       </div>
+      
+     
 
     </header>
   );
