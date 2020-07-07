@@ -42,6 +42,10 @@
     height: 200px;
     width: 200px;
 }
+.rotom-pic{
+    height: 100px;
+    width: 200px;
+}
 
 #pokeball{
     top: 0; bottom: 0; left: 0; right: 0;
@@ -83,6 +87,8 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
     border: 13px solid black;
+    position: absolute;
+    margin-top: -50px;
 }
 .blurb{
     width: 400px;
@@ -160,7 +166,99 @@
     margin-left: 31%;
     top:11%;
 }
-
+.left_eye{
+    z-index: 1;
+      position: absolute;
+      height:45px;
+      width:200px;
+      border-radius: 90px / 45px;
+      background: #EDECEF;
+      transform: rotate(70deg);
+      margin-top: 90px;
+      margin-left: -10px;
+  }
+  .left_slit{
+    position: absolute;
+    border-top: 3px solid black;
+    width: 47px;
+    transform: rotate(75deg);
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.left_eyeris{
+    position: absolute;
+    height:25px;
+    width:140px;
+    border-radius: 90px / 45px;
+    background: rgb(126,194,218);
+    background: linear-gradient(70deg, rgba(126,194,218,1) 0%, rgba(145,218,238,1) 50%, rgba(177,242,248,1) 100%);
+    transform: rotate(180deg);
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+.right_eye{
+    position: absolute;
+    height:45px;
+    width:180px;
+    border-radius: 90px / 45px;
+    background: #EDECEF;
+    transform: rotate(-70deg);
+    margin-left: 180px;
+    margin-top:90px;
+}
+.right__slit{
+    position: absolute;
+    border-top: 3px solid black;
+    width: 47px;
+    transform: rotate(-75deg);
+    margin-left: 50px;
+    margin-top:20px;
+}
+.right_eyeris{
+    position: absolute;
+    height:25px;
+    width:140px;
+    border-radius: 90px / 45px;
+    background: rgb(126,194,218);
+    background: linear-gradient(70deg, rgba(126,194,218,1) 0%, rgba(145,218,238,1) 50%, rgba(177,242,248,1) 100%);
+    transform: rotate(0deg);
+    margin-left: 20px;
+    margin-top:10px;
+  }
+  .rotom_mouth{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex: right;
+    justify-content: center;
+    width: 200px;
+    margin-left: 87px;
+    margin-top: 250px;
+  }
+  .rotom_mouth_left{
+    position: relative;
+    width:50px; 
+    height:35px; 
+    border:1px solid #000; 
+    background: white;
+    border-radius: 0 0 0 90px;
+  }
+  .rotom_mouth_center{
+    position: relative;
+    width:25px; 
+       height:35px; 
+       border:1px solid #000; 
+       background:white;
+       padding-left: 20px;
+  }
+  .rotom_mouth_right{
+    position: relative;
+    width:50px; 
+    height:35px; 
+    border:1px solid #000; 
+    background: white;
+    border-radius: 0 0 90px 0;
+  }
 .dextail {
     z-index: 1;
     width: 0;
