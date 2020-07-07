@@ -10,8 +10,8 @@ const Project0 = () => {
                 <h4>Pokemon Trading Card Game clone</h4>
                 <h5>Web based game / Solo Project <br/>
                     Technologies Used: HTML CSS Javascript Jquery</h5>
-                    <h6><a href="https://git.generalassemb.ly/Shandem2005/Project-0"> Git-Repo |</a>
-                        <a href="https://pages.git.generalassemb.ly/Shandem2005/Project-0/"> Live Verson</a>
+                    <h6><a href="https://git.generalassemb.ly/Shandem2005/Project-0" target="_blank" rel="noopener noreferrer"> Git-Repo |</a>
+                        <a href="https://pages.git.generalassemb.ly/Shandem2005/Project-0/" target="_blank" rel="noopener noreferrer"> Live version</a>
                     </h6>
                 <p>
                     The goal of the project was to make a web based video game. 
