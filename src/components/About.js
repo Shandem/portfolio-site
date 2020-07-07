@@ -9,7 +9,7 @@ const About = () => {
             Assembly's Software Engineering Immersive course. Before that, I had 7 years 
             of experience in the hospitality area. With 4 of those years in a management 
             position. I am a life long gamer and snowboarder. Cooking is a huge passion 
-            of mine. I just love creating. It's not a job if its fun!</p>
+            of mine. I just love creating. It's not a job if it's fun!</p>
         </div>
     );
 }
