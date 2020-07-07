@@ -12,7 +12,9 @@ const Resume = () => {
         className="myClassname"
         display="initial"
         position="relative"/>
+        <br/> <br/>
         </div>
+        
     );
 }
 
