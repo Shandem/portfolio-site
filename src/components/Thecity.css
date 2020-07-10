@@ -8,6 +8,7 @@
 
 }
 .monterey, .bayarea{
+    width: 1200px;
     padding: 20px 0px;
     
 }
@@ -33,7 +34,7 @@
     display: flex;
     flex-direction: row;
     flex: left;
-    width: 1000px;
+    width: 1200px;
     justify-content: space-around;
     margin: auto;
     padding-top: 20px;
@@ -112,6 +113,9 @@ position: absolute;
     border: 13px solid black;
     position: absolute;
     margin-top: 165px;
+}
+.bblurb{
+  margin-top: 10px;
 }
 .blurb{
     width: 400px;

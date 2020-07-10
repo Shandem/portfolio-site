@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 import Header from './components/Header'
 import About from './components/About'
 import Thecity from './components/Thecity'
@@ -21,7 +19,7 @@ function App() {
   return (
     <div className="App">
     <Header/>
-    
+
     <About/>
     <Thecity/>
     <Project0/>
@@ -33,9 +31,8 @@ function App() {
     <Gaymeit/>
     <Resume/>
     <Footer/>
-    
     </div>
   );
 }
 
-export default App;
+export default App

@@ -5,7 +5,7 @@ header {
     padding: 20px 10px;
     display: flex;
     justify-content: space-between;
-     box-shadow: 0px 4px 4px rgba(0,0,0,.25);
+    box-shadow: 0px 4px 4px rgba(0,0,0,.25);
   
     a {
       color: #fff;
@@ -32,9 +32,20 @@ header {
   }
   .footer{
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     background: #9F71AD;
+    display: flex;
+    flex-direction: row;
+    flex: left;
+    justify-content: center;
   }
+.email-icon{
+  height: 50px;
+  width: 50px;
+}
+.email{
+  padding-top: 0px;
+}
 
 .logo  {
     font-size: 40px;
