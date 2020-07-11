@@ -11,12 +11,12 @@ const Project0 = () => {
                 <h5>Web based game / Solo Project <br/>
                     Technologies Used: HTML CSS Javascript Jquery
                 </h5>
-                <h6>
+                <h6 className='tcg-icons'>
                     <a href="https://git.generalassemb.ly/Shandem2005/Project-0" target="_blank" rel="noopener noreferrer" className="github">
-                        <img src={process.env.PUBLIC_URL + '/Icons/GitHub_Logo.png'} alt='Icon of Github' className='github-icon'></img>
+                        <img src={process.env.PUBLIC_URL + '/Icons/GitHub_Logo.png'} alt='Icon of Github' className='github-icon gicon'></img>Repo
                     </a>
                     <a href="https://pages.git.generalassemb.ly/Shandem2005/Project-0/" target="_blank" rel="noopener noreferrer" className="browser">
-                        <img src={process.env.PUBLIC_URL + '/Icons/open-in-toon.png'} alt='Icon of open in browser' className='browser-icon'></img>
+                        <img src={process.env.PUBLIC_URL + '/Icons/open-in-toon.png'} alt='Icon of open in browser' className='browser-icon'></img>Live
                     </a>
                 </h6>
                 <p>

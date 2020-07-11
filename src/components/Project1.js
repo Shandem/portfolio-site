@@ -10,12 +10,12 @@ const Project1 = () => {
                 <h5> Full-Stack Pokedex / Team Project <br/>
                     Technologies Used: HTML CSS EJS express Mongoose MongoDB, Pokemon API
                 </h5>
-                <h6>
+                <h6 className='clone-icons'>
                     <a href="https://git.generalassemb.ly/gdukes707/poke-tracker" target="_blank" rel="noopener noreferrer" className="github">
-                        <img src={process.env.PUBLIC_URL + '/Icons/GitHub_Logo.png'} alt='Icon of Github' className='github-icon'></img>
+                        <img src={process.env.PUBLIC_URL + '/Icons/GitHub_Logo.png'} alt='Icon of Github' className='github-icon gicon'></img>Repo
                     </a>
                     <a href="https://poke-tracker-pokedex.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="browser">
-                        <img src={process.env.PUBLIC_URL + '/Icons/open-in-toon.png'} alt='Icon of open in browser' className='browser-icon'></img>
+                        <img src={process.env.PUBLIC_URL + '/Icons/open-in-toon.png'} alt='Icon of open in browser' className='browser-icon'></img>Live
                     </a>
                     
                 </h6>

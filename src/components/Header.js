@@ -13,9 +13,6 @@ const Header = (props) => {
           <li className='title'>Full Stack Software Engineer</li>
         </ul>
       </div>
-      
-     
-
     </header>
   );
 }
