@@ -4,7 +4,7 @@ import './Project.css'
 const Gaymeit = () => {
     return (
         <div className='project gaymeitcontain'>
-        <img src={process.env.PUBLIC_URL + '/gaymeit.png'} className='screenshot gaymeit'alt='Screen Shot of Pokemon Trading Car Game clone'></img>
+        <img src={process.env.PUBLIC_URL + '/gayme-it.png'} className='screenshot gaymeit'alt='Screen Shot of Pokemon Trading Car Game clone'></img>
             <div className='detailContainer'>
                 <h4>Gayme-it: A Reddit clone for Gaymers</h4>
                 <h5>Solo-project Full stack MERN App <br/>
