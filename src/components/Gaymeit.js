@@ -9,9 +9,16 @@ const Gaymeit = () => {
                 <h4>Gayme-it: A Reddit clone for Gaymers</h4>
                 <h5>Solo-project Full stack MERN App <br/>
                 Technologies Used: Full-stack MERN app Mongo, Express, React, Node, CSS</h5>
-                <h6><a href="https://git.generalassemb.ly/Shandem2005/Project-4-api" target="_blank" rel="noopener noreferrer">API Git-Repo |</a>
-                    <a href="https://git.generalassemb.ly/Shandem2005/Project-4-client" target="_blank" rel="noopener noreferrer"> Client Git-Repo |</a>
-                    <a href="https://gayme-it.herokuapp.com" target="_blank" rel="noopener noreferrer"> Live version</a>
+                <h6>
+                    <a href="https://git.generalassemb.ly/Shandem2005/Project-4-api" target="_blank" rel="noopener noreferrer" className="github">
+                        <img src={process.env.PUBLIC_URL + '/Icons/catopuss.png'} alt='Icon of Github' className='catopuss-icon'></img>
+                    </a>
+                    <a href="https://git.generalassemb.ly/Shandem2005/Project-4-client" target="_blank" rel="noopener noreferrer" className="github">
+                        <img src={process.env.PUBLIC_URL + '/Icons/GitHub_Logo.png'} alt='Icon of Github' className='github-icon'></img>
+                    </a>
+                    <a href="https://gayme-it.herokuapp.com" target="_blank" rel="noopener noreferrer" className="browser">
+                        <img src={process.env.PUBLIC_URL + '/Icons/open-in-toon.png'} alt='Icon of open in browser' className='browser-icon'></img>
+                    </a>
                 </h6>
                 <p>The goal of this project was to create a Reddit-clone, focusing on 
                 the implementation of karma voting. The Server for this React app was 

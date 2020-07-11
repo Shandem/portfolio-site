@@ -10,8 +10,14 @@ const Project1 = () => {
                 <h5> Full-Stack Pokedex / Team Project <br/>
                     Technologies Used: HTML CSS EJS express Mongoose MongoDB, Pokemon API
                 </h5>
-                <h6><a href="https://git.generalassemb.ly/gdukes707/poke-tracker" target="_blank" rel="noopener noreferrer">Git-Repo |</a>
-                    <a href="https://poke-tracker-pokedex.herokuapp.com/" target="_blank" rel="noopener noreferrer"> Live version</a>
+                <h6>
+                    <a href="https://git.generalassemb.ly/gdukes707/poke-tracker" target="_blank" rel="noopener noreferrer" className="github">
+                        <img src={process.env.PUBLIC_URL + '/Icons/GitHub_Logo.png'} alt='Icon of Github' className='github-icon'></img>
+                    </a>
+                    <a href="https://poke-tracker-pokedex.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="browser">
+                        <img src={process.env.PUBLIC_URL + '/Icons/open-in-toon.png'} alt='Icon of open in browser' className='browser-icon'></img>
+                    </a>
+                    
                 </h6>
                 <p>The goal of the project was to make a full stack application with 2 
                 data models.  My partner and I built a Poke-dex that allowed registered 
