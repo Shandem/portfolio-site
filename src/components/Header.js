@@ -11,14 +11,20 @@ const Header = (props) => {
        
       <div className="info">
         <h1 className="name">Joshuah Gutierrez</h1>
-        <p>Full Stack Software Engineer <br/>Frontend engineer | Lifelong gamer | Kitchen wizard
+        <p className='head-blurb'>Full Stack Software Engineer <br/>Front end Engineer | Lifelong Gamer | Kitchen Wizard
           <br/> 
+            <p>
+              I'm a 
+            </p>
             <p className='icon-list'> 
                 <a href="mailto:gutierrezjoshuah@gmail.com" className="email">
                     <img src={process.env.PUBLIC_URL + '/Icons/cartoonEmail.png'} alt='Icon of a Mail box' className='email-icon'></img>
                 </a>
                 <a href="https://www.linkedin.com/in/joshuah-gutierrez/" target="_blank" rel="noopener noreferrer" className="linkUrl">
                     <img src={process.env.PUBLIC_URL + '/Icons/linkedin.png'} alt='Icon of linkedin' className='linkedin-icon'></img>
+                </a>
+                <a href="https://git.generalassemb.ly/Shandem2005" target="_blank" rel="noopener noreferrer" className="github">
+                    <img src={process.env.PUBLIC_URL + '/Icons/GitHub_Logo.png'} alt='Icon of Github' className='github-icon gicon'></img>
                 </a>
                 <p>fill in later </p>
             </p>
