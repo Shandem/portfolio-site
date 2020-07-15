@@ -4,9 +4,7 @@ import '../components/Newhome.scss'
 const Newhome = () => {
     return (
         <div>
-            <div className="moniter-screen">
-
-            </div>
+    
         </div>
     );
 }

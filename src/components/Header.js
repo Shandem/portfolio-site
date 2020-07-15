@@ -11,26 +11,49 @@ const Header = (props) => {
        
       <div className="info">
         <h1 className="name">Joshuah Gutierrez</h1>
-        <p>Full Stack Software Engineer</p>
+        <p>Full Stack Software Engineer <br/>Frontend engineer | Lifelong gamer | Kitchen wizard
+          <br/> 
+            <p className='icon-list'> 
+                <a href="mailto:gutierrezjoshuah@gmail.com" className="email">
+                    <img src={process.env.PUBLIC_URL + '/Icons/cartoonEmail.png'} alt='Icon of a Mail box' className='email-icon'></img>
+                </a>
+                <a href="https://www.linkedin.com/in/joshuah-gutierrez/" target="_blank" rel="noopener noreferrer" className="linkUrl">
+                    <img src={process.env.PUBLIC_URL + '/Icons/linkedin.png'} alt='Icon of linkedin' className='linkedin-icon'></img>
+                </a>
+                <p>fill in later </p>
+            </p>
+         </p>
       </div>
       
       </div>
-      <div className="links">
-        <ul>
-        <div className="note yellow">
-
-        </div>
-        <div className="note yellow">
-
-        </div>
-        <div className="note yellow">
-
-        </div>
+          <Link to={'/project1'}>
+            <div className="note yellow">
           
-          <li>  <Link to={'/'}>Home</Link></li>
+              <p className='note-text'> Pokemon TCG </p>
+            </div>
+          </Link>
+
+          <Link to={'/project2'}>
+            <div className="note yellow">
+              <p className='note-text'>Poke-tracker</p>
+            </div>
+          </Link>
+
+          <Link to={'/project3'}>
+          <div className="note yellow">
+            <p className='note-text'>Gayme-it</p>
+          </div>
+          </Link>
+
+          <Link to={'/project1'}>
+            <div className="note yellow">
+              <p className='note-text'>Under construction</p>
+            </div>
+          </Link>
+          
           <li>  <Link to={'/newhome'}>New Home</Link></li>
-        </ul>
-      </div>
+      
+      
     </header>
   );
 }

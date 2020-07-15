@@ -33,15 +33,14 @@ header {
       }
     }
   }
+
   .footer{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 5px;
     background: #9F71AD;
     display: flex;
     flex-direction: row;
     flex: left;
     justify-content: center;
-    margin-top: 13vh;
     box-shadow: 4px -4px 4px 4px rgba(0,0,0,.25);
   }
 .note{
@@ -53,6 +52,7 @@ header {
   padding: 20px;
   font-size: 30px;
   box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+  
 }
 .yellow{
   background: #eae672;

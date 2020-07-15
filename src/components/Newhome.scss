@@ -8,8 +8,30 @@
      border-bottom: 30px solid black ;
      background: #FFF;
      margin: auto;
-     margin-top: 30px;
-     box-shadow: 4px 4px 4px  rgba(0,0,0,.25);
+     margin-top: 10px;
+     box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
+}
+.white-gif{
+    width: 1300px;
+    height: 500px;
+}
+.red-dot{
+    margin-top: 2px;
+    z-index: 4;
+    height:20px;
+    width:20px;
+    border-radius: 20px;
+    background:red;
+    float: right;
+}
+.red-dot{
+    animation: blinker 1s linear infinite;
+}
+      
+@keyframes blinker {
+    50% {
+          opacity: 0;
+    }
 }
 .neck{
     position: relative;
