@@ -1,11 +1,14 @@
 
 header {
-    background: #9F71AD;
+    background-image: url('./cork.jpg');
+    height: 150px;
+    margin: 0 20px;
     text-align: left;
     padding: 20px 10px;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0px 4px 4px rgba(0,0,0,.25);
+    border: 5px solid black;
+    box-shadow: -4px 4px 4px 4px rgba(0,0,0,.25);
   
     a {
       color: #fff;
@@ -38,13 +41,46 @@ header {
     flex-direction: row;
     flex: left;
     justify-content: center;
+    margin-top: 13vh;
+    box-shadow: 4px -4px 4px 4px rgba(0,0,0,.25);
   }
+.note{
+  color: #333;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 30px;
+  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+}
+.yellow{
+  background: #eae672;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+
 .email-icon{
   height: 50px;
   width: 50px;
 }
 .email{
   padding-top: 0px;
+}
+
+.left-head{
+  display: flex;
+  flex-direction: row;
+  flex: left;
+  height:190px;
+  width: 600px;
+  background-color: whitesmoke;
+  margin-left: -10px;
+  margin-top: -20px;
 }
 
 .logo  {
