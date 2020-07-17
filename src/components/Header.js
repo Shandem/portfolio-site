@@ -30,8 +30,10 @@ const Header = (props) => {
             </p>
          </p>
       </div>
-      
+      <div className='directions'>Click on the Post-its to change the channel</div>
       </div>
+      
+      <br/>
       <ul>
         <Link to={'/project1'}>
           <div className="note yellow">
