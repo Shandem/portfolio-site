@@ -7,7 +7,7 @@ const Resume = () => {
         <div>
         <Iframe src={process.env.PUBLIC_URL + '/styledResume.pdf'}
                 width="800px"
-                height="800px"
+                height="497px"
                 id="myId"
                 className="myClassname"
                 display="initial"

@@ -7,7 +7,7 @@ const Pokeball = () => {
             <div className="pokeball">  
                 <div id="pokeball">
                     <div id="layer1">
-                    <div id="center"></div>
+                        <div id="center"></div>
                         <div id="bottom-half"></div>
                     </div>  
                 </div>

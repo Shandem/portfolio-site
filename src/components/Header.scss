@@ -1,11 +1,15 @@
 
 header {
-    background: #9F71AD;
+    background-image: url('./cork.jpg');
+    background-size: 500px;    
+    height: 150px;
+    margin: 0 20px;
     text-align: left;
     padding: 20px 10px;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0px 4px 4px rgba(0,0,0,.25);
+    border: 5px solid black;
+    box-shadow: -4px 4px 4px 4px rgba(0,0,0,.25);
   
     a {
       color: #fff;
@@ -18,42 +22,105 @@ header {
     }
   
     ul {
+
       display: flex;
+      justify-content: space-evenly;
       margin: 0;
-      padding: 0;
+      margin-left: -50px;
+    
+      width: 800px;
   
       li {
-        list-style-type: none;
+        list-style: none;
+        
+        
         padding: 0px 10px;
         font-size: 20px;
         font-family: 'SF Comic Script Bold', arial;
       }
     }
   }
+.about-blurb{
+  line-height: 1.4;
+  margin-left: 10px;
+  margin-top: -35px;
+  width: 250px;
+}
+.head-blurb{
+  margin-left: 5px;
+  margin-top: -15px;
+  font-size: 14px;
+}
+.catopuss-icon2{
+  height: 37px;
+  width: 37px;
+  margin-top:2px;
+}
+.linkedin-icon2{
+  height: 45px;
+  width: 45px;
+}
+.icon-list{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex: left;
+}
   .footer{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 7vh;
+    padding-bottom: 6px;
     background: #9F71AD;
     display: flex;
     flex-direction: row;
     flex: left;
     justify-content: center;
+    box-shadow: 4px -4px 4px 4px rgba(0,0,0,.25);
   }
+.note{
+  color: #333;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 5px;
+  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+  margin-top: 20px;
+  
+}
+.yellow{
+  background: #eae672;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+
 .email-icon{
   height: 50px;
   width: 50px;
 }
-.email{
-  padding-top: 0px;
-}
 
-.logo  {
-    font-size: 40px;
-    font-family: 'SF Comic Script Bold', arial;
-    background: -webkit-linear-gradient(180deg,#EF1C25,#F78620,#FFE600,#118A43, #4D52A6, #7F2987,#000000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+
+.left-head{
+  display: flex;
+  flex-direction: row;
+  flex: left;
+  height:190px;
+  width: 600px;
+  background-color: whitesmoke;
+  margin-left: -10px;
+  margin-top: -20px;
+}
+.name{
+  margin-left: 5px;
+  margin-top: 0px;
+}
+.gicon{
+  width: 100px;
+}
   .title, .name{
     font-family: 'Inconsolata', monospace;
   }
