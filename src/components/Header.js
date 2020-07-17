@@ -13,9 +13,7 @@ const Header = (props) => {
         <h1 className="name">Joshuah Gutierrez</h1>
         <p className='head-blurb'>Full Stack Software Engineer <br/>Front end Engineer | Lifelong Gamer | Kitchen Wizard
           <br/> 
-            <p>
-              I'm a 
-            </p>
+
             <p className='icon-list'> 
                 <a href="mailto:gutierrezjoshuah@gmail.com" className="email">
                     <img src={process.env.PUBLIC_URL + '/Icons/cartoonEmail.png'} alt='Icon of a Mail box' className='email-icon'></img>
@@ -26,7 +24,9 @@ const Header = (props) => {
                 <a href="https://git.generalassemb.ly/Shandem2005" target="_blank" rel="noopener noreferrer" className="github">
                     <img src={process.env.PUBLIC_URL + '/Icons/catopuss.png'} alt='Icon of Github' className='catopuss-icon2'></img>
                 </a>
-                <p>fill in later </p>
+                <p className='about-blurb'>I am a Full-stack engineer with a history in Hospitality management. 
+                I am looking for a company that can utilize my unique skill set and challenge me outside of my comfort zone
+</p>
             </p>
          </p>
       </div>
@@ -36,35 +36,47 @@ const Header = (props) => {
         <Link to={'/project1'}>
           <div className="note yellow">
         
-            <p className='note-text'> Pokemon TCG </p>
+            <p className='note-text'> Project1 <br/>Pokemon TCG </p>
           </div>
         </Link>
 
         <Link to={'/project2'}>
           <div className="note yellow">
-            <p className='note-text'>Poke-tracker</p>
+            <p className='note-text'> Project2 <br/> Poke-tracker</p>
           </div>
         </Link>
 
         <Link to={'/project3'}>
         <div className="note yellow">
-          <p className='note-text'>Gayme-it</p>
+          <p className='note-text'>Project3 <br/>Gayme-it</p>
         </div>
         </Link>
 
-        <Link to={'/project1'}>
+        <Link to={'/under'}>
           <div className="note yellow">
             <p className='note-text'>Under construction</p>
           </div>
         </Link>
         
-        <div className="note yellow">
-            <p className='note-text'>CSS Art1</p>
-          </div>
-          
+        <Link to={ '/pokeball'}>
           <div className="note yellow">
-            <p className='note-text'>CSS Art2</p>
-          </div>
+              <p className='note-text'>CSS Art1 <br/>Pokeball</p>
+            </div>
+          </Link>
+
+          <Link to={ '/rotom'}>
+            <div className="note yellow">
+              <p className='note-text'>CSS Art2 <br/>Rotom </p>
+            </div>
+          </Link>
+
+            <Link to={ '/resume'}>
+            <div className="note yellow">
+              <p className='note-text'>Resume </p>
+            </div>
+            </Link>
+           
+
         </ul>
       
     </header>

@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Header/>
         <div className="moniter-screen">
-          <img src={process.env.PUBLIC_URL + '/white-gif.gif'} className='white-gif' alt=""/>
+          
           { routes }
           <div class="red-dot"></div>
         </div>
