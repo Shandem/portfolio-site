@@ -21,10 +21,10 @@ const Header = (props) => {
                     <img src={process.env.PUBLIC_URL + '/Icons/cartoonEmail.png'} alt='Icon of a Mail box' className='email-icon'></img>
                 </a>
                 <a href="https://www.linkedin.com/in/joshuah-gutierrez/" target="_blank" rel="noopener noreferrer" className="linkUrl">
-                    <img src={process.env.PUBLIC_URL + '/Icons/linkedin.png'} alt='Icon of linkedin' className='linkedin-icon'></img>
+                    <img src={process.env.PUBLIC_URL + '/Icons/linkedin.png'} alt='Icon of linkedin' className='linkedin-icon2'></img>
                 </a>
                 <a href="https://git.generalassemb.ly/Shandem2005" target="_blank" rel="noopener noreferrer" className="github">
-                    <img src={process.env.PUBLIC_URL + '/Icons/GitHub_Logo.png'} alt='Icon of Github' className='github-icon gicon'></img>
+                    <img src={process.env.PUBLIC_URL + '/Icons/catopuss.png'} alt='Icon of Github' className='catopuss-icon2'></img>
                 </a>
                 <p>fill in later </p>
             </p>
@@ -32,33 +32,40 @@ const Header = (props) => {
       </div>
       
       </div>
-          <Link to={'/project1'}>
-            <div className="note yellow">
-          
-              <p className='note-text'> Pokemon TCG </p>
-            </div>
-          </Link>
-
-          <Link to={'/project2'}>
-            <div className="note yellow">
-              <p className='note-text'>Poke-tracker</p>
-            </div>
-          </Link>
-
-          <Link to={'/project3'}>
+      <ul>
+        <Link to={'/project1'}>
           <div className="note yellow">
-            <p className='note-text'>Gayme-it</p>
+        
+            <p className='note-text'> Pokemon TCG </p>
           </div>
-          </Link>
+        </Link>
 
-          <Link to={'/project1'}>
-            <div className="note yellow">
-              <p className='note-text'>Under construction</p>
-            </div>
-          </Link>
+        <Link to={'/project2'}>
+          <div className="note yellow">
+            <p className='note-text'>Poke-tracker</p>
+          </div>
+        </Link>
+
+        <Link to={'/project3'}>
+        <div className="note yellow">
+          <p className='note-text'>Gayme-it</p>
+        </div>
+        </Link>
+
+        <Link to={'/project1'}>
+          <div className="note yellow">
+            <p className='note-text'>Under construction</p>
+          </div>
+        </Link>
+        
+        <div className="note yellow">
+            <p className='note-text'>CSS Art1</p>
+          </div>
           
-          <li>  <Link to={'/newhome'}>New Home</Link></li>
-      
+          <div className="note yellow">
+            <p className='note-text'>CSS Art2</p>
+          </div>
+        </ul>
       
     </header>
   );

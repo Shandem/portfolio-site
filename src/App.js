@@ -11,13 +11,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    <Header/>
-    <div className="moniter-screen">
-    <img src={process.env.PUBLIC_URL + '/white-gif.gif'} className='white-gif' alt=""/>
-    { routes }
-    <div class="red-dot"></div>
-    </div>
-   <Footer/>
+      <Header/>
+        <div className="moniter-screen">
+          <img src={process.env.PUBLIC_URL + '/white-gif.gif'} className='white-gif' alt=""/>
+          { routes }
+          <div class="red-dot"></div>
+        </div>
+        
+      <Footer/>
     </div>
   );
 }

@@ -86,18 +86,6 @@
     margin-top: 210px;
     border-top: 20px black solid;
 }
-
-#bar{
-position: absolute;
-    z-index: 2;
-    top: 0; bottom:0; left: 0; right: 0;
-    margin: auto;
-    height: 20px;
-    width: 450px;
-    background:black;
-   margin-top: 1680px;
-   margin-left: 250px;
-}
 #center{
   position: absolute;
     z-index: 3;
