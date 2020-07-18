@@ -21,7 +21,7 @@ const Header = (props) => {
                 <a href="https://www.linkedin.com/in/joshuah-gutierrez/" target="_blank" rel="noopener noreferrer" className="linkUrl">
                     <img src={process.env.PUBLIC_URL + '/Icons/linkedin.png'} alt='Icon of linkedin' className='linkedin-icon2'></img>
                 </a>
-                <a href="https://git.generalassemb.ly/Shandem2005" target="_blank" rel="noopener noreferrer" className="github">
+                <a href="https://github.com/Shandem" target="_blank" rel="noopener noreferrer" className="github">
                     <img src={process.env.PUBLIC_URL + '/Icons/catopuss.png'} alt='Icon of Github' className='catopuss-icon2'></img>
                 </a>
                 <p className='about-blurb'>I am a Full-stack engineer with a history in Hospitality management. 

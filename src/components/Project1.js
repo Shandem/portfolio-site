@@ -11,7 +11,7 @@ const Project1 = () => {
                     Technologies Used: HTML CSS EJS express Mongoose MongoDB, Pokemon API
                 </h5>
                 <h6 className='clone-icons'>
-                    <a href="https://git.generalassemb.ly/gdukes707/poke-tracker" target="_blank" rel="noopener noreferrer" className="github">
+                    <a href="https://github.com/Shandem/Poke-Tracker" target="_blank" rel="noopener noreferrer" className="github">
                         <img src={process.env.PUBLIC_URL + '/Icons/GitHub_Logo.png'} alt='Icon of Github' className='github-icon gicon'></img>Repo
                     </a>
                     <a href="https://poke-tracker-pokedex.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="browser">

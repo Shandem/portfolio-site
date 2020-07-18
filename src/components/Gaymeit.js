@@ -10,10 +10,10 @@ const Gaymeit = () => {
                     <h5>Solo-project Full stack MERN App <br/>
                     Technologies Used: Full-stack MERN app Mongo, Express, React, Node, CSS</h5>
                     <h6 className='gaymeit-icons'>
-                        <a href="https://git.generalassemb.ly/Shandem2005/Project-4-api" target="_blank" rel="noopener noreferrer" className="github">
+                        <a href="https://github.com/Shandem/Gaymer-api" target="_blank" rel="noopener noreferrer" className="github">
                             <img src={process.env.PUBLIC_URL + '/Icons/catopuss.png'} alt='Icon of Github' className='catopuss-icon'></img>API
                         </a>
-                        <a href="https://git.generalassemb.ly/Shandem2005/Project-4-client" target="_blank" rel="noopener noreferrer" className="github">
+                        <a href="https://github.com/Shandem/Gyamer-client" target="_blank" rel="noopener noreferrer" className="github">
                             <img src={process.env.PUBLIC_URL + '/Icons/GitHub_Logo.png'} alt='Icon of Github' className='github-icon gicon'></img>Client
                         </a>
                         <a href="https://gayme-it.herokuapp.com" target="_blank" rel="noopener noreferrer" className="browser">
