@@ -19,7 +19,7 @@ const Project0 = () => {
                         <img src={process.env.PUBLIC_URL + '/Icons/open-in-toon.png'} alt='Icon of open in browser' className='browser-icon'></img>Live
                     </a>
                 </h6>
-                <p>
+                <p className="ipad-description">
 
                     The goal of the project was to make a web based video game. 
                     I took the Pokemon Trading Card game and created a clone using 

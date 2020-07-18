@@ -97,3 +97,35 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
    
 }
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    header{
+      width: 700px;
+    }
+    .project{
+        width: 744px;
+        height: 700px;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .screenshot{
+        width: 660px;
+        margin-left: 2px;
+    }
+    .detailContainer{
+        margin-top: -50px;
+        margin-left: 0px;
+        width: 744px;
+        line-height: normal;
+    }
+    .ipad-description{
+        width: 300px;
+        margin-left: 440px;
+        margin-top: -160px;
+        font-size: 17px;
+    }
+}
+
+
