@@ -1,5 +1,6 @@
 import React from 'react';
 import Iframe from 'react-iframe'
+import './Project.css'
 
 
 const Resume = () => {
@@ -7,7 +8,7 @@ const Resume = () => {
         <div>
         <Iframe src={process.env.PUBLIC_URL + '/styledResume.pdf'}
                 width="800px"
-                height="497px"
+                height="490px"
                 id="myId"
                 className="myClassname"
                 display="initial"
