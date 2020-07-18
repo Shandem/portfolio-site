@@ -30,7 +30,10 @@ const Header = (props) => {
             </p>
          </p>
       </div>
-      <div className='directions'>Click on the Post-its to change the channel</div>
+      <div className='directions'>
+      <div className="note yellow yellow-direction">
+            <p className='note-direction'> Click on the Post-its to change the channel</p>
+          </div></div>
       </div>
       
       <br/>

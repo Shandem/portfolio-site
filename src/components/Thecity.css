@@ -287,3 +287,32 @@
     position: relative;
     margin-left:450px;
   }
+
+
+  @media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+  .cssart{
+    width: 550px;
+    height: 935px;
+    flex-wrap: wrap;
+  }
+  .official-ball{
+    margin-left: 95px;
+  }
+  .tracker{
+    flex-wrap: wrap;
+    width: 550px;
+    height: 847px;
+   
+  }
+  .rotom_full{
+    margin-left: 5px;
+  }
+  .rotom-blurb{
+    margin-top: -80px;
+    margin-left: 10px;
+    width: 500px;
+  }
+}

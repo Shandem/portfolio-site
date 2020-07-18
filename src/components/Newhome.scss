@@ -55,3 +55,42 @@
      margin: auto;
      margin-top: -20px;
 }
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+    .moniter-screen{
+        width: 550px;
+        height: 953px;
+        top: 190px;
+        left: 10px;
+    }
+    .white-gif{
+        z-index: 3;
+        width: 550px;
+        height: 900px;
+    }
+    .footer{
+        display: none;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+}

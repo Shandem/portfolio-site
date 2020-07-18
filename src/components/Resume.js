@@ -5,10 +5,9 @@ import './Project.css'
 
 const Resume = () => {
     return (
-        <div>
+        <div className='res-contain'>
         <Iframe src={process.env.PUBLIC_URL + '/styledResume.pdf'}
-                width="800px"
-                height="490px"
+                
                 id="myId"
                 className="myClassname"
                 display="initial"
