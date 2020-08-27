@@ -117,7 +117,7 @@ header {
   flex-direction: row;
   flex: left;
   height:190px;
-  width: 800px;
+  width: 300px;
   background-color: whitesmoke;
   margin-left: -10px;
   margin-top: -20px;
@@ -166,23 +166,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 
-/* Portrait */
-@media only screen 
-and (min-device-width: 375px) 
-and (max-device-width: 667px) 
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) { 
 
-}
-
-/* Landscape */
-@media only screen 
-and (min-device-width: 375px) 
-and (max-device-width: 667px) 
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: landscape) { 
-
-}
 /* Ipad*/
 @media only screen 
   and (min-device-width: 768px) 
@@ -191,22 +175,7 @@ and (orientation: landscape) {
     header{
       width: 700px;
     }
+    
 }
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
 
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
