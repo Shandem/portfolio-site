@@ -117,7 +117,7 @@ header {
   flex-direction: row;
   flex: left;
   height:190px;
-  width: 300px;
+  width: 800px;
   background-color: whitesmoke;
   margin-left: -10px;
   margin-top: -20px;
@@ -136,7 +136,10 @@ header {
     font-size: 30px;
     margin-top: 40px;
   }
-
+.me{
+  height: 190px;
+  width: 190px;
+}
   /* Portrait and Landscape */
 @media only screen 
 and (min-device-width: 375px) 

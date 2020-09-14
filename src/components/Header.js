@@ -7,7 +7,7 @@ const Header = (props) => {
   return (
     <header>
       <div className='left-head'>
-      <img src='https://media-exp1.licdn.com/dms/image/C5603AQGb3edBklXoEw/profile-displayphoto-shrink_200_200/0?e=1599091200&v=beta&t=1j2KbQROTZ28DTfHwGUN2fh8z28r0KNhBQDijhHbPmQ' className='me'alt='Self-Portrait'></img>
+      <img src={process.env.PUBLIC_URL + 'me.jpg'} alt='me' className='me'></img>
        
       <div className="info">
         <h1 className="name">Joshuah Gutierrez</h1>
