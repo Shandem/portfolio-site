@@ -8,6 +8,7 @@ const Huddle = () => {
                 alt='Screen Shot of huddel landing page'></img>
             <div className='detailContainer'>
                 <h3>Huddle landing page</h3>
+                <p className="grad">Completed after graduation</p>
 
                 <h5>Number 3 in a list of projects from an Article by <br/>
                     <a href="https://dev.to/mattstuddert">Matt Studdert</a> 

@@ -73,6 +73,10 @@
     width: 700px;
     height: 500px;
 }
+.grad{
+    margin-top: -30px;
+    font-size: 15px;
+}
 .myClassname{
     width: 800px;
     height: 490px;
