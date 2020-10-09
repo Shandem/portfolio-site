@@ -9,6 +9,7 @@ import Pokeball from '../components/Pokeball'
 import Rotom from '../components/Rotom'
 import Under from '../components/Under'
 import Resume from '../components/Resume'
+import Huddle from '../components/Huddle'
 
 
 export default (
@@ -21,6 +22,7 @@ export default (
         <Route path='/rotom' component={ Rotom }/>
         <Route path='/under' component={ Under }/>
         <Route path='/resume' component={ Resume }/>
+        <Route path='/huddle' component={ Huddle }/>
     </Switch>
 );
 

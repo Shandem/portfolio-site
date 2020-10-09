@@ -57,11 +57,12 @@ const Header = (props) => {
         </div>
         </Link>
 
-        <Link to={'/under'}>
-          <div className="note yellow">
-            <p className='note-text'>Under construction</p>
-          </div>
+        <Link to={ '/huddle'}>
+            <div className="note yellow">
+              <p className='note-text'>Huddle Landing page </p>
+            </div>
         </Link>
+           
         
         <Link to={ '/pokeball'}>
           <div className="note yellow">
@@ -80,8 +81,6 @@ const Header = (props) => {
               <p className='note-text'>Resume </p>
             </div>
             </Link>
-           
-
         </ul>
       
     </header>
