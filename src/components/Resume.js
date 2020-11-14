@@ -11,7 +11,9 @@ const Resume = () => {
                 id="myId"
                 className="myClassname"
                 display="initial"
-                position="relative"/>
+                position="relative"
+               
+                />
         <br/> <br/>
         </div>
         
