@@ -1,4 +1,5 @@
 import React from 'react';
+import Icon from './iconList'
 import './Project.css';
 
 
@@ -11,13 +12,20 @@ const Project0 = () => {
                 <h5>Web based game / Solo Project <br/>
                     Technologies Used: HTML CSS Javascript Jquery
                 </h5>
+
                 <h6 className='tcg-icons'>
-                    <a href="https://github.com/Shandem/Pokemon-TCG" target="_blank" rel="noopener noreferrer" className="github">
-                        <img src={process.env.PUBLIC_URL + '/Icons/GitHub_Logo.png'} alt='Icon of Github' className='github-icon gicon'></img>Repo
-                    </a>
-                    <a href="https://shandem.github.io/Pokemon-TCG/" target="_blank" rel="noopener noreferrer" className="browser">
-                        <img src={process.env.PUBLIC_URL + '/Icons/open-in-toon.png'} alt='Icon of open in browser' className='browser-icon'></img>Live
-                    </a>
+                    <Icon url='https://github.com/Shandem/Pokemon-TCG'
+                        linkClassName='github'
+                        img='/Icons/GitHub_Logo.png'
+                        imgClassName='github-icon gicon'
+                        linkText='Repo'
+                        />
+                    <Icon url='https://shandem.github.io/Pokemon-TCG/'
+                        linkClassName='browser'
+                        img='/Icons/open-in-toon.png'
+                        imgClassName='browser-icon'
+                        linkText='Live'
+                        />
                 </h6>
                 <p className="ipad-description">
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Icon from './iconList'
 import './Header.scss'
 import { Link } from 'react-router-dom';
 
@@ -15,15 +16,25 @@ const Header = (props) => {
           <br/> 
 
             <p className='icon-list'> 
-                <a href="mailto:gutierrezjoshuah@gmail.com" className="email">
-                    <img src={process.env.PUBLIC_URL + '/Icons/cartoonEmail.png'} alt='Icon of a Mail box' className='email-icon'></img>
-                </a>
-                <a href="https://www.linkedin.com/in/joshuah-gutierrez/" target="_blank" rel="noopener noreferrer" className="linkUrl">
-                    <img src={process.env.PUBLIC_URL + '/Icons/linkedin.png'} alt='Icon of linkedin' className='linkedin-icon2'></img>
-                </a>
-                <a href="https://github.com/Shandem" target="_blank" rel="noopener noreferrer" className="github">
-                    <img src={process.env.PUBLIC_URL + '/Icons/catopuss.png'} alt='Icon of Github' className='catopuss-icon2'></img>
-                </a>
+
+              <Icon url='mailto:gutierrezjoshuah@gmail.com'
+                      linkClassName='email'
+                      img='/Icons/cartoonEmail.png'
+                      imgClassName='email-icon'
+                
+                      />
+               <Icon url='https://www.linkedin.com/in/joshuah-gutierrez/'
+                      linkClassName='linkUrl'
+                      img='/Icons/linkedin.png'
+                      imgClassName='linkedin-icon2'
+                
+                      />
+              <Icon url='https://github.com/Shandem'
+                      linkClassName='github'
+                      img='/Icons/catopuss.png'
+                      imgClassName='catopuss-icon2'
+                
+                      />
                 <p className='about-blurb'>Full-stack engineer looking for 
                 a Front-end position. A graduate of General Assembly with 
                 a history in Hospitality management that gives me unique project 

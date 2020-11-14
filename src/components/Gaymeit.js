@@ -1,4 +1,5 @@
 import React from 'react';
+import Icon from './iconList'
 import './Project.css'
 
 const Gaymeit = () => {
@@ -10,15 +11,24 @@ const Gaymeit = () => {
                     <h5>Solo-project Full stack MERN App <br/>
                     Technologies Used: Full-stack MERN app Mongo, Express, React, Node, CSS</h5>
                     <h6 className='gaymeit-icons'>
-                        <a href="https://github.com/Shandem/Gaymer-api" target="_blank" rel="noopener noreferrer" className="github">
-                            <img src={process.env.PUBLIC_URL + '/Icons/catopuss.png'} alt='Icon of Github' className='catopuss-icon'></img>API
-                        </a>
-                        <a href="https://github.com/Shandem/Gyamer-client" target="_blank" rel="noopener noreferrer" className="github">
-                            <img src={process.env.PUBLIC_URL + '/Icons/GitHub_Logo.png'} alt='Icon of Github' className='github-icon gicon'></img>Client
-                        </a>
-                        <a href="https://gayme-it.herokuapp.com" target="_blank" rel="noopener noreferrer" className="browser">
-                            <img src={process.env.PUBLIC_URL + '/Icons/open-in-toon.png'} alt='Icon of open in browser' className='browser-icon'></img>Live
-                        </a>
+                        <Icon url='https://github.com/Shandem/Gaymer-api'
+                        linkClassName='github'
+                        img='/Icons/catopuss.png'
+                        imgClassName='catopuss-icon'
+                        linkText='API'
+                        />
+                        <Icon url='https://github.com/Shandem/Gyamer-client'
+                        linkClassName='github'
+                        img='/Icons/GitHub_Logo.png'
+                        imgClassName='github-icon gicon'
+                        linkText='Client'
+                        />
+                        <Icon url='https://gayme-it.herokuapp.com'
+                        linkClassName='browser'
+                        img='/Icons/open-in-toon.png'
+                        imgClassName='browser-icon'
+                        linkText='Live'
+                        />
                     </h6>
                     <p>The goal of this project was to create a Reddit-clone, focusing on 
                     the implementation of karma voting. The Server for this React app was 
