@@ -23,7 +23,7 @@ const Huddle = () => {
                         <img src={process.env.PUBLIC_URL + '/Icons/GitHub_Logo.png'} 
                             alt='Icon of Github' className='github-icon gicon'></img>Client
                     </a>
-                    <a href="https://gayme-it.herokuapp.com" target="_blank" rel="noopener noreferrer" className="browser">
+                    <a href="https://safe-mesa-32157.herokuapp.com" target="_blank" rel="noopener noreferrer" className="browser">
                         <img src={process.env.PUBLIC_URL + '/Icons/open-in-toon.png'} 
                             alt='Icon of open in browser' className='browser-icon'></img>Live
                     </a>
