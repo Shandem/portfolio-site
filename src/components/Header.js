@@ -24,8 +24,11 @@ const Header = (props) => {
                 <a href="https://github.com/Shandem" target="_blank" rel="noopener noreferrer" className="github">
                     <img src={process.env.PUBLIC_URL + '/Icons/catopuss.png'} alt='Icon of Github' className='catopuss-icon2'></img>
                 </a>
-                <p className='about-blurb'>I am a Full-stack engineer with a history in Hospitality management. 
-                I am looking for a company that can utilize my unique skill set and challenge me outside of my comfort zone
+                <p className='about-blurb'>Full-stack engineer looking for 
+                a Front-end position. A graduate of General Assembly with 
+                a history in Hospitality management that gives me unique project 
+                management insight, valuable to any engineering team. A highly 
+                motivated individual and eager to become an asset to any team.
 </p>
             </p>
          </p>
@@ -41,44 +44,44 @@ const Header = (props) => {
         <Link to={'/project1'}>
           <div className="note yellow">
         
-            <p className='note-text'> Project1 <br/>Pokemon TCG </p>
+            <p className='note-text pokemonF'> Project1 <br/>Pokemon TCG </p>
           </div>
         </Link>
 
         <Link to={'/project2'}>
           <div className="note yellow">
-            <p className='note-text'> Project2 <br/> Poke-tracker</p>
+            <p className='note-text pokemonF'> Project2 <br/> Poke-tracker</p>
           </div>
         </Link>
 
         <Link to={'/project3'}>
         <div className="note yellow">
-          <p className='note-text'>Project3 <br/>Gayme-it</p>
+          <p className='note-text gaymeitF'>Project3 <br/>Gayme-it</p>
         </div>
         </Link>
 
         <Link to={ '/huddle'}>
             <div className="note yellow">
-              <p className='note-text'>Huddle Landing page </p>
+              <p className='note-text huddleF'>Huddle Landing page </p>
             </div>
         </Link>
            
         
         <Link to={ '/pokeball'}>
           <div className="note yellow">
-              <p className='note-text'>CSS Art1 <br/>Pokeball</p>
+              <p className='note-text pokemonF'>CSS Art1 <br/>Pokeball</p>
             </div>
           </Link>
 
           <Link to={ '/rotom'}>
             <div className="note yellow">
-              <p className='note-text'>CSS Art2 <br/>Rotom </p>
+              <p className='note-text pokemonF '>CSS Art2 <br/>Rotom </p>
             </div>
           </Link>
 
             <Link to={ '/resume'}>
             <div className="note yellow">
-              <p className='note-text'>Resume </p>
+              <p className='note-text resumeF'>Resume </p>
             </div>
             </Link>
         </ul>

@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+@import url(https://allfont.net/allfont.css?fonts=sf-comic-script-bold);
 header {
     background-image: url('./cork.jpg');
     background-size: 500px;    
@@ -52,12 +54,13 @@ header {
   line-height: 1.4;
   margin-left: 10px;
   margin-top: -35px;
-  width: 250px;
+  width: 350px;
+  font-weight: 500;
 }
 .head-blurb{
   margin-left: 5px;
   margin-top: -15px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .catopuss-icon2{
   height: 37px;
@@ -103,6 +106,15 @@ header {
   -o-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
   transform: rotate(2deg);
+}
+.pokemonF{
+  font-family: "Pokemon";
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.gaymeitF{
+  font-family: 'SF Comic Script Bold', arial;
+  letter-spacing: 2px;
 }
 
 
