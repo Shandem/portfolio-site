@@ -15,11 +15,11 @@ const Huddle = () => {
                     "16 Front-end Projects (with Designs) to Help Improve your Coding Skills"</h5>
 
                 <h6 className='huddle-icons'>
-                    <a href="https://github.com/Shandem/Gaymer-api" target="_blank" rel="noopener noreferrer" className="github">
+                    <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0" target="_blank" rel="noopener noreferrer" className="github">
                         <img src={process.env.PUBLIC_URL + '/Icons/cartoonLink.png'} 
                             alt='Icon of Github' className='catopuss-icon'></img>Design Artifact
                     </a>
-                    <a href="https://github.com/Shandem/Gyamer-client" target="_blank" rel="noopener noreferrer" className="github">
+                    <a href="https://github.com/Shandem/Huddle_landing" target="_blank" rel="noopener noreferrer" className="github">
                         <img src={process.env.PUBLIC_URL + '/Icons/GitHub_Logo.png'} 
                             alt='Icon of Github' className='github-icon gicon'></img>Client
                     </a>
