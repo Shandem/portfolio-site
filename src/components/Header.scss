@@ -11,6 +11,7 @@ header {
     justify-content: space-between;
     border: 5px solid black;
     box-shadow: -4px 4px 4px 4px rgba(0,0,0,.25);
+    
   
     a {
       color: #fff;
@@ -110,13 +111,18 @@ header {
 .pokemonF{
   font-family: "Pokemon";
   font-size: 12px;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  
 }
-.gaymeitF{
+.gaymeitF, .huddleF, .tetrisF, .resumeF{
   font-family: 'SF Comic Script Bold', arial;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
+.tetrisF{
+  line-height: 20px;
 
+}
 
 .email-icon{
   height: 50px;

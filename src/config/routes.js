@@ -10,6 +10,7 @@ import Rotom from '../components/Rotom'
 import Under from '../components/Under'
 import Resume from '../components/Resume'
 import Huddle from '../components/Huddle'
+import Tetris from '../components/Tetris'
 
 
 export default (
@@ -23,6 +24,7 @@ export default (
         <Route path='/under' component={ Under }/>
         <Route path='/resume' component={ Resume }/>
         <Route path='/huddle' component={ Huddle }/>
+        <Route path='/tetris' component={ Tetris }/>
     </Switch>
 );
 

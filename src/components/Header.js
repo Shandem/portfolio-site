@@ -76,6 +76,12 @@ const Header = (props) => {
               <p className='note-text huddleF'>Huddle Landing page </p>
             </div>
         </Link>
+
+        <Link to={ '/tetris'}>
+            <div className="note yellow">
+              <p className='note-text tetrisF'>Tetris w/React </p>
+            </div>
+        </Link>
            
         
         <Link to={ '/pokeball'}>
