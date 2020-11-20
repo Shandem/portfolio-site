@@ -11,6 +11,7 @@ import Under from '../components/Under'
 import Resume from '../components/Resume'
 import Huddle from '../components/Huddle'
 import Tetris from '../components/Tetris'
+import Mom from '../components/Moms'
 
 
 export default (
@@ -25,6 +26,7 @@ export default (
         <Route path='/resume' component={ Resume }/>
         <Route path='/huddle' component={ Huddle }/>
         <Route path='/tetris' component={ Tetris }/>
+        <Route path='/mom' component={ Mom }/>
     </Switch>
 );
 

@@ -95,6 +95,11 @@ const Header = (props) => {
               <p className='note-text pokemonF '>CSS Art2 <br/>Rotom </p>
             </div>
           </Link>
+          <Link to={ '/mom'}>
+            <div className="note yellow">
+              <p className='note-text resumeF'>Gabys Crafty Things </p>
+            </div>
+            </Link>
 
             <Link to={ '/resume'}>
             <div className="note yellow">
