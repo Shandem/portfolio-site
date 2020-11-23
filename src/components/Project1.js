@@ -31,7 +31,7 @@ const Project1 = () => {
                   
                 </h6>
                 <p>The goal of the project was to make a full stack application with 2 
-                data models.  My partner and I built a Poke-dex that allowed registered 
+                data models relationship.  My partner and I built a Poke-dex that allowed registered 
                 to gather information and keep track of Pokemon collected over the course 
                 of 5 different games</p>
             </div>
