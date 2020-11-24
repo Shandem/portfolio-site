@@ -68,7 +68,7 @@
     width: 500px;
     text-align:  left;
     padding-left: 20px;
-    margin-top: -25px;
+    margin-top: -5px;
     letter-spacing: 1px;
     line-height: 1.6;
     font-size: 20px;
@@ -76,19 +76,19 @@
 }
 .tcgpic, .dexpic, .gaymeit{
     width: 650px;
-    height: 500px;
+    height: 492px;
 }
 .huddle{
     margin-left: -27px;
     width: 700px;
-    height: 500px;
+    height: 492px;
 }
 .Tblurb{
     font-size: 15px;   
 }
   
 .grad{
-    margin-top: -30px;
+    margin-top: 0px;
     font-size: 15px;
 }
 .myClassname{
