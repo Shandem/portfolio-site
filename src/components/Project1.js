@@ -11,7 +11,7 @@ const Project1 = () => {
             <div className='detailContainer'>
                 <h4>Poke-Tracker A Full stack Pokedex clone</h4>
                 <h5> Full-Stack Pokedex / Team Project <br/>
-                    Technologies Used: HTML CSS EJS express Mongoose MongoDB, Pokemon API
+                    Technologies Used: HTML CSS EJS express Mongoose MongoDB Pokemon API
                 </h5>
                 <h6 className='clone-icons'>
                 <Icon url='https://github.com/Shandem/Poke-Tracker'

@@ -15,7 +15,6 @@ const Huddle = () => {
 
                 <h6 className='huddle-icons'>
 
-
                     <Icon url='https://github.com/Shandem/Moms-static-site'
                         linkClassName='github'
                         img='/Icons/GitHub_Logo.png'
