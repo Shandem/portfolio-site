@@ -1,8 +1,10 @@
 import React from 'react';
 
-import Header from './components/Header'
+
+import Head2 from './components/header2.0/header2'
 import routes from './config/routes';
 import Footer from './components/Footer'
+import Intro from './components/intro2.0/intro'
 import './components/Newhome.scss'
 
 import './App.css';
@@ -11,7 +13,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Head2/>
+      <Intro/>
         <div className="moniter-screen">
           
           { routes }
