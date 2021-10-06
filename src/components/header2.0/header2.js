@@ -11,13 +11,14 @@ import { Link } from 'react-router-dom';
 const header2 = () => {
     return (
         <div>
+            <nav>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Navbar.Brand href="#">
                 <Link to='/'>
                 Joshuah Gutierrez
                 </Link>
                 </Navbar.Brand>
-                <NavDropdown title="Projects" id="collasible-nav-dropdown">
+                <NavDropdown title="Projects" className='color' id="collasible-nav-dropdown">
                     <NavDropdown.Item href="#">
                         <Link to={ '/project1'}>Pokemon Trading Card Game</Link>
                     </NavDropdown.Item>
@@ -35,22 +36,32 @@ const header2 = () => {
                         <Link to={ '/rotom'}>Rotom</Link>
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
+                    
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#">
+                        <Link to={ '/resume'}>Resume</Link>
+                    </NavDropdown.Item>
+                </NavDropdown>
+
+                <NavDropdown title="React Projects" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="#">
                         <Link to={ '/huddle'}>Huddle</Link>
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#">
                         <Link to={ '/tetris'}>Tetris</Link>
                     </NavDropdown.Item>
+                    
                     <NavDropdown.Divider />
+                    
+                    
+                </NavDropdown>
+
+                <NavDropdown title="Live Projects" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="#">
                         <Link to={ '/mom'}>Gabys's Crafty Things</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#">
-                        <Link to={ '/resume'}>Resume</Link>
-                    </NavDropdown.Item>
-                  
                 </NavDropdown>
+
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
@@ -75,6 +86,7 @@ const header2 = () => {
                 </Nav>
             </Navbar.Collapse>
             </Navbar>
+            </nav>
         </div>
     );
 }
