@@ -45,29 +45,31 @@ body{
   color: #61dafb;
 }
 .circle{
-  margin-top: -300px;
+  margin-top: -400px;
   margin-left: -80px;
-  height:650px; 
-  width:650px;
-  border-radius: 650px; 
-  background: rgb(139,170,191);
-  background: linear-gradient(315deg, rgba(139,170,191,1) 0%, rgba(40,44,52,1) 98%);
+  height:800px; 
+  width:800px;
+  z-index: -1;
+  border-radius: 800px; 
+  background: rgb(52,58,64);
+  background: linear-gradient(90deg, rgba(52,58,64,1) 0%, rgba(104,109,113,1) 100%);
 }
 .b-circle{
-  height:650px; 
-  width:650px;
-  border-radius: 650px; 
-  background: rgb(139,170,191);
-  background: linear-gradient(315deg, rgba(139,170,191,1) 0%, rgba(40,44,52,1) 98%);
+  height:800px; 
+  width:800px;
+  z-index: -1;
+  border-radius: 800px; 
+  background: rgb(52,58,64);
+  background: linear-gradient(90deg, rgba(52,58,64,1) 0%, rgba(104,109,113,1) 100%);
 }
 .r-cirlce{
   margin-left: 650px;
-  margin-top: -1000px;
-  z-index: -1;
+  margin-top: -1200px;
+  z-index: -2;
   position: absolute;
   height:650px; 
   width:650px;
   border-radius: 650px; 
-  background: rgb(139,170,191);
-  background: linear-gradient(315deg, rgba(139,170,191,1) 0%, rgba(40,44,52,1) 98%);
+  background: rgb(52,58,64);
+  background: linear-gradient(287deg, rgba(52,58,64,1) 0%, rgba(104,109,113,1) 100%);
 }

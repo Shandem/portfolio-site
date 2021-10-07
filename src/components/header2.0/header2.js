@@ -71,17 +71,17 @@ const header2 = () => {
                         <Icon url='https://www.linkedin.com/in/joshuah-gutierrez/'
                                 linkClassName='linkUrl'
                                 img='/Icons/linkedin.png'
-                                imgClassName='linkedin-icon2'
+                                imgClassName='linkedin-icon2-n'
                                 />
                         <Icon url='https://github.com/Shandem'
                                 linkClassName='github'
                                 img='/Icons/catopuss.png'
-                                imgClassName='catopuss-icon2'
+                                imgClassName='catopuss-icon2-n'
                                 />
                         <Icon url='mailto:gutierrezjoshuah@gmail.com'
                             linkClassName='email'
                             img='/Icons/cartoonEmail.png'
-                            imgClassName='email-icon'
+                            imgClassName='email-icon-n'
                         />
                 </Nav>
             </Navbar.Collapse>

@@ -18,20 +18,19 @@ const Project0 = () => {
                         linkClassName='github'
                         img='/Icons/GitHub_Logo.png'
                         imgClassName='github-icon gicon'
-                        linkText='Repo'
                         />
                     <Icon url='https://shandem.github.io/Pokemon-TCG/'
                         linkClassName='browser'
                         img='/Icons/open-in-toon.png'
                         imgClassName='browser-icon'
-                        linkText='Live'
                         />
                 </h6>
                 <p className="ipad-description">
-
-                    The goal of the project was to make a web based video game. 
-                    I took the Pokemon Trading Card game and created a clone using 
-                    front end javascript.
+                My goal for this project was to create a web game with either
+                    2 players or 1 vs a computer. I choose 1 vs a computer. With that in mind, I
+                    created a game I know well PTCG. Building the automated computer opened my eyes 
+                    to that it may be a simple card game, but that game requires so many automated micro 
+                    moves. honestly, I really had fun on this. Check it out
                 </p>
             </div>
         </div>
