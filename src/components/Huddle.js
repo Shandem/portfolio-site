@@ -8,7 +8,7 @@ const Huddle = () => {
             <img src={process.env.PUBLIC_URL + '/huddel_landing.png'} className='screenshot huddle' 
                 alt='Screen Shot of huddel landing page'></img>
             <div className='detailContainer'>
-                <h3>Huddle landing page</h3>
+                <h3 className='title'>Huddle landing page</h3>
                 <p className="grad">Completed after graduation</p>
 
                 <h5>Number 3 in a list of projects from an Article by <br/>
@@ -21,24 +21,24 @@ const Huddle = () => {
                             linkClassName='github'
                             img='/Icons/cartoonLink.png'
                             imgClassName='catopuss-icon'
-                            linkText='Design Artifact'
+                            linkText='Artifact'
                     />
                     <Icon url='https://github.com/Shandem/Huddle_landing'
                         linkClassName='github'
                         img='/Icons/GitHub_Logo.png'
                         imgClassName='github-icon gicon'
-                        linkText='Client'
+                        linkText=''
                 />
                     <Icon url='https://safe-mesa-32157.herokuapp.com'
                         linkClassName='browser'
                         img='/Icons/open-in-toon.png'
                         imgClassName='browser-icon'
-                        linkText=' Live'
+                        linkText=''
                 />    
     
                 </h6>
 
-                <h5>All the projects are given from the site containing 
+                <h5 className='blurbHuddel'>All the projects are given from the site containing 
                     a design Artifact that gives you basic, minimal direction. 
                     The goal is to produce a working demo as close to the image 
                     provided as possible. The picture you see is of  my final product. 

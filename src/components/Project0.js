@@ -8,7 +8,7 @@ const Project0 = () => {
         <div className='project'>
         <img src={process.env.PUBLIC_URL + '/TCG.png'} className='screenshot tcgpic'alt='Screen Shot of Pokemon Trading Car Game clone'></img>
             <div className='detailContainer'>
-                <h4 className='ptittle' style={{color: 'blanchedalmond'}}>Pokemon Trading Card Game clone</h4>
+                <h4 className='ptittle'>Pokemon Trading Card Game clone</h4>
                 <h5 className='ptittle'>Web based game / Solo Project <br/>
                     Technologies Used: HTML CSS Javascript Jquery
                 </h5>

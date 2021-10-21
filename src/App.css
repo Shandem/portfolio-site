@@ -16,7 +16,11 @@ body{
   border: 0;
   background-size:contain; 
   position:fixed;
+  
 
+}
+h4{
+  color: blanchedalmond;
 }
 
 .App-logo {
