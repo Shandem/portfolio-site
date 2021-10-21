@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon from './iconList'
-import './Project.css';
+import './Project.scss';
 
 const Huddle = () => {
     return (
