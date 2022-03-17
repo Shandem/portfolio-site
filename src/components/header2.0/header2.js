@@ -48,8 +48,12 @@ const header2 = () => {
                     <NavDropdown.Item href="#">
                         <Link to={ '/tetris'}>Tetris</Link>
                     </NavDropdown.Item>
-                    
+                     
                     <NavDropdown.Divider />
+                    
+                    <NavDropdown.Item href="#">
+                        <Link to={ '/nasa'}>Nasa</Link>
+                    </NavDropdown.Item>
                     
                     
                 </NavDropdown>

@@ -12,6 +12,7 @@ import Huddle from '../components/Huddle'
 import Tetris from '../components/Tetris'
 import Mom from '../components/Moms'
 import H2 from '../components/header2.0/header2'
+import Nasa from '../components/Nasa';
 
 
 export default (
@@ -28,6 +29,7 @@ export default (
         <Route path='/tetris' component={ Tetris }/>
         <Route path='/mom' component={ Mom }/>
         <Route path='/h2'   component={ H2}/>
+        <Route path='/nasa' component={ Nasa } />
     </Switch>
 );
 
