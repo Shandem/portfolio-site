@@ -9,7 +9,7 @@ const Nasa = () => {
             <div className='detailContainer'>
                 <h4 className='ptittle'>Picture of the Day</h4>
                 <h5 className='ptittle'>NASA API for picture of the day <br/>
-                    Technologies Used: React
+                    Technologies Used: React, ReactHooks
                 </h5>
 
                 <h6 className='tcg-icons'>
