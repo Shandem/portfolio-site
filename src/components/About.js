@@ -6,7 +6,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <>
+       <>
         <div className='about'>
             
             <img src={process.env.PUBLIC_URL + '/me.jpg'} className='me'alt='Self-Portrait'/>
@@ -17,7 +17,7 @@ const About = () => {
             in the hospitality area. With four of those years in a management position. I am a 
             lifelong gamer and snowboarder.  It's not a job if it's fun!</p>
         </div>
-        </>
+      </>
     );
 }
 
