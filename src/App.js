@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Head2/>
-      <h1>Test here</h1>
+    
       <About/>
         { routes }
         <div className='circle'></div>
