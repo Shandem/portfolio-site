@@ -6,28 +6,28 @@
     z-index: 3;
     font-family: 'Lucida Console', monospace;
     border-radius: 45px;
-    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
+    box-shadow: 4px 4px 4px 4px #343A40;
     width: 400px;
+    background-color: #343A40;
     
-}
-
-
 
 .blurb-a{
     padding: 10px;
     text-align:  left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: blanchedalmond;
-   
+    color: #05ebe2;
+} 
 }
+
 .me{
  z-index: 3;
  height: 100px;
  width: 110px;
- border-radius: 15px;
- float: left;
- 
+ border-radius: 15px ;
+ float: left; 
  padding-right: 5px;
+ background-color: #343A40;
+ 
     
 }
 

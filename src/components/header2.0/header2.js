@@ -12,14 +12,14 @@ const header2 = () => {
     return (
         <div>
             <nav>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect class='$teal-500' expand="lg" bg="dark" color='$teal-500' variant="dark">
             <Navbar.Brand href="#">
                 <Link to='/'>
                 Joshuah Gutierrez
                 </Link>
                 </Navbar.Brand>
                 <NavDropdown title="Projects" className='color' id="collasible-nav-dropdown">
-                    <NavDropdown.Item href="#">
+                    <NavDropdown.Item className='color' href="#">
                         <Link to={ '/project1'}>Pokemon Trading Card Game</Link>
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#">
@@ -28,12 +28,12 @@ const header2 = () => {
                     <NavDropdown.Item href="#">
                         <Link to={ '/project3'}>Gayme-it</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Divider />
+                    
                     <NavDropdown.Item href="#">
                         <Link to={ '/pokeball'}>Poke-ball</Link>
                     </NavDropdown.Item>
             
-                    <NavDropdown.Divider />
+                    
                     
                
                     <NavDropdown.Item href="#">
@@ -49,7 +49,7 @@ const header2 = () => {
                         <Link to={ '/tetris'}>Tetris</Link>
                     </NavDropdown.Item>
                      
-                    <NavDropdown.Divider />
+                    
                     
                     <NavDropdown.Item href="#">
                         <Link to={ '/nasa'}>Nasa</Link>

@@ -7,7 +7,7 @@ import './About.css'
 const About = () => {
     return (
        <>
-        <div className='about'>
+        <div className='about '>
             
             <img src={process.env.PUBLIC_URL + '/me.jpg'} className='me'alt='Self-Portrait'/>
            

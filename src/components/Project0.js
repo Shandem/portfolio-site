@@ -5,7 +5,7 @@ import './Project.scss';
 
 const Project0 = () => {
     return (
-        <div className='project'>
+        <div className='project rCard'>
         <img src={process.env.PUBLIC_URL + '/TCG.png'} className='screenshot tcgpic'alt='Screen Shot of Pokemon Trading Car Game clone'></img>
             <div className='detailContainer'>
                 <h4 className='ptittle'>Pokemon Trading Card Game clone</h4>
@@ -26,7 +26,7 @@ const Project0 = () => {
                         />
                 </h6>
                 <p className="ipad-description">
-                My goal for this project was to create a web game with either
+                    My goal for this project was to create a web game with either
                     2 players or 1 vs a computer. I choose 1 vs a computer. With that in mind, I
                     created a game I know well PTCG. Building the automated computer opened my eyes 
                     to that it may be a simple card game, but that game requires so many automated micro 
