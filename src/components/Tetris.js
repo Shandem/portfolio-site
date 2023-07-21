@@ -5,30 +5,33 @@ import './Project.scss';
 const Huddle = () => {
     return (
         <div className='project huddlecontain'>
-            <img src={process.env.PUBLIC_URL + '/Tetris.png'} className='screenshot huddle' 
+            <img src={process.env.PUBLIC_URL + '/Tetris.png'} className='screenshot huddle tShot' 
                 alt='Screen Shot of Tetris game over'></img>
             <div className='Tcontainer'>
+                <div className='tHeader'>
+
                 <h3>Tertis</h3>
                 <p className="grad">Built with React & React hooks</p>
-
                 <h5>This was completed witht he assistance of youtube video by |
                     <a href="https://www.youtube.com/watch?v=ZGOaCxX8HIU">freeCodeCamp.org</a> 
-                    | "How to build Tetris in React-gamedev tutorial w/ React Hooks"</h5>
+                    | "How to build Tetris in React-gamedev tutorial w/ React Hooks"
+                    </h5>
+                </div>
 
-                <h6 className='huddle-icons'>
+                <h6 className='huddle-icons tIcons'>
 
 
                     <Icon url='https://github.com/Shandem/React-Tetris'
                         linkClassName='github'
                         img='/Icons/GitHub_Logo.png'
                         imgClassName='github-icon gicon icons'
-                        linkText='Client'
+                        
                     />
                     <Icon url='https://young-harbor-11054.herokuapp.com'
                         linkClassName='browser'
                         img='/Icons/open-in-toon.png'
                         imgClassName='browser-icon icons'
-                        linkText=' Live'
+                      
                     />    
                 </h6>
 

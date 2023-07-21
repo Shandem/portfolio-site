@@ -274,17 +274,9 @@
     margin-left:450px;
   }
   @media only screen and (max-width: 1179px)  {
-    .cssart{
-    
-      border: solid thin red;
-  
-    }
- 
-    .pokeball{
-      border: solid thin green;
-    }
     #pokeball{
       margin-left: -50px;
+      margin-top: 80px;
     } 
   }
 

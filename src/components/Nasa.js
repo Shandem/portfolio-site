@@ -7,12 +7,14 @@ const Nasa = () => {
         <div className='project'>
         <img src={process.env.PUBLIC_URL + '/Screen Shot 2022-03-17 at 3.23.17 PM.png'} className='screenshot tcgpic'alt='Screen Shot of Pokemon Trading Car Game clone'></img>
             <div className='detailContainer'>
+            <div className='cardHeader nHeader'>
                 <h4 className='ptittle'>Picture of the Day</h4>
                 <h5 className='ptittle'>NASA API for picture of the day <br/>
                     Technologies Used: React, ReactHooks
                 </h5>
+            </div>
 
-                <h6 className='tcg-icons'>
+                <h6 className='tcg-icons nIcons'>
                     <Icon url='https://github.com/Shandem/picture-of-the-day'
                         linkClassName='github'
                         img='/Icons/GitHub_Logo.png'

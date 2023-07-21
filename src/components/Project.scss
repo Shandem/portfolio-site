@@ -126,8 +126,10 @@ p{
         }
         box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
     }
-
+   
     .project{
+     
+
         height: 85%;
         width: 50%;
         margin-left: 47vw;
@@ -135,12 +137,34 @@ p{
       
         .screenshot{
            margin-left: 10vw;
+        
         }
-        .tcgpic ,.gaymeit{
+        .huddle{
+           margin-left: 0vw;
+           height:40vh;
+           margin-left: 2vw;
+           margin-top: -3vh;
+           transform: scale(.8);
+           }
+        .tcgpic ,.gaymeit, .tShot, .moms{
             margin: 0 auto;
             margin-left: 9vw;
         }
-        .cardHeader{
+        .moms{
+            margin-left: 7vw;
+        }
+
+        .Tcontainer{
+            padding-top: 2vh;
+            margin-top: 5vh;
+            margin-left:-3vw;
+            .mBlurb{
+                margin-top: -5vh;
+                margin-left: -43vw;
+                margin-right: 2vw;
+            }
+        }
+        .cardHeader, .tHeader, .mHeader{
             margin-top: 30vh;
             margin-left: -43vw;
             width: 50vw;
@@ -152,19 +176,66 @@ p{
                 margin-right: 1em;
             }
         }
+        .tHeader{
+        margin-top: 37vh;
+        margin-left:-42vw;
+        }
+        .grad{
+            margin-left: 0;
+        }
+        .tIcons{
+            position: absolute;
+            margin-left: -72vw;
+        }
+        .Tblurb{
+            margin-left: -42vw;
+            margin-right: 0;
+            margin-top: -0vh;
+            font-size: 13px;
+        }
+        .huddleDetail{
+            margin-left: -5vw;
+            .huddleHeader{
+                margin-top: 35vh;
+                p{
+                    position: relative;
+
+                    margin-left: 0vw;
+                    font-size: 15px;
+                }
+                h5{
+                    margin-top:-2vh;
+                    padding-bottom: 3vh;
+                    font-size: 15px;
+                }
+            }
+            .huddle-icons{
+                position:absolute;
+                margin-left: -80vw;
+            }
+            .blurbHuddel{
+                font-size: 17px;
+                width: 47vw;
+                margin-left: -43vw;
+            }
+        }
         .gaymeitBlurb{
             margin-left: 2vw;
         }
     } 
+    .nHeader{
+        padding-top: 1vh;
+    }
+  
+  
     .res-contain{
         display: block;
         margin-left: 85vw;
         margin-top: 73vh;
         margin-bottom: -60vh;
-        border: solid thin red;
-        transform: scale(.6666) translate(-100%, -100%);
-        
+        transform: scale(.6666) translate(-100%, -100%);  
     }
+   
     p{
         margin-left: -43vw;
         margin-right: 2vw;
@@ -177,6 +248,14 @@ p{
         flex: left;
         justify-content: space-around;
         
+    }
+    .nIcons{
+        margin: 0 auto;
+        border: solid thin red;
+        margin-left: -28vw;
+    }
+    .mIcons{
+        margin-left: -75vw;
     }
     .tcg-icons{
         margin-top: 30vh;
@@ -192,6 +271,9 @@ p{
         .github-icon{
             margin-top: 16px;
         }  
+    }
+      .mHeader{
+        margin-top: -5vh;
     }
 }
 
@@ -249,6 +331,7 @@ p{
             padding-bottom: 1vh;
         }
     }
+  
 
     .screenshot{
         width: 28vw;
@@ -268,6 +351,7 @@ p{
         top: 55%;
     }
 }
+
 .clone-icons{
     
     margin:auto;

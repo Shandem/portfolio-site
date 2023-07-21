@@ -7,13 +7,17 @@ const Huddle = () => {
         <div className='project huddlecontain'>
             <img src={process.env.PUBLIC_URL + '/huddel_landing.png'} className='screenshot huddle' 
                 alt='Screen Shot of huddel landing page'></img>
-            <div className='detailContainer'>
+        
+        <div className='detailContainer huddleDetail'>
+            <div class="cardHeader huddleHeader">
                 <h3 className='title'>Huddle landing page</h3>
                 <p className="grad">Completed after graduation</p>
 
                 <h5>Number 3 in a list of projects from an Article by <br/>
                     <a href="https://dev.to/mattstuddert">Matt Studdert</a> 
-                    "16 Front-end Projects (with Designs) to Help Improve your Coding Skills"</h5>
+                    "16 Front-end Projects (with Designs) to Help Improve your Coding Skills"
+                </h5>
+            </div>  
 
                 <h6 className='huddle-icons'>
 
@@ -21,7 +25,7 @@ const Huddle = () => {
                             linkClassName='github'
                             img='/Icons/cartoonLink.png'
                             imgClassName='catopuss-icon icons'
-                            linkText='Artifact'
+                            
                     />
                     <Icon url='https://github.com/Shandem/Huddle_landing'
                         linkClassName='github'
@@ -35,7 +39,6 @@ const Huddle = () => {
                         imgClassName='browser-icon icons'
                         linkText=''
                 />    
-    
                 </h6>
 
                 <h5 className='blurbHuddel'>All the projects are given from the site containing 
