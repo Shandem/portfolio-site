@@ -20,8 +20,6 @@ function App() {
         <div className="b-circle"></div>
         <div className="r-cirlce"></div>
         
-      <About/>
-      
     </div>
   );
 }

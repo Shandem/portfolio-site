@@ -20,19 +20,19 @@ const Huddle = () => {
                     <Icon url='https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0'
                             linkClassName='github'
                             img='/Icons/cartoonLink.png'
-                            imgClassName='catopuss-icon'
+                            imgClassName='catopuss-icon icons'
                             linkText='Artifact'
                     />
                     <Icon url='https://github.com/Shandem/Huddle_landing'
                         linkClassName='github'
                         img='/Icons/GitHub_Logo.png'
-                        imgClassName='github-icon gicon'
+                        imgClassName='github-icon gicon icons'
                         linkText=''
                 />
                     <Icon url='https://safe-mesa-32157.herokuapp.com'
                         linkClassName='browser'
                         img='/Icons/open-in-toon.png'
-                        imgClassName='browser-icon'
+                        imgClassName='browser-icon icons'
                         linkText=''
                 />    
     

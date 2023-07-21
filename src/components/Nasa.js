@@ -16,12 +16,12 @@ const Nasa = () => {
                     <Icon url='https://github.com/Shandem/picture-of-the-day'
                         linkClassName='github'
                         img='/Icons/GitHub_Logo.png'
-                        imgClassName='github-icon gicon'
+                        imgClassName='github-icon gicon icons'
                         />
                     <Icon url='https://nasa3-potd-react.herokuapp.com'
                         linkClassName='browser'
                         img='/Icons/open-in-toon.png'
-                        imgClassName='browser-icon'
+                        imgClassName='browser-icon icons'
                         />
                 </h6>
                 <p className="ipad-description hold">

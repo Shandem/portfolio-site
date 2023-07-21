@@ -14,19 +14,19 @@ const Gaymeit = () => {
                         <Icon url='https://github.com/Shandem/Gaymer-api'
                         linkClassName='github'
                         img='/Icons/catopuss.png'
-                        imgClassName='catopuss-icon'
+                        imgClassName='catopuss-icon icons'
                         linkText='API'
                         />
                         <Icon url='https://github.com/Shandem/Gyamer-client'
                         linkClassName='github'
                         img='/Icons/GitHub_Logo.png'
-                        imgClassName='github-icon gicon'
+                        imgClassName='github-icon gicon icons'
                         linkText='Client'
                         />
                         <Icon url='https://gayme-it.herokuapp.com'
                         linkClassName='browser'
                         img='/Icons/open-in-toon.png'
-                        imgClassName='browser-icon'
+                        imgClassName='browser-icon icons'
                         linkText='Live'
                         />
                     </h6>

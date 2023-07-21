@@ -8,13 +8,14 @@ body{
 .App {
   text-align: center;
  
-  background-repeat:repeat-x;
-  background-attachment:fixed;
-  background-position:top center;  
+ 
   height: 100%;
   width: 100%;
   border: 0;
-  background-size:contain; 
+  background-size:contain;
+  background-repeat:repeat-x;
+  background-attachment:fixed;
+  background-position:top center; 
   position:fixed;
 
 }

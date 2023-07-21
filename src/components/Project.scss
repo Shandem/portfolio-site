@@ -8,6 +8,7 @@
     margin-left: 40vw;
     margin-top: 3vh;
     margin-right: 3vw;
+    border: solid thin red;
     color: #06D493;
     background-color: #343A40;
    border-radius: 45px;
@@ -71,7 +72,7 @@ p{
     width: 50px;
 }
 .screenshot{
-    border-radius: 15px;
+    border-radius: 25px;
     margin-bottom: 20px;
     
 }
@@ -121,8 +122,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .project{
         margin-top: 50vh;
         height: 40vh;
-        color: #05ebe2;
-    
+        color: #05ebe2;  
     }
     .detailContainer{
         margin-left: -600px;
@@ -150,6 +150,7 @@ and(min-device-width: 1061px){
     .project{
     margin-top: 50vh;
     height: 40vh;
+    
     .screenshot{
         position: relative;
         height: 150px;
@@ -171,33 +172,99 @@ and(min-device-width: 1061px){
     header{
       width: 700px;
     }
-    .project{
+.about{
+        height:20%;
+        margin: auto;
+        margin-top: 2vh;
+        margin-left: 5vw;
+        width: 90vw;
+       border: solid 2px black;
+        .me{
+            height: 17vh;
+            width: 25vw;
+            margin-top: 1vh;
+            margin-left: 2vw;
+        }
+        .blurb-a{
+           font-size:22px;
+           width: 100%;
+          
+    }
+
+}
+
+.project{
+    position: absolute;
+    margin: auto;
+    margin: 0 5vw 0 4vw;
+    margin-top: 50vh;
+      
+    height: 40vh;
+    border: solid 2px black;
+    font-size: 100px;
+    flex-wrap: wrap;
+
+    .cardHeader{
+        position: relative;
         
-        margin-top: 50vh;
-        height: 40vh;
-      
-      
-        flex-wrap: wrap;
+        width: 85%;
+        margin-left: 27vw;
+        margin-right: 3vw;
+        margin-top: -12em;  
+        h4{
+            font-size: 35px;
+            padding-bottom: 1vh;
+            
+        }
+        h5{
+            font-size: 25px;
+            padding-bottom: 1vh;
+        }
     }
+
     .screenshot{
-        width: 660px;
+        width: 28vw;
+        height: 13vh;
         margin-left: 2px;
+        margin-top:1vh;
+    } 
+    p{
+        padding-top: 4vh;
+        width: 85%;
+        margin-left:27vw;
+        margin-right: 3vw;
+        font-size: 25px;
     }
-    .detailContainer{
-        margin-top: -50px;
-        margin-left: 0px;
-        width: 744px;
-        line-height: normal;
+    .clone-icons{
+        margin: auto;
+        top: 55%;
     }
-    .rCard{
-        background-color: black !important;
+}
+
+.clone-icons{
+    
+    margin:auto;
+    width: 25vw;
+    justify-content: space-around;
+    .icons{
+        width: 10vw;
+        height: 6vh;
     }
-    .ipad-description{
-        width: 300px;
-        margin-left: 440px;
-        margin-top: -160px;
-        font-size: 17px;
-    }
+}
+
+.detailContainer{
+    margin-top: -50px;
+    margin-left: 0px;
+    width: 744px;
+    line-height: normal;
+}
+
+.ipad-description{
+    width: 300px;
+    margin-left: 440px;
+    margin-top: -160px;
+    font-size: 17px;
+}
 }
 
 

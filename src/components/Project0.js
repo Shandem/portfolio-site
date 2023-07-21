@@ -17,12 +17,12 @@ const Project0 = () => {
                     <Icon url='https://github.com/Shandem/Pokemon-TCG'
                         linkClassName='github'
                         img='/Icons/GitHub_Logo.png'
-                        imgClassName='github-icon gicon'
+                        imgClassName='github-icon gicon icons'
                         />
                     <Icon url='https://shandem.github.io/Pokemon-TCG/'
                         linkClassName='browser'
                         img='/Icons/open-in-toon.png'
-                        imgClassName='browser-icon'
+                        imgClassName='browser-icon icons'
                         />
                 </h6>
                 <p className="ipad-description">

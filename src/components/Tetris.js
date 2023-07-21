@@ -21,13 +21,13 @@ const Huddle = () => {
                     <Icon url='https://github.com/Shandem/React-Tetris'
                         linkClassName='github'
                         img='/Icons/GitHub_Logo.png'
-                        imgClassName='github-icon gicon'
+                        imgClassName='github-icon gicon icons'
                         linkText='Client'
                     />
                     <Icon url='https://young-harbor-11054.herokuapp.com'
                         linkClassName='browser'
                         img='/Icons/open-in-toon.png'
-                        imgClassName='browser-icon'
+                        imgClassName='browser-icon icons'
                         linkText=' Live'
                     />    
                 </h6>

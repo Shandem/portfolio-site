@@ -18,13 +18,13 @@ const Huddle = () => {
                     <Icon url='https://github.com/Shandem/Moms-static-site'
                         linkClassName='github'
                         img='/Icons/GitHub_Logo.png'
-                        imgClassName='github-icon gicon'
+                        imgClassName='github-icon gicon icons'
                         linkText='Client'
                     />
                     <Icon url='http://gabyscraftythings.org'
                         linkClassName='browser'
                         img='/Icons/open-in-toon.png'
-                        imgClassName='browser-icon'
+                        imgClassName='browser-icon icons'
                         linkText=' Live'
                     />    
                 </h6>
