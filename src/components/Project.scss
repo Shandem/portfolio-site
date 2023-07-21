@@ -114,6 +114,19 @@ p{
 }
 
 @media only screen and (max-width: 1179px)  {
+    .about{
+        width: 41%;
+        .me{
+            height: 20vh;
+            width: 14vw;
+        }
+        .blurb-a{
+            margin-left: 14vw;
+            margin-right: 0;
+        }
+        box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
+    }
+
     .project{
         height: 85%;
         width: 50%;
@@ -123,7 +136,7 @@ p{
         .screenshot{
            margin-left: 10vw;
         }
-        .tcgpic{
+        .tcgpic ,.gaymeit{
             margin: 0 auto;
             margin-left: 9vw;
         }
@@ -139,7 +152,19 @@ p{
                 margin-right: 1em;
             }
         }
+        .gaymeitBlurb{
+            margin-left: 2vw;
+        }
     } 
+    .res-contain{
+        display: block;
+        margin-left: 85vw;
+        margin-top: 73vh;
+        margin-bottom: -60vh;
+        border: solid thin red;
+        transform: scale(.6666) translate(-100%, -100%);
+        
+    }
     p{
         margin-left: -43vw;
         margin-right: 2vw;
@@ -160,7 +185,13 @@ p{
         flex-direction: row;
         flex: left;
         justify-content: space-around;
-
+    }
+    .gaymeit-icons{
+        margin-left: -26vw;
+        width: 2vw;
+        .github-icon{
+            margin-top: 16px;
+        }  
     }
 }
 

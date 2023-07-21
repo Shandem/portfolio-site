@@ -273,7 +273,20 @@
     position: relative;
     margin-left:450px;
   }
-
+  @media only screen and (max-width: 1179px)  {
+    .cssart{
+    
+      border: solid thin red;
+  
+    }
+ 
+    .pokeball{
+      border: solid thin green;
+    }
+    #pokeball{
+      margin-left: -50px;
+    } 
+  }
 
   @media only screen 
 and (min-device-width: 375px) 
