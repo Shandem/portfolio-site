@@ -1,33 +1,52 @@
 
 .about{
-    margin-left: 3vw;
-    margin-top: 3vh;
     position: absolute;
+    width: 40vw;
+    margin-top: 3vh;
+    margin-right: -20vw;
+    margin-left:1vw !important;
     z-index: 3;
     font-family: 'Lucida Console', monospace;
     border-radius: 45px;
-    box-shadow: 4px 4px 4px 4px #343A40;
-    width: 400px;
+    box-shadow: 4px 4px 10px 4px #343A40;
     background-color: #343A40;
+    .blurb-a{
+        margin-left:9vw;
+        margin-right: 1vw;
+        margin-top: 1vh;
+        text-align:  left;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #05ebe2;
     
-
-.blurb-a{
-    padding: 10px;
-    text-align:  left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #05ebe2;
-} 
-}
-
-.me{
- z-index: 3;
- height: 100px;
- width: 110px;
- border-radius: 15px ;
- float: left; 
- padding-right: 5px;
- background-color: #343A40;
- 
+    } 
     
+    }
+    .me{
+        position: relative;
+     z-index: 3;
+     height: 100px;
+     margin-left: .5em !important;
+     margin-right: 1vw;
+     margin-top: 6%;
+     width: 110px;
+     border-radius: 30px ;
+     float: left; 
+     background-color: #343A40;
+    }   
+
+
+
+
+@media  screen and (min-width: 1180px){
+    .about{
+      margin-left: -30vw;
+        position: absolute;
+
+    
+       
+    }
+    .me{
+        margin-left: 20vw;
+    }
 }
 

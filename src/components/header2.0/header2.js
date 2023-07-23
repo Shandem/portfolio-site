@@ -1,24 +1,23 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Icon from '../iconList'
-import './header2.scss'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './header2.scss' 
 
 import { Link } from 'react-router-dom';
 
 const header2 = () => {
     return (
-        <div>
             <nav>
-            <Navbar collapseOnSelect class='$teal-500' expand="lg" bg="dark" color='$teal-500' variant="dark">
+            <Navbar collapseOnSelect className='navagation' expand="lg" bg="dark" color='$teal-500' variant="dark">
             <Navbar.Brand href="#">
                 <Link to='/'>
                 Joshuah Gutierrez
                 </Link>
                 </Navbar.Brand>
-                <NavDropdown title="Projects" className='color' id="collasible-nav-dropdown">
+            <NavDropdown title="Projects" className='color' id="collasible-nav-dropdown">
                     <NavDropdown.Item className='color' href="#">
                         <Link to={ '/project1'}>Pokemon Trading Card Game</Link>
                     </NavDropdown.Item>
@@ -69,27 +68,28 @@ const header2 = () => {
                 <Nav className="mr-auto">
  
                 </Nav>
-                <Nav>
+
+                <Nav className='nIconList'>
                         <Icon url='https://www.linkedin.com/in/joshuah-gutierrez/'
-                                linkClassName='linkUrl'
+                                linkClassName='linkUrl '
                                 img='/Icons/linkedin.png'
-                                imgClassName='linkedin-icon2-n'
+                                imgClassName='linkedin-icon2-n nIcon'
                                 />
                         <Icon url='https://github.com/Shandem'
-                                linkClassName='github'
+                                linkClassName='github '
                                 img='/Icons/catopuss.png'
-                                imgClassName='catopuss-icon2-n'
+                                imgClassName='catopuss-icon2-n nIcon'
                                 />
                         <Icon url='mailto:gutierrezjoshuah@gmail.com'
                             linkClassName='email'
                             img='/Icons/cartoonEmail.png'
-                            imgClassName='email-icon-n'
+                            imgClassName='email-icon-n nIcon'
                         />
                 </Nav>
+
             </Navbar.Collapse>
             </Navbar>
             </nav>
-        </div>
     );
 }
 
