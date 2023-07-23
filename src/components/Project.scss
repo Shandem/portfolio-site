@@ -34,16 +34,21 @@
     margin-left:-10vw;
     width: 60vw;
    }
-   .huddle-icons{
-    margin-left: -44vw;
-    margin-top: -10vh;
-   }
+
    .blurbHuddel{
     margin-top: 5vh;
     width: 53vw;
     margin-left: -10vw;
         }
+        .huddle-icons{
+            margin-right: 44vw;
+            margin-top: -10vh;
+        }
     }
+    .huddle-icons{
+    margin-left: -44vw;
+    margin-top: -10vh;
+   }
 }
 
 .blurbHuddel, .Tblurb{
@@ -51,8 +56,19 @@
     margin-right: 340px;
     color: #05ebe2;
 }
-.Tblurb{
-    margin-top: 110px;
+
+
+.Tcontainer{
+    margin-right: -20vw;
+    .tHeader{
+        margin-top:32vh;
+        margin-left:-8vw !important;
+        padding-bottom: 2vw;
+    }
+    .Tblurb{
+        margin-left: -8vw;
+        width:150%;
+    }
 }
 .title{
    color: #05ebe2;

@@ -9,6 +9,7 @@ const Huddle = () => {
                 alt='Screen Shot of huddel landing page'></img>
         
         <div className='detailContainer huddleDetail'>
+        
             <div class="cardHeader huddleHeader">
                 <h3 className='title'>Huddle landing page</h3>
                 <p className="grad">Completed after graduation</p>
