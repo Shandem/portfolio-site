@@ -4,7 +4,7 @@ import './Project.scss';
 
 const Huddle = () => {
     return (
-        <div className='project huddlecontain'>
+        <div className='project huddlecontain mContainer'>
             <img src={process.env.PUBLIC_URL + '/moms-site.png'} className='screenshot huddle moms' 
                 alt='Screen Shot of my moms craft site'></img>
             <div className='Tcontainer'>
