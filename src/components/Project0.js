@@ -7,7 +7,7 @@ const Project0 = () => {
     return (
         <div className='project rCard'>
         <img src={process.env.PUBLIC_URL + '/TCG.png'} className='screenshot tcgpic'alt='Screen Shot of Pokemon Trading Car Game clone'></img>
-            <div className='detailContainer gDetails'>
+            <div className='detailContainer'>
             <div className='cardHeader lHeader'>
                 <h4 className='ptittle'>Pokemon Trading Card Game clone</h4>
                 <h5 className='ptittle2'>Web based game / Solo Project <br/>
@@ -15,7 +15,7 @@ const Project0 = () => {
                 </h5>
                 </div>
 
-                <h6 className='tcg- iconL'>
+                <h6 className='tcg-icons iconL'>
                     <Icon url='https://github.com/Shandem/Pokemon-TCG'
                         linkClassName='github'
                         img='/Icons/GitHub_Logo.png'
