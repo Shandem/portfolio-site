@@ -273,11 +273,18 @@
     position: relative;
     margin-left:450px;
   }
-  @media only screen and (max-width: 1179px)  {
-    #pokeball{
-      margin-left: -50px;
-      margin-top: 80px;
+  @media only screen and (max-width: 1180px)  {
+
+     #pokeball{
+
+      margin-left: -25vw;
+      margin-top: -17vh;
+
     } 
+  .bblurb{
+    margin-top: 40% !important;
+    z-index: 5;
+  }
   }
 
   @media only screen 

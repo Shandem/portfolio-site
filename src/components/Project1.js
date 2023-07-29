@@ -9,13 +9,13 @@ const Project1 = () => {
             className='screenshot dexpic' 
             alt='Screen Shot of Pokemon Trading Car Game clone'/>
             <div className='detailContainer'>
-            <div class="cardHeader">
+            <div class="cardHeader lHeader">
                 <h4>Poke-Tracker A Full stack Pokedex clone</h4>
-                <h5> Full-Stack Pokedex / Team Project <br/>
+                <h5 className="ptittle2"> Full-Stack Pokedex / Team Project <br/>
                     Technologies Used: HTML CSS EJS express Mongoose MongoDB Pokemon API
                 </h5>
             </div>
-                <h6 className='clone-icons'>
+                <h6 className='clone-icons iconL'>
                 <Icon url='https://github.com/Shandem/Poke-Tracker'
                     linkClassName='github'
                     img='/Icons/GitHub_Logo.png'
@@ -32,7 +32,7 @@ const Project1 = () => {
          
                   
                 </h6>
-                <p>The goal of the project was to make a full stack application with 2 
+                <p className="ipad-description">The goal of the project was to make a full stack application with 2 
                 data models relationship.  My partner and I built a Poke-dex that allowed registered 
                 to gather information and keep track of Pokemon collected over the course 
                 of 5 different games</p>

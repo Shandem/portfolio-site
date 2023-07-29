@@ -5,15 +5,15 @@ import './Project.scss';
 const Huddle = () => {
     return (
         <div className='project huddlecontain mContainer'>
-            <img src={process.env.PUBLIC_URL + '/moms-site.png'} className='screenshot huddle moms' 
+            <img src={process.env.PUBLIC_URL + '/moms-site.png'} className='screenshot huddle 1' 
                 alt='Screen Shot of my moms craft site'></img>
-            <div className='Tcontainer'>
+            <div className='Tcontainer mDiscription'>
             <div className='cardHeader mHeader'>
                 <h3>Gaby's Crafty Things</h3>
                 <p className="grad">Built with React</p>
 
-                <h5>This site was built for a client and has live traffic</h5>
-            </div>
+                <h5 className='mBuilt'>This site was built for a client and has live traffic</h5>
+            </div>  
                 <h6 className='huddle-icons mIcons'>
 
                     <Icon url='https://github.com/Shandem/Moms-static-site'

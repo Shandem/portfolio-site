@@ -10,7 +10,7 @@ const Huddle = () => {
             <div className='Tcontainer'>
                 <div className='tHeader'>
 
-                <h3>Tertis</h3>
+                <h3 className='tTitle'>Tertis</h3>
                 <p className="grad">Built with React & React hooks</p>
                 <h5>This was completed witht he assistance of youtube video by |
                     <a href="https://www.youtube.com/watch?v=ZGOaCxX8HIU">freeCodeCamp.org</a> 

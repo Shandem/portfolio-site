@@ -3,6 +3,7 @@ import './Thecity.css'
 
 const Rotom = () => {
     return (
+
         <div className='tracker'>
             <div className="rotom_full">
             <div className="dextopC">
@@ -36,6 +37,7 @@ const Rotom = () => {
         <img src={process.env.PUBLIC_URL + '/rotom-dex.jpg'} alt='Rotom for refrence' className='rotom-pic'></img>
         </p>
     </div>
+    
     );
 }
 

@@ -5,7 +5,7 @@ import './Project.scss';
 const Nasa = () => {
     return (
         <div className='project'>
-        <img src={process.env.PUBLIC_URL + '/Screen Shot 2022-03-17 at 3.23.17 PM.png'} className='screenshot tcgpic'alt='Screen Shot of Pokemon Trading Car Game clone'></img>
+        <img src={process.env.PUBLIC_URL + '/Screen Shot 2022-03-17 at 3.23.17 PM.png'} className='screenshot tcgpic'id='nasa'alt='Screen Shot of Pokemon Trading Car Game clone'></img>
             <div className='detailContainer'>
             <div className='cardHeader nHeader'>
                 <h4 className='ptittle'>Picture of the Day</h4>

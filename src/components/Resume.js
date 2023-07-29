@@ -12,7 +12,8 @@ const Resume = () => {
                 className="myClassname"
                 display="initial"
                 position="relative"
-              
+                scrolling="auto"
+                loading="lazy"
                 />
                 
         <br/> <br/>

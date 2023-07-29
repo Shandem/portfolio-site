@@ -7,15 +7,15 @@ const Project0 = () => {
     return (
         <div className='project rCard'>
         <img src={process.env.PUBLIC_URL + '/TCG.png'} className='screenshot tcgpic'alt='Screen Shot of Pokemon Trading Car Game clone'></img>
-            <div className='detailContainer'>
-            <div className='cardHeader'>
+            <div className='detailContainer gDetails'>
+            <div className='cardHeader lHeader'>
                 <h4 className='ptittle'>Pokemon Trading Card Game clone</h4>
-                <h5 className='ptittle'>Web based game / Solo Project <br/>
+                <h5 className='ptittle2'>Web based game / Solo Project <br/>
                     Technologies Used: HTML CSS Javascript Jquery
                 </h5>
                 </div>
 
-                <h6 className='tcg-icons'>
+                <h6 className='tcg- iconL'>
                     <Icon url='https://github.com/Shandem/Pokemon-TCG'
                         linkClassName='github'
                         img='/Icons/GitHub_Logo.png'
