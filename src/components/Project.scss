@@ -532,15 +532,14 @@ Iframe{
 }
 @media only screen and (max-width: 970px){
 .about{
-    width: 90vw;
-    margin-left: 5vw;  
+    width: 95vw;
+    margin-left: 2vw !important;
     padding-top: 1vh;
-    
     .me{
         margin-left: 3vw; 
         width: 19vh !important;
         border-radius: 27px;
-        
+       
     }
     .blurb-a{
         
@@ -583,6 +582,39 @@ Iframe{
         height: 20vh !important;
         width: 23vw;
     }
+    .tShot{
+        margin-left: 27vw !important;
+    }
+    .Tcontainer{
+     
+        height:55vh;
+        margin-top:1vh !important;
+        width: 95% !important;
+  
+        .tHeader{
+            margin-top: 0vh;
+            width:69%;
+            margin-left: 19vw !important;
+            border: solid thin red;
+            height:20vh;
+            .tTitle{
+                font-size: 30px;
+                padding: 0;
+            }
+            p{
+                margin-top: -1vh;    
+            }
+            h5{
+                margin-top: -2vh;
+                font-size: 15px;
+            }
+        }
+        .Tblurb{
+            margin-top: 1vh;
+            width:91%;
+            font-size: 15px;
+        }
+     }
     .detailContainer{
         width: 100%!important;
         margin-left: 2vw;
@@ -603,6 +635,7 @@ Iframe{
                 font-size: 23px;
             }
         }
+     
         .grad{
             margin: 0;
             margin-left:-40vw !important;
@@ -721,7 +754,8 @@ Iframe{
            width: 80%;  
     }
 }
-.cssart{
+
+    .cssart{
     .pokeball{
         margin-top: 10vh;
     }

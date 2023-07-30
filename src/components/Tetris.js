@@ -19,8 +19,6 @@ const Huddle = () => {
                 </div>
 
                 <h6 className='huddle-icons tIcons'>
-
-
                     <Icon url='https://github.com/Shandem/React-Tetris'
                         linkClassName='github'
                         img='/Icons/GitHub_Logo.png'
@@ -31,7 +29,7 @@ const Huddle = () => {
                         linkClassName='browser'
                         img='/Icons/open-in-toon.png'
                         imgClassName='browser-icon icons'
-                      
+ 
                     />    
                 </h6>
 
