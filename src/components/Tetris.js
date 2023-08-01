@@ -12,10 +12,11 @@ const Huddle = () => {
 
                 <h3 className='tTitle'>Tertis</h3>
                 <p className="grad">Built with React & React hooks</p>
-                <h5>This was completed witht he assistance of youtube video by |
-                    <a href="https://www.youtube.com/watch?v=ZGOaCxX8HIU">freeCodeCamp.org</a> 
-                    | "How to build Tetris in React-gamedev tutorial w/ React Hooks"
+                <h5>Completed with the assistance of youtube video by |
+                  <span> <a href="https://www.youtube.com/watch?v=ZGOaCxX8HIU">freeCodeCamp.org</a> </span>
+                    | "How to build Tetris in React-gamedev tutorial w/ React Hooks" 
                     </h5>
+                    
                 </div>
 
                 <h6 className='huddle-icons tIcons'>

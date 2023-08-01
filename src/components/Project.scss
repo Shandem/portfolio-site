@@ -546,7 +546,7 @@ Iframe{
         width: 83%;
         height: 95%;
         font-size: 18px;
-        margin-top: 2vh;
+        margin-top: -1vh;
         margin-left: 14vw;
         padding-left: 2vw;
         padding-right: 2vw;
@@ -568,7 +568,7 @@ Iframe{
         width:10vw;
         margin-left:-15vw;
         margin-top: -30vh;
-        border:solid thick red;
+  
     }
     .screenshot{
         margin-top: 1vh;
@@ -593,28 +593,46 @@ Iframe{
   
         .tHeader{
             margin-top: 0vh;
-            width:69%;
-            margin-left: 19vw !important;
-            border: solid thin red;
+            width:63% !important;
+            margin-left: 20vw !important;
             height:20vh;
             .tTitle{
                 font-size: 30px;
                 padding: 0;
+                margin-top: .5vh;
             }
             p{
                 margin-top: -1vh;    
             }
             h5{
+                font-size: 10px;
                 margin-top: -2vh;
                 font-size: 15px;
             }
         }
+        .tIcons{
+            margin: 0;
+            margin-left:  -17vw;
+            margin-top: -20vh;
+            height:30vh;
+            display: flex;
+            flex: left;
+            flex-direction: column;
+            height: 20vh;
+            justify-content: space-between;
+     
+         }
         .Tblurb{
-            margin-top: 1vh;
-            width:91%;
-            font-size: 15px;
+            margin-top: 2vh !important;
+            width: 97% !important;
+            font-size: 16px !important;
+            margin: auto;
+            margin-left: -3.5vw !important;
+            border: solid thin red;
         }
      }
+
+    
     .detailContainer{
         width: 100%!important;
         margin-left: 2vw;
@@ -628,14 +646,44 @@ Iframe{
             margin-bottom: 2vh !important; 
             top:-1vh !important;  
         }
+        .nHeader{
+            width: 60%;
+            right: -39%;
+            margin-top: 2vh;
+            .ptittle2{
+                font-size: 17px !important;
+            }
+       
+        }
+        .nIcons{
+            width:8vw;
+            height: 25vh;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            flex: left;
+            margin-left: -13vw;
+            margin-top:-30vh;
+        }
+        .hold{
+            margin-top: 5vh;
+            height:60%;
+            font-size: 22px !important;
+        }
         .huddleHeader{
             margin-left:22vw  !important;
             margin-top: -18vh;
             .title{
                 font-size: 23px;
             }
+            .hLink{
+                margin-top: 2vh;
+            }
         }
-     
+        .blurbHuddel{
+         
+            font-size: 21px;
+        }
         .grad{
             margin: 0;
             margin-left:-40vw !important;
@@ -656,19 +704,36 @@ Iframe{
             
         }
     }
+    .mDiscription{
+        .mHeader{      
+            width:63% !important;
+            margin-left:22vw !important;
+            margin-top:1.5vh !important;
+            .mDiscription{
+                
+            }
+            .mBuilt{
+                font-size: 17px;
+            }
+        }
+        .mIcons{
+        
+            .icons{
+            
+            }
+        }
+        .mBlurb{
+            font-size: 17px;
+            margin-top:5vh !important;
+        }
+    }
 }
 .gaymeitcontain{
     .gaymeit{
         margin-left:2vw;
     }
-
     .gDetails{
-
-        height: 100% !important;
-    
-      
-       
-      
+        height: 100% !important;    
         .gaymeitBlurb{
             margin-left: 25vw;
             .gTitle{
@@ -676,7 +741,6 @@ Iframe{
             }
             .gtitle2{
                 width:100%;
-
             }
             height: 30vh !important;
             bottom: 20% !important;
@@ -688,7 +752,7 @@ Iframe{
            
         }
         .gaymeit-icons{
-           
+           margin-top: -20vh;
             margin-left:-15vw;
             height:35vh;
             display: flex;
@@ -697,6 +761,7 @@ Iframe{
             justify-content: space-between;
             align-items: center;
             width: 10vw;
+  
         }
     }
 }
@@ -841,7 +906,6 @@ Iframe{
     font-size: 17px;
 }
 }
-
 
 @media only screen 
 and (min-device-width: 375px) 

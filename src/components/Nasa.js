@@ -9,7 +9,7 @@ const Nasa = () => {
             <div className='detailContainer'>
             <div className='cardHeader nHeader'>
                 <h4 className='ptittle'>Picture of the Day</h4>
-                <h5 className='ptittle'>NASA API for picture of the day <br/>
+                <h5 className='ptittle2'>NASA API for picture of the day <br/>
                     Technologies Used: React, ReactHooks
                 </h5>
             </div>
@@ -27,7 +27,7 @@ const Nasa = () => {
                         />
                 </h6>
                 <p className="ipad-description hold">
-                The goal was to create a simple wib tool to 
+                The goal was to create a simple web tool to 
                 call the NASA Picure of the day API. Using React hooks
                 I am saving the result to state then presenting the detailContainer Check back every 24hrs 
                 for a new picture.

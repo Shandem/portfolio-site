@@ -15,8 +15,8 @@ const Huddle = () => {
                 <p className="grad">Completed after graduation</p>
 
                 <h5>Number 3 in a list of projects from an Article by <br/>
-                    <a href="https://dev.to/mattstuddert">Matt Studdert</a> 
-                    "16 Front-end Projects (with Designs) to Help Improve your Coding Skills"
+                    <a className="hLink" href="https://dev.to/mattstuddert">Matt Studdert</a> 
+                     "16 Front-end Projects (with Designs) to Help Improve your Coding Skills"
                 </h5>
             </div>  
 
