@@ -1,3 +1,7 @@
+:root{
+    --background-color: #343A40;
+}
+
 nav{
    width: 100vw;
 }
@@ -21,4 +25,87 @@ nav{
         width: 50px;
     
     }
+}
+@media only screen and (max-width: 920px){
+    nav{
+        z-index: 5;
+        margin-top: 4vh;
+        width: 100% !important;
+        .navagation{
+            display: none;
+            height: 20vh; 
+        }
+        .esponsive-navbar-nav-small{
+            display: show;
+        }
+   
+    }
+
+    .smallNav{
+        box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
+        display: show;
+      
+        top: 100%;
+        margin-top: -4vh;
+        height: 7vh;
+        z-index: 5;
+        width: 100%;
+
+        .collasible-nav-dropdown {
+            text-align: center;
+            margin-right: -5vw !important;
+            
+         
+        }
+        .show{
+            z-index: 5;
+            width: 119% !important;
+            margin-left: -3vw !important;
+            text-align: center;
+            align-items: center;
+            width: 118% !important;
+            background-color: var(--background-color);
+            
+            .item:nth-child(1){
+                border-top:solid medium black;
+            }
+            .item:nth-child(9){
+                border-bottom:solid medium black !important;
+            }
+            
+            .item{
+                padding: 1.3vh 0;
+                text-align: center;
+
+                a{
+                    font-size: 20px;
+                }
+                
+                .sIconList{
+                    padding: 3vh 0;
+                    width:auto;
+                    height:auto;
+                    display: flex;
+                    flex-direction: row;
+                    flex: left;
+                    justify-content: space-around;
+
+                    .sIcon{
+                        height: 7vh;
+                        width: 15vw;
+                    }
+                }
+                    .itemBackground{
+                   
+                    }
+                }
+    }   
+        .responsive-navbar-nav{
+            display: show;
+            width: 20vw;
+            height: 20VH;
+        }
+
+    }
+   
 }
