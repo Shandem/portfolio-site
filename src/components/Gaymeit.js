@@ -4,24 +4,25 @@ import './Project.scss'
 
 const Gaymeit = () => {
     return (
-        <div className='project gaymeitcontain'>
-            <img src={process.env.PUBLIC_URL + '/gayme-it.png'} className='screenshot gaymeit'alt='Screen Shot of Pokemon Trading Car Game clone'></img>
-                <div className='detailContainer gDetails'>
-                <div className='gaymeitBlurb lHeader'>
+        <div className='project'>
+            <img src={process.env.PUBLIC_URL + '/gayme-it.png'} className='screenshot'alt='Screen Shot of Pokemon Trading Car Game clone'></img>
+                <div className='detailContainer'>
+        
                 <div class="cardHeader">
-                    <h4 className='gTitle'>Gayme-it: A Reddit clone for Gaymers</h4>
-                    <h5 className="ptittle2 gtitle2">Solo-project Full stack MERN App <br/>
+                    <h4 className='hTitle'>Gayme-it: A Reddit clone for Gaymers</h4>
+                    <h5 className="hTittle2 ">Solo-project Full stack MERN App <br/>
                     Technologies Used: Full-stack MERN app Mongo, Express, React, Node, CSS</h5>
                 </div>
 
-                <p> The goal of this project was to create a Reddit-clone, focusing on 
+                <p className="ipad-description"> 
+                    The goal of this project was to create a Reddit-clone, focusing on 
                     the implementation of karma voting. The Server for this React app was 
                     set up as an API.
                 </p>
 
-                </div>
+          
            
-                    <h6 className='gaymeit-icons '>
+                    <h6 className='iconL'>
                         <Icon url='https://github.com/Shandem/Gaymer-api'
                         linkClassName='github'
                         img='/Icons/catopuss.png'
