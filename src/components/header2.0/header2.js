@@ -12,6 +12,7 @@ const header2 = () => {
     return (
     <nav>
         <Navbar collapseOnSelect className='navagation' expand="lg" bg="dark" color='$teal-500' variant="dark">
+        <div className='deskNavWrap'>
             <Navbar.Brand href="#">
                 <Link to='/' id='name'>
                 Joshuah Gutierrez
@@ -83,12 +84,14 @@ const header2 = () => {
                 </Nav>
 
             </Navbar.Collapse>
+            </div>
         </Navbar>
-        
+       
 
 
-        <Navbar bg="dark" className='smallNav'>
-            <Navbar.Brand>
+        <Navbar bg="dark" id='smallNav'>
+       
+            <Navbar.Brand >
                 <NavDropdown title="Joshuah Gutierrez" id="collasible-nav-dropdown">
              
                     <NavDropdown.Item href="#" bg="dark" className="item">

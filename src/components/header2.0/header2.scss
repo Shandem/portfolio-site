@@ -2,8 +2,19 @@
     --background-color: #343A40;
 }
 
-nav{
-   width: 100vw;
+nav {
+   width: 100%;
+
+   .deskNavWrap{
+    display: flex;
+    flex-direction: row;
+    flex: left;
+    justify-content: space-between;
+    padding-right: 0;
+   }
+}
+#smallNav{
+    display: none;
 }
 .navagation{
     height: 10vh;
@@ -13,12 +24,16 @@ nav{
   
 }
 .nIconList{
+    margin-right: -150%;
+    width: 20vw;
+    padding-right: 0;
     height: 5vh;
     display: flex;
     flex-direction: row;
     flex: left;
     justify-content: space-between;
     height: 100%;
+
    
     .nIcon{
         height: 50px;
@@ -29,33 +44,26 @@ nav{
 @media only screen and (max-width: 920px){
     nav{
         z-index: 5;
-        margin-top: 4vh;
+        margin: 0vh !important;
         width: 100% !important;
-        .navagation{
+        .deskNavWrap{
             display: none;
-            height: 20vh; 
+          
         }
-        .esponsive-navbar-nav-small{
-            display: show;
-        }
-   
     }
 
-    .smallNav{
+    #smallNav{
         box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
-        display: show;
-      
-        top: 100%;
-        margin-top: -4vh;
-        height: 7vh;
-        z-index: 5;
+        display: show !important;
+        margin: 0 ;
+        height: auto;
+        z-index: 6;
         width: 100%;
 
         .collasible-nav-dropdown {
             text-align: center;
             margin-right: -5vw !important;
-            
-         
+            display: show;
         }
         .show{
             z-index: 5;

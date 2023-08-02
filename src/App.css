@@ -38,3 +38,9 @@ h4{
   background: rgb(52,58,64);
   background: linear-gradient(287deg, rgba(52,58,64,1) 0%, rgba(104,109,113,1) 100%);
 }
+@media only screen and (max-width: 920px){
+  .App{
+    overflow-x: hidden; 
+    overflow-y: hidden;
+  }
+}

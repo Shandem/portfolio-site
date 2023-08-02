@@ -13,14 +13,16 @@
     border-radius: 35px;
     box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
     background-color: #343A40;
-    
+    .expandable-container{
+      display: none;
+    }
     .blurb-a{
         margin-left:11vw;
         margin-right: 1vw;
-        margin-top: 1vh;
+        margin-top: 1vh !important;
         width: 70%;
         text-align:  left;
-        font-size: 13px;
+        font-size: 17px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: #05ebe2;
 
@@ -45,7 +47,8 @@
 
 @media  screen and (max-width: 1180px){
     .about{
-      margin-left: -30vw;
+        z-index: 3 !important;
+        margin-left: -30vw;
         position: absolute;
        
     }
@@ -58,7 +61,10 @@
 
 @media only screen and (max-width: 970px){
   .blurb-a{
-   padding-top: 3vh;
+    z-index: 3 !important;
+    padding-top: 0vh;
+    font-size: 15px !important;
   
   }
 }
+

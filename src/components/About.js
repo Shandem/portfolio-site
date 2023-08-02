@@ -21,8 +21,9 @@ const About = () => {
               <ExpandableContainer className='expand' title={title} children={blurb}>
                
               </ExpandableContainer> 
+              { blurb }
           </div>
-    
+       
       </>
     );
 }
