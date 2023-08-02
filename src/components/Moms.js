@@ -4,42 +4,41 @@ import './Project.scss';
 
 const Huddle = () => {
     return (
-        <div className='project huddlecontain mContainer'>
-            <img src={process.env.PUBLIC_URL + '/moms-site.png'} id='mPic' className='screenshot huddle 1 ' 
+        <div className='project'>
+            <img src={process.env.PUBLIC_URL + '/moms-site.png'} className='screenshot ' 
                 alt='Screen Shot of my moms craft site'></img>
-            <div className='Tcontainer mDiscription'>
-            <div className='cardHeader mHeader'>
-                <h3>Gaby's Crafty Things</h3>
-                <p className="grad">Built with React</p>
+            <div className='detailContainer '>
+                <div className='cardHeader '>
+                    <h4 className='hTitle'>Gaby's Crafty Things</h4>
+                    <h5 className="hTittle2 ">>Built with React. This site was built for a client and has live traffic </h5>
+                </div>
+            
 
-                <h5 className='mBuilt'>This site was built for a client and has live traffic</h5>
-            </div>  
-                <h6 className='huddle-icons mIcons'>
-
-                    <Icon url='https://github.com/Shandem/Moms-static-site'
-                        linkClassName='github'
-                        img='/Icons/GitHub_Logo.png'
-                        imgClassName='github-icon gicon icons'
-                     
-                    />
-                    <Icon url='http://gabyscraftythings.org'
-                        linkClassName='browser'
-                        img='/Icons/open-in-toon.png'
-                        imgClassName='browser-icon icons'
-                     
-                    />    
-                </h6>
-
-                <p className='Tblurb mBlurb'> 
+                <p className="ipad-description"> 
                 Gaby sells her Christmas decorations every year to help pay for that year's presents.
                     Covid has put a stop to the arts and crafts fair but not Gaby. She wanted a simple site 
                     that would act as a catalog and provide a direct means of communication. Using flexbox 
                     and a few media queries, I made it is fully responsive for mobile and a section that allows 
                     customers to send an email directly to gaby without leaving the home screen.
                 </p>
+                <h6 className='iconL'>
+
+                    <Icon url='https://github.com/Shandem/Moms-static-site'
+                        linkClassName='github'
+                        img='/Icons/GitHub_Logo.png'
+                        imgClassName='github-icon gicon icons'
+                    
+                    />
+                    <Icon url='http://gabyscraftythings.org'
+                        linkClassName='browser'
+                        img='/Icons/open-in-toon.png'
+                        imgClassName='browser-icon icons'
+                    
+                    />    
+                </h6>
 
             </div>
-    </div>
+        </div>
     );
 }
 

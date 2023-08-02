@@ -20,8 +20,6 @@ const Huddle = () => {
                 </h5>
             </div>  
 
-     
-
             <p className="ipad-description"> All the projects are given from the site containing 
                     a design Artifact that gives you basic, minimal direction. 
                     The goal is to produce a working demo as close to the image 
