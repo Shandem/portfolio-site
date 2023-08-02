@@ -41,6 +41,28 @@ nav {
     
     }
 }
+@media only screen and (max-width: 970px){
+    nav{
+        height: auto;
+        .navagation{
+            width: 100% !important;
+            height: 8vh;
+                .deskNavWrap{
+                    align-content: center;
+                #collasible-nav-dropdown, .navbar-brand{
+                    margin-top: 1vh;
+                }
+            button{
+                    position: absolute;
+                    margin-top: 1vh;
+                    margin-left: 0 !important;
+                    right: 0;
+                }
+            
+            }
+        }
+    }
+}
 @media only screen and (max-width: 700px) and (min-width: 415px){
     nav{
         z-index: 5;
@@ -63,7 +85,6 @@ nav {
             margin-left: -8vw;
             height: 25vh !important;
             width: 8vw;
-           
             display: flex;
             flex-direction: column;
             background-color: var(--background-color);

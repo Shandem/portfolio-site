@@ -10,16 +10,14 @@ const Huddle = () => {
             <div className='detailContainer'>
                 <div className='cardHeader'>
 
-                <h3 className='tTitle'>Tertis</h3>
-                <p className="grad">Built with React & React hooks</p>
-                <h5>Completed with the assistance of youtube video by |
-                  <span> <a href="https://www.youtube.com/watch?v=ZGOaCxX8HIU">freeCodeCamp.org</a> </span>
-                    | "How to build Tetris in React-gamedev tutorial w/ React Hooks" 
+                <h3 className='hTitle'>Tertis</h3>
+                <p className="hTittle2">Built w/ React & React hooks</p>
+                <h5>Completed w/ youtube video by |
+                  <span className='link'> <a href="https://www.youtube.com/watch?v=ZGOaCxX8HIU">freeCodeCamp.org</a> </span>
+                    | "How to build Tetris in React-gamedev tutorial w/ Hooks" 
                     </h5>
                     
                 </div>
-
-           
 
                 <p className="ipad-description">  This video was a walkthrough on building Tetris with React 
                 and React Hooks, more so over, than the Javascript function of the 

@@ -14,7 +14,7 @@ const Huddle = () => {
                 </div>
             
 
-                <p className="ipad-description"> 
+                <p className="ipad-description" id='mSummery'> 
                 Gaby sells her Christmas decorations every year to help pay for that year's presents.
                     Covid has put a stop to the arts and crafts fair but not Gaby. She wanted a simple site 
                     that would act as a catalog and provide a direct means of communication. Using flexbox 

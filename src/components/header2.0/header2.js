@@ -59,7 +59,7 @@ const header2 = () => {
                     </NavDropdown.Item>
                 </NavDropdown>
 
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav responsive-navbar-nav-button" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
  

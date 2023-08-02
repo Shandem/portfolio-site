@@ -13,9 +13,10 @@ function App() {
   return (
     <div className="App">
       <Head2/>
-    
+    <div className='componitContainer'>
       <About/>
         { routes }
+        </div>
         <div className='circle'></div>
         <div className="b-circle"></div>
         <div className="r-cirlce"></div>
