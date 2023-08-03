@@ -13,9 +13,7 @@ nav {
     padding-right: 0;
    }
 }
-#smallNav{
-    display: none;
-}
+
 .navagation{
     height: 10vh;
     box-shadow: 0 0 0 2px;
@@ -41,7 +39,7 @@ nav {
     
     }
 }
-@media only screen and (max-width: 970px){
+@media only screen and (max-width: 970px) and (min-width: 768){
     nav{
         height: auto;
         .navagation{
@@ -53,8 +51,8 @@ nav {
                     margin-top: 1vh;
                 }
             button{
-                    position: absolute;
-                    margin-top: 1vh;
+                position: absolute;
+                 margin-top: 1vh;
                     margin-left: 0 !important;
                     right: 0;
                 }
@@ -63,21 +61,14 @@ nav {
         }
     }
 }
-@media only screen and (max-width: 700px) and (min-width: 415px){
+@media only screen and (max-width: 767px) and (min-width: 412px){
     nav{
         z-index: 5;
         margin: 0vh !important;
         width: 100% !important;
         
         .deskNavWrap{
-            display: show;
-            .show{
-                background-color: var(--background-color) !important;
-                border-radius: 15px;
-                border: solid thin black;
-               
-            }
-          
+            display: none !important;
         }
        .nIconList {
         position: absolute;
@@ -95,70 +86,26 @@ nav {
      
     }
    
- 
-
     #smallNav{
+        display: show !important;
+      
         box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
-        display: none !important;
-        margin: 0 ;
-        height: auto;
-        z-index: 6;
-        width: 100%;
-
-        .collasible-nav-dropdown {
-            text-align: center;
-            margin-right: -5vw !important;
-            display: show;
+     
+  
+        border: solid thin red;
+        .navbar-brand{
+            display: show !important;
+            margin: 0 !important;
+          
         }
-        .show{
-            z-index: 5;
-            width: 119% !important;
-            margin-left: -3vw !important;
-            text-align: center;
-            align-items: center;
-            width: 118% !important;
-            background-color: var(--background-color);
-            
-            .item:nth-child(1){
-                border-top:solid medium black;
-            }
-            .item:nth-child(9){
-                border-bottom:solid medium black !important;
-            }
-            
-            .item{
-                padding: 1.3vh 0;
-                text-align: center;
+     
+     
 
-                a{
-                    font-size: 20px;
-                }
-                
-                .sIconList{
-                    padding: 3vh 0;
-                    width:auto;
-                    height:auto;
-                    display: flex;
-                    flex-direction: row;
-                    flex: left;
-                    justify-content: space-around;
-
-                    .sIcon{
-                        height: 7vh;
-                        width: 15vw;
-                    }
-                }
-                    .itemBackground{
-                   
-                    }
-                }
-    }   
-        .responsive-navbar-nav{
-            display: show;
-            width: 20vw;
-            height: 20VH;
-        }
+     
+      
 
     }
+
+ 
    
 }
