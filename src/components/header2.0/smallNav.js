@@ -55,21 +55,21 @@ const SmallNav = () => {
                     
                     <NavDropdown.Item href="#" className="item">
                         
-                        <Nav className='sIconList'>
+                        <Nav className='iconL'>
                             <Icon url='https://www.linkedin.com/in/joshuah-gutierrez/'
                                     linkClassName='linkUrl '
                                     img='/Icons/linkedin.png'
-                                    imgClassName='linkedin-icon2-n sIcon'
+                                    imgClassName='linkedin-icon'
                                     />
                             <Icon url='https://github.com/Shandem'
-                                    linkClassName='github '
+                                    linkClassName='github-icon'
                                     img='/Icons/catopuss.png'
-                                    imgClassName='catopuss-icon2-n sIcon'
+                                    imgClassName='catopuss-icon'
                                     />
                             <Icon url='mailto:gutierrezjoshuah@gmail.com'
                                 linkClassName='email'
                                 img='/Icons/cartoonEmail.png'
-                                imgClassName='email-icon-n sIcon'
+                                imgClassName='browser-icon'
                             />
 
                         </Nav>

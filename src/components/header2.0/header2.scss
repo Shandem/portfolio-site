@@ -61,7 +61,7 @@ nav {
         }
     }
 }
-@media only screen and (max-width: 767px) and (min-width: 412px){
+@media only screen and (max-width: 767px) and (min-width: 280px){
     nav{
         z-index: 5;
         margin: 0vh !important;
@@ -85,27 +85,87 @@ nav {
         }
      
     }
-   
-    #smallNav{
-        display: show !important;
-      
-        box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
-     
-  
-        border: solid thin red;
-        .navbar-brand{
-            display: show !important;
-            margin: 0 !important;
-          
-        }
-     
-     
+    
+   .sNavagation{
+    padding: 0;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
 
-     
-      
+        #smallNav{
+            display: show !important;
+            height: 5% !important;
+            padding: 0;
+
+            .navbar-brand{
+                margin-left: 40% !important;
+                #collasible-nav-dropdown{
+                    margin-left: 24% !important;
+                    align-items: center !important;
+                    font-size: 17px;
+                   
+                }
+                div.dropdown-menu.show{
+                    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
+                    background-color: var(--background-color);
+                    width: 150%;
+                    padding: 0;
+                    a{
+                        font-size: 17px;
+                        padding:  3% ;
+                        text-align: center;
+                    }
+                 
+                    a:nth-child(5){
+                        border-top: solid thin black;
+                        border-bottom: solid thin black;
+                    }
+                    a:nth-child(9){
+                        border-bottom: solid thin black;
+                    }
+
+                    .iconL{
+                      
+                        display: flex;
+                        flex: left;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        width: 108% !important; 
+                        margin-left: -4%;
+                        margin-bottom: -4%;
+                        border-bottom: solid 2px black;
+                        .github-icon{
+                            height: 25px;
+                            width: 75px;
+                        }
+                        .catopuss-icon{
+                            height: 45px;
+                            width: 45px;
+                            margin-top: 6px;
+                            margin-left: 20%;
+                        }
+                        .browser-icon{
+                            height: 50px;
+                            width: 50px;
+                           
+                        }
+                        .linkedin-icon{
+                            height: 55px;
+                            width: 55px;
+                        }
+                    }
+
+                }
+                   
+                
+                height: 5% !important;
+                display: show !important;
+                margin: 0 !important;
+            }
+            
+            
+  
+        }
+        
 
     }
 
- 
-   
 }

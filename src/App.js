@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 767); // Set the breakpoint for mobile width
+      setIsMobile( window.outerWidth <= 767 ); // Set the breakpoint for mobile width
     };
 
     // Add event listener for window resize
@@ -33,8 +33,7 @@ function App() {
     <div className="App">
 
     <div>
-      {isMobile ? (
-
+      {isMobile ? ( 
         <SmallNav/>
       ) : (        
         <Head2/> 

@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
@@ -13,12 +13,12 @@ const header2 = () => {
     return (
     <nav>
         <Navbar collapseOnSelect className='navagation' expand="lg" bg="dark" color='$teal-500' variant="dark">
-        <div className='deskNavWrap'>
+
             <Navbar.Brand href="#">
                 <Link to='/' id='name'>
                 Joshuah Gutierrez
-                </Link>
-            </Navbar.Brand>
+                    </Link>
+                </Navbar.Brand>
 
                 <NavDropdown title="Projects" className='color' id="collasible-nav-dropdown">
                     <NavDropdown.Item className='color' href="#">
@@ -38,7 +38,7 @@ const header2 = () => {
                     <NavDropdown.Item href="#">
                         <Link to={ '/resume'}>Resume</Link>
                     </NavDropdown.Item>
-                </NavDropdown>
+                    </NavDropdown>
 
                 <NavDropdown title="React Projects" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="#">
@@ -52,16 +52,16 @@ const header2 = () => {
                         <Link to={ '/nasa'}>Nasa</Link>
                     </NavDropdown.Item>       
                     
-                </NavDropdown>
+                    </NavDropdown>
 
                 <NavDropdown title="Live Projects" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="#">
                         <Link to={ '/mom'}>Gabys's Crafty Things</Link>
                     </NavDropdown.Item>
-                </NavDropdown>
+                    </NavDropdown>
 
-        <Navbar.Toggle aria-controls="responsive-navbar-nav responsive-navbar-nav-button" />
-            <Navbar.Collapse id="responsive-navbar-nav">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav responsive-navbar-nav-button" />
+                <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
  
                 </Nav>
@@ -84,8 +84,8 @@ const header2 = () => {
                         />
                 </Nav>
 
-            </Navbar.Collapse>
-            </div>
+                    </Navbar.Collapse>
+          
         </Navbar>
 
 </nav>
