@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Project0 from '../components/Project0'
@@ -13,9 +13,12 @@ import Tetris from '../components/Tetris'
 import Mom from '../components/Moms'
 import H2 from '../components/header2.0/header2'
 import Nasa from '../components/Nasa';
+import Reslover from '../components/Reslover';
+
 
 
 export default (
+    
     <Switch>
         <Route exact path='/' />
         <Route path='/project1' component={ Project0 }/>
@@ -24,7 +27,7 @@ export default (
         <Route path='/pokeball' component={ Pokeball }/>
         <Route path='/rotom' component={ Rotom }/>
         <Route path='/under' component={ Under }/>
-        <Route path='/resume' component={ Resume }/>
+        <Route path='/resume' component={ Reslover }/>
         <Route path='/huddle' component={ Huddle }/>
         <Route path='/tetris' component={ Tetris }/>
         <Route path='/mom' component={ Mom }/>

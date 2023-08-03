@@ -454,6 +454,24 @@ p{
             font-size: 10px !important;
         }
     }
+    .sAncor{
+        text-align: center;
+        position: absolute;
+        width: 96%;
+        height: auto;
+        margin-bottom:-50% !important;
+        font-size: 25px;
+       
+        bottom:24%;
+        margin-left: 2%;
+        ;
+    .resumeScreenshot{
+        
+        width: 100%;
+        height: 0%;
+        border: solid thin red;
+    }
+}
     .project{
         height: 61%;
        
@@ -518,13 +536,38 @@ p{
             }
         }
     }
+   
+    .cssart{
+        bottom: 0;
+        #pokeball{
+            position: absolute;
+            margin-left: -35%;
+            margin-top: -86%;
+            transform: scale(.5);
+        }
+        .bblurb{
+            font-size: 17px !important;
+            width: 105% !important;
+           
+        }
+}
     .res-contain{
         
-        #myId{
-            height: 63%;
-            width: 96%;
-            margin: 0% 0 0% 0% !important ;
-        }
+        height: 60%;
+        width: auto;
+        right: 0;
+        border: solid thin red;
+        bottom: 0;
+  
     }
-
+        
+    #myId{
+    
+        height: 96% ;
+        width: 91%;
+        margin-left: -6%;
+        border: solid thin red;
+        
+    }
 }
+

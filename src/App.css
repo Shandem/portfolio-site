@@ -44,3 +44,9 @@ h4{
     overflow-y: hidden;
   }
 }
+@media  screen and (max-width: 767px){
+  .App{
+    margin-right:-12%;
+    margin-left: 12%;
+  }
+}
