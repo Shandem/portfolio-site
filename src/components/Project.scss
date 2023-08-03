@@ -5,7 +5,6 @@
 }
 p{
     color: #05ebe2;
-
 }
 .expandable-container{
     display: hide;
@@ -92,70 +91,70 @@ p{
         box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
     }
    
-.project{
+    .project{
 
-    position: absolute;
-    height: 90%;
-    width: 50%;
-    margin-top: 1vh;
-    margin-left: 47vw;
-    margin-right: 1vw;
-    
-    .screenshot{
-      position: relative;
-        z-index:3;
-        left: 18%;
-        padding-right: 2vw;
-        margin-bottom: -3em;
-        padding: 1vh 0;
-    }
-     
-.detailContainer{
- 
-    position: absolute;
-    width:auto !important;
-    
-    margin-top: 35%;
-    border: solid  thin red;
-
-    .cardHeader{
+        position: absolute;
+        height: 90%;
+        width: 50%;
+        margin-top: 1vh;
+        margin-left: 47vw;
+        margin-right: 1vw;
+        
+        .screenshot{
         position: relative;
-        width: 97%;
-        .hTittle{
-            font-size: 27px;
+            z-index:3;
+            left: 18%;
+            padding-right: 2vw;
+            margin-bottom: -3em;
+            padding: 1vh 0;
         }
-        .hTittle2{
-            font-size: 17px !important;
-           
-          
-  
-        }
-      
-  
-    }
-    .ipad-description{
-        width:100%;
-     
-        font-size: medium;
-    }
-
-
-
-    }
-}
-.pokeball{
-    margin-right: -30%;
-    margin-top: 30%;
-}
-.res-contain, #myId{
-    position: absolute;
-    height: 92%;
-    width:70%;
-    margin-top: 1vh;
-    right:-11%;
+        
+    .detailContainer{
     
-   
-}
+        position: absolute;
+        width:auto !important;
+        
+        margin-top: 35%;
+        border: solid  thin red;
+
+        .cardHeader{
+            position: relative;
+            width: 97%;
+            .hTittle{
+                font-size: 27px;
+            }
+            .hTittle2{
+                font-size: 17px !important;
+            
+            
+    
+            }
+        
+    
+        }
+        .ipad-description{
+            width:100%;
+        
+            font-size: medium;
+        }
+
+
+
+        }
+    }
+    .pokeball{
+        margin-right: -30%;
+        margin-top: 30%;
+    }
+    .res-contain, #myId{
+        position: absolute;
+        height: 92%;
+        width:70%;
+        margin-top: 1vh;
+        right:-11%;
+        
+    
+    }
 }
 
 @media only screen and (max-width: 970px){
