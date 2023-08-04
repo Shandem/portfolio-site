@@ -1,11 +1,9 @@
 import React from 'react';
-import ExpandableContainer from './ExpandableContainer';
 
 
 import './About.css'
 
 
-const title='Hi, Im Joshuah Gutierrez and im a Full Stack dev with focus in the Front End. Click here if you want to know more!'
 
 const About = () => {
     return (

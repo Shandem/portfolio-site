@@ -14,10 +14,10 @@ const Huddle = () => {
 
                     <h3 className='hTitle'>Tertis</h3>
                     <p className="hTittle2">Built w/ React & React hooks</p>
-                    <h5>Completed w/ youtube video by |
+                    <h5 className='hTittle3'>Completed w/ youtube video by |
                             <span className='link'> <a href="https://www.youtube.com/watch?v=ZGOaCxX8HIU">freeCodeCamp.org</a> </span>
-                                | "How to build Tetris in React-gamedev tutorial w/ Hooks" 
-                          </h5>
+                            | "How to build Tetris in React-gamedev tutorial w/ Hooks" 
+                        </h5>
                         
                     </div>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import Iframe from 'react-iframe'
 import './Project.scss'
-import SResume from './S-resume';
+
 
 
 const Resume = () => {

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Project0 from '../components/Project0'
@@ -7,7 +7,6 @@ import Gaymeit from '../components/Gaymeit'
 import Pokeball from '../components/Pokeball'
 import Rotom from '../components/Rotom'
 import Under from '../components/Under'
-import Resume from '../components/Resume'
 import Huddle from '../components/Huddle'
 import Tetris from '../components/Tetris'
 import Mom from '../components/Moms'
