@@ -801,24 +801,25 @@ p{
         display: block;
         position: relative;
         height: auto;
-        padding-bottom: 7%;
+        top: 10%;
+        margin-left:-0%;
         margin-bottom: 13% !important;
         bottom: 0% !important;
     
-        margin-left:0;
+      
         width: 100%;
         border: solid thin black !important;
 
         .detailContainer{
-        
+           
             z-index: 2;
             position: relative;
-            margin: -5% 0 0 2% !important;
-            padding: 0;
+            margin: -6% 0 0 1% !important;
+            padding: 0 0 10% 0;
             top: 7%;   
             height: 100%;
-            width: 96% !important;
-            border: none;
+            width: 98% !important;
+   
             margin: 0 0 0 -33%;
           
             .screenshot{
@@ -827,16 +828,16 @@ p{
                 width: 30% !important;
                 height: 35% !important;
             
-                margin: 0% 0 0 -20%;
+                margin: 0% 0 0 0%;
                 padding: 2% 0 0 2%;
                 border-top-left-radius: 35px;
             }
             #htHeader{
-                margin-top: -41%;
-                padding-bottom: 10%;
+                margin-top: -37%;
+                padding-bottom: 0%;
             }
             .cardHeader{
-              margin: -24.5% 0 0 28%;
+              margin: -24.5% 0 0 -10%;
                 padding: 0 0 0 2%;
            
                 height: auto !important;
@@ -878,8 +879,13 @@ p{
                 margin-left: 0%;
                 
             }
+            #hTitle{
+                margin-top: 5%;
+                font-size: 22px;
+            }
             #htDescription{
-                margin-bottom: 16%;
+                margin-top: 8% !important;
+                margin-bottom: 17%;
               }
               #htLogo{
                   margin-top: -15%;
@@ -934,5 +940,9 @@ p{
         border: solid thin red;
         
     }
+}
+
+@media screen and (max-width: 389px) and (min-width: 280) {
+    
 }
 
