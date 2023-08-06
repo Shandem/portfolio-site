@@ -28,6 +28,7 @@ h4{
   background: linear-gradient(90deg, rgba(52,58,64,1) 0%, rgba(104,109,113,1) 100%);
 }
 .r-cirlce{
+
   margin-left: 650px;
   margin-top: -1200px;
   z-index: -2;
@@ -45,5 +46,35 @@ h4{
   }
 }
 @media  screen and (max-width: 767px){
+  .App{
+    position: relative;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+   
+    height: 100vh;
+    width: 100%;
+    margin-right: -5%;
+    .componitContainer{
+      top: 0;
+      gap: 10px;
+      margin: 0 1% 0 2%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+  
+      width: 96%;
+      height:100%;
+      gap:1;
+      flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
+    }
 
+    .mFlex{
+      position: relative;
+       /* Allow items to grow and shrink equally */
+      min-width: 100%; /* Minimum width for each item */
+      max-width: 100%; /* Maximum width for each item */
+      
+      box-sizing: border-box;
+    }
+}
 }

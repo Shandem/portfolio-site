@@ -7,18 +7,23 @@ const ExpandableContainer = (props) => {
     setIsExpanded(!isExpanded);
   };
 
-  return React.createElement(
-    'div',
-    { className: 'expandable-container' },
-    React.createElement(
-      'div',
-      { className: 'expandable-header', onClick: handleToggle },
-      props.title,
-      React.createElement('span', {
-        className: isExpanded ? 'arrow arrow-expanded' : 'arrow',
-      })
-    ),
-    isExpanded && React.createElement('div', { className: 'expandable-content' }, props.children)
+  const handleClose = () => {
+    setIsExpanded(false);
+  };
+
+  return (
+    <div className="expandable-container">
+      <div className="expandable-header" onClick={handleToggle}>
+        {isExpanded ? null : props.title}
+        <span className={isExpanded ? 'arrow arrow-expanded' : 'arrow'}></span>
+      </div>
+      {isExpanded && (
+        <div className="expandable-content">
+          {props.children}
+          <button onClick={handleClose}>Close</button>
+        </div>
+      )}
+    </div>
   );
 };
 

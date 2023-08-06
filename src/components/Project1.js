@@ -4,11 +4,11 @@ import './Project.scss'
 
 const Project1 = () => {
     return (
-        <div className='project'>
+        <div className='project mFlex'>
+            <div className='detailContainer'>
             <img src={process.env.PUBLIC_URL + '/pokedex.png'}  
             className='screenshot ' 
             alt='Screen Shot of Pokemon Trading Car Game clone'/>
-            <div className='detailContainer'>
             <div class="cardHeader">
                 <h4 className='hTitle'>Poke-Tracker A Full stack Pokedex clone</h4>
                 <h5 className="ptittle2"> Full-Stack Pokedex / Team Project <br/>

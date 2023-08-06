@@ -5,10 +5,11 @@ import './Project.scss';
 
 const Project0 = () => {
     return (
-        <div className='project rCard'>
-            <img src={process.env.PUBLIC_URL + '/TCG.png'} className='screenshot'alt='Screen Shot of Pokemon Trading Car Game clone'></img>
+        <div className='project rCard mFlex'>
+         
            
-            <div className='detailContainer'>   
+            <div className='detailContainer'> 
+            <img src={process.env.PUBLIC_URL + '/TCG.png'} className='screenshot'alt='Screen Shot of Pokemon Trading Car Game clone'></img>  
                 <div className='cardHeader'>
                     <h4 className='hTitle'>Pokemon Trading Card Game clone</h4>
                     <h5 className='hTittle2'>Web based game / Solo Project <br/>

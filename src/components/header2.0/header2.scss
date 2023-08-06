@@ -88,29 +88,33 @@ nav {
     
    .sNavagation{
     padding: 0;
-    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
+    box-shadow: 0px 4px 0px 0px rgba(0,0,0,.25);
+    height: 5% !important;
 
         #smallNav{
             display: show !important;
-            height: 5% !important;
+       
             padding: 0;
 
             .navbar-brand{
                 margin-left: 40% !important;
                 #collasible-nav-dropdown{
-                    margin-left: 40% !important;
+                    margin-left: 35% !important;
                     align-items: center !important;
-                    font-size: 17px;
+           
+                    font-size: 22px;
+                    padding: 0;
                    
                 }
                 div.dropdown-menu.show{
-                    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
+                    box-shadow: 0 0 4px 0 rgba(0,0,0,.25);
                     background-color: var(--background-color);
-                    width: 150%;
+                    width: 100vw;
+                    margin-left: 0vw !important;
                     padding: 0;
                     a{
-                        font-size: 17px;
-                        padding:  3% ;
+                        font-size: 22px;
+                        padding:  2% ;
                         text-align: center;
                     }
                  

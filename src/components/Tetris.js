@@ -4,13 +4,14 @@ import './Project.scss';
 
 const Huddle = () => {
     return (
-        <div className='project '>
+        <div className='project mFlex' id='htProject'>
 
-            <img src={process.env.PUBLIC_URL + '/Tetris.png'} className='screenshot' 
-                alt='Screen Shot of Tetris game over'></img>
+            
 
                 <div className='detailContainer'>
-                    <div className='cardHeader'>
+                <img src={process.env.PUBLIC_URL + '/Tetris.png'} className='screenshot' 
+                alt='Screen Shot of Tetris game over'></img>
+                    <div className='cardHeader' id='htHeader'>
 
                     <h3 className='hTitle'>Tertis</h3>
                     <p className="hTittle2">Built w/ React & React hooks</p>
@@ -21,7 +22,7 @@ const Huddle = () => {
                         
                     </div>
 
-                        <p className="ipad-description">  This video was a walkthrough on building Tetris with React 
+                        <p className="ipad-description " id='htDescription'>  This video was a walkthrough on building Tetris with React 
                             and React Hooks, more so over, than the Javascript function of the 
                             game, there are some bugs. With that in mind, all components were 
                             extrapolated down to produce a dry code base. Props were turned to 
@@ -31,7 +32,7 @@ const Huddle = () => {
                             my codebase and the live site.
                         </p>
 
-                <h6 className='iconL'>
+                <h6 className='iconL' id="htLogo">
                     <Icon url='https://github.com/Shandem/React-Tetris'
                         linkClassName='github'
                         img='/Icons/GitHub_Logo.png'

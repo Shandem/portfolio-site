@@ -14,9 +14,7 @@ p{
     font: inherit;
 
 }
-.expandable-container{
-    display: hide;
-}
+
 .project{
     position: absolute;
     z-index: 4;
@@ -96,6 +94,12 @@ p{
             width: 65%;
             font-size: small;
         }
+        .expandable-container{
+            .expandable-header{
+            color: var(--font-color);
+            font-style: var(--font-style);
+        }
+    }
         box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
     }
    
@@ -167,7 +171,7 @@ p{
 
 @media only screen and (max-width: 970px) and (min-width: 901px){
     .about{
-        width: 96% !important;
+        width: 96% ;
         margin-left: 2vw !important;
         padding-top: 1vh;
         .me{
@@ -350,7 +354,7 @@ p{
                 margin-left: 77%;
             }
             .blurb{
-                border: solid thin red;
+              
                 margin-left: -1vw;
                 margin-top: -7vh !important; 
                 width: 35% !important;
@@ -428,19 +432,21 @@ p{
     }
 
 }
-    
-@media  screen and (max-width: 767px){
+@media screen and (max-width: 415px ) and (min-width: 391px) {
     .about{
-
-        width: 96% !important;
+        position: relative !important;
+        width: 100vw;
         height: auto !important;
-        padding: 0;
-        margin-top: 3% !important;
+        padding: 0 !important;
+       margin-left: 0 !important;
+        margin-top: 10px !important;
         border: solid thin black !important;
         .me{
-            padding: 0 !important;
-            height: 40% !important;
+            padding: 0 1% !important;
+            height: 95% !important;
             width: 25% !important;
+            margin: 0 auto;
+            border: solid thin red;
         }
         .blurb-a{
             position: relative;
@@ -452,9 +458,25 @@ p{
             margin-top: 0% !important;
             border-radius: 20px;
             line-height: 1.4;
-            font-size: 13px !important;
+            font-size: 12px !important;
+        }
+        .expandable-container{
+            position: relative;
+            .expandable-header{
+            color: var(--font-color);
+            font-style: var(--font-style);
+            width: 80%;
+            margin-left: 30px;
+           margin-left: 10%;
+        
+           border: solid thin red;
+        }
+        .expandable-header::target-text{
+            
         }
     }
+ }
+
     .sAncor{
         text-align: center;
         position: absolute;
@@ -473,48 +495,68 @@ p{
         border: solid thin red;
     }
 }
+#htProject{
+    padding-bottom: 15%;
+}
     .project{
-        height: 63%;
-       
+        display: block;
+        position: relative;
+        height: auto;
+        padding-bottom: 7%;
+        margin-bottom: 13% !important;
         bottom: 0% !important;
     
-        margin-left: 2%;
-        width: 96%;
+        margin-left:0;
+        width: 100%;
         border: solid thin black !important;
-        .screenshot{
-            width: 35% !important;
-            height: 22% !important;
-            left: 0;
-            padding: 2% 0 0 2%;
-            border-top-left-radius: 35px;
-        }
+
         .detailContainer{
-            margin: -5% 0 0 0;
+        
+            z-index: 2;
+            position: relative;
+            margin: -5% 0 0 2% !important;
             padding: 0;
-            top: 25%;   
-            height: 70%;
+            top: 7%;   
+            height: 100%;
+            width: 96% !important;
             border: none;
-
+            margin: 0 0 0 -33%;
+          
+            .screenshot{
+                z-index: 3;
+                position: relative;
+                width: 30% !important;
+                height: 35% !important;
+            
+                margin: 0% 0 0 -20%;
+                padding: 2% 0 0 2%;
+                border-top-left-radius: 35px;
+            }
+            #htHeader{
+                margin-top: -41%;
+                padding-bottom: 10%;
+            }
             .cardHeader{
-                padding: 0 1% !important;
-                left:0;
-                margin-left: 35% !important;
-                margin-top: -25%;
-                margin-bottom: 0%;
+              margin: -28% 0 0 28%;
+                padding: 0 0 0 2%;
+           
                 height: auto !important;
-                width: 66%;
-                .hTitle{
+                width: 72%;
+              
 
+                .hTitle{
+                    line-height: .9;
                     font-size: 18px;
+                    padding-bottom: 1%;
                 }
                 .hTittle2{
                     padding: 0 !important;
-                    margin-top: -5%;
+                    margin-top: -0%;
                     font-size: 13px !important;
                 }
                 h5{
                     padding: 0 !important;
-                    margin-top: -5%;
+                    margin-top: -4%;
                     font-size: 13px;
                     margin-bottom: 1%;
                 }
@@ -525,22 +567,35 @@ p{
               
             }
             .ipad-description{
-                padding: 2% 0;
-            
-                margin-top: 3% !important;
-                width: 98% !important;
-                font-size: 18px !important;
-                
+                position: relative;
+                padding: 0 0 0% 0;
+              
+               margin-top: 2%;
+                margin-bottom: 4%;
+                width: 100% !important;
+                font-size: 17px !important;
+                height: auto;
                 line-height: 1;
-                margin-left: 2%;
+                margin-left: 0%;
                 
             }
+            #htDescription{
+              margin-bottom: 16%;
+            }
+            #htLogo{
+                margin-top: -15%;
+                padding: 0% 4% -10% 4%;
+              
+            }
             .iconL{
-                margin-top: -6%;
-                padding: 0 4%;
-                align-items: normal;
+                position: relative !important;
+             
+     
+                margin: 0% 0 0 2%;
+                padding: 0 4% 4% 4%;
+            
                 height: 10% !important;
-                width: 95% !important;
+                width: 96% !important;
                 .github-icon{
                     margin-top: 20%;
                 }
@@ -568,6 +623,209 @@ p{
         width: auto;
         right: 0;
         border: solid thin red;
+        bottom: 0;
+  
+    }
+        
+    #myId{
+    
+        height: 96% ;
+        width: 91%;
+        margin-left: -6%;
+        border: solid thin red;
+        
+    }
+}
+
+@media  screen and (max-width: 390px){
+    .about{
+        position: relative !important;
+        width: 0% !important;
+        height: auto !important;
+        padding: 0 !important;
+        margin-left: 0 !important;
+        margin-top: 10px !important;
+        border: solid thin black !important;
+        .me{
+            padding: 0 1% !important;
+            height: 95% !important;
+            width: 25% !important;
+            margin: 0 auto;
+         
+        }
+        .blurb-a{
+            position: relative;
+            padding: 0% !important;
+            width: 95% !important;
+            height: 96%;
+            margin-left: 5% !important;
+            margin-right: 10% !important;
+            margin-top: 0% !important;
+            border-radius: 20px;
+            line-height: 1.4;
+            font-size: 12px !important;
+        }
+        .expandable-container{
+            position: relative;
+            .expandable-header{
+            color: var(--font-color);
+            font-style: var(--font-style);
+            width: 80%;
+            margin-left: 30px;
+           margin-left: 10%;
+        }
+        .expandable-header::target-text{
+            
+        }
+    }
+ }
+
+    .sAncor{
+        text-align: center;
+        position: absolute;
+        width: 96%;
+        height: auto;
+        margin-bottom:-50% !important;
+        font-size: 25px;
+       
+        bottom:24%;
+        margin-left: 2%;
+        ;
+    .resumeScreenshot{
+        
+        width: 100%;
+        height: 0%;
+        border: solid thin red;
+    }
+}
+#htProject{
+    padding-bottom: 15%;
+}
+    .project{
+        display: block;
+        position: relative;
+        height: auto;
+        padding-bottom: 7%;
+        margin-bottom: 13% !important;
+        bottom: 0% !important;
+    
+        margin-left:0;
+        width: 100%;
+        border: solid thin black !important;
+
+        .detailContainer{
+        
+            z-index: 2;
+            position: relative;
+            margin: -5% 0 0 2% !important;
+            padding: 0;
+            top: 7%;   
+            height: 100%;
+            width: 96% !important;
+            border: none;
+            margin: 0 0 0 -33%;
+          
+            .screenshot{
+                z-index: 3;
+                position: relative;
+                width: 30% !important;
+                height: 35% !important;
+            
+                margin: 0% 0 0 -20%;
+                padding: 2% 0 0 2%;
+                border-top-left-radius: 35px;
+            }
+            #htHeader{
+                margin-top: -41%;
+                padding-bottom: 10%;
+            }
+            .cardHeader{
+              margin: -24.5% 0 0 28%;
+                padding: 0 0 0 2%;
+           
+                height: auto !important;
+                width: 72%;
+              
+
+                .hTitle{
+                    line-height: .9;
+                    font-size: 18px;
+                    padding-bottom: 1%;
+                }
+                .hTittle2{
+                    padding: 0 !important;
+                    margin-top: -0%;
+                    font-size: 13px !important;
+                }
+                h5{
+                    padding: 0 !important;
+                    margin-top: -4%;
+                    font-size: 13px;
+                    margin-bottom: 1%;
+                }
+                .hTittle3{
+                    margin-top: -8%;
+                   
+                }
+              
+            }
+            .ipad-description{
+                position: relative;
+                padding: 0 0 0% 0;
+              
+                margin-top: -1% !important;
+                margin-bottom: 4%;
+                width: 100% !important;
+                font-size: 17px !important;
+                height: auto;
+                line-height: 1;
+                margin-left: 0%;
+                
+            }
+            #htDescription{
+                margin-bottom: 16%;
+              }
+              #htLogo{
+                  margin-top: -15%;
+                  padding: 0% 4% -10% 4%;
+                
+              }
+            .iconL{
+                position: relative !important;
+            
+     
+                margin: -3% 0 0 2%;
+                padding: 0 4% 4% 4%;
+            
+                height: 15% !important;
+                width: 96% !important;
+                .github-icon{
+                    margin-top: 20%;
+                }
+            }
+        }
+    }
+   
+    .cssart{
+        bottom: 0;
+        #pokeball{
+            position: absolute;
+            margin-left: -35%;
+            margin-top: -86%;
+            transform: scale(.5);
+        }
+        .bblurb{
+            font-size: 17px !important;
+            width: 105% !important;
+           
+        }
+}
+    .res-contain{
+        
+        height: 60%;
+        width: auto;
+        right: 0;
+      
         bottom: 0;
   
     }

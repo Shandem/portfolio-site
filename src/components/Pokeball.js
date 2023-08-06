@@ -6,7 +6,7 @@ const Pokeball = () => {
         <div className='cssart'>
             <div className="pokeball">  
 
-                <div id="pokeball">
+                <div id="pokeball " className='mFlex'>
                     <div id="layer1">
                         <div id="center"></div>
                         <div id="bottom-half"></div>

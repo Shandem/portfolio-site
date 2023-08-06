@@ -1,30 +1,30 @@
 
 .about{
-    position: absolute;
+  
     width: 40vw;
-    height: 25vh;
+    height: auto;
     overflow: hidden;
 
     margin-top: 3vh;
     margin-right: -20vw;
-    margin-left:1vw !important;
+    margin-left:1vw ;
     z-index: 3;
     font-family: 'Lucida Console', monospace;
     border-radius: 35px;
     box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
     background-color: #343A40;
-    .expandable-container{
-      display: none;
-    }
+    border: solid 2px black;
+ 
     .blurb-a{
-        margin-left:11vw;
-        margin-right: 1vw;
+        margin-left:2%;
+        margin-right: 0;
         margin-top: 1vh !important;
-        width: 70%;
+        width: 96%;
         text-align:  left;
         font-size: 17px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: #05ebe2;
+
 
         margin-top: 3vh; 
       } 
@@ -32,16 +32,17 @@
     }
     .me{
     position: relative;
-     z-index: 3;
-     height: 100px;
-     margin-left: .5em !important;
-     margin-right: 1vw;
-     margin-top: 6%;
-     width: 110px;
-     border-radius: 30px ;
-     float: left; 
-     background-color: #343A40;
-    }   
+    z-index: 3;
+    height: 40%;
+    width: 23%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: -1%;
+    border-radius: 23px ;
+    float: left; 
+    background-color: #343A40;
+  }   
 
 
 
@@ -52,11 +53,7 @@
         position: absolute;
        
     }
-    .me{
-        margin-left: 20vw;
-        width:13vw !important;
-      
-    }
+ 
 }
 
 @media only screen and (max-width: 970px){

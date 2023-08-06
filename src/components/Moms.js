@@ -4,10 +4,11 @@ import './Project.scss';
 
 const Huddle = () => {
     return (
-        <div className='project'>
+        <div className='project mFlex'>
+         
+            <div className='detailContainer '>
             <img src={process.env.PUBLIC_URL + '/moms-site.png'} className='screenshot ' 
                 alt='Screen Shot of my moms craft site'></img>
-            <div className='detailContainer '>
                 <div className='cardHeader '>
                     <h4 className='hTitle'>Gaby's Crafty Things</h4>
                     <h5 className="hTittle2 ">>Built with React. This site was built for a client and has live traffic </h5>

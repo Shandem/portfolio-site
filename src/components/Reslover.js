@@ -23,7 +23,7 @@ const Reslover = () => {
     }, []);
     return (
         <>
-            {isMobile ? ( <SResume/>) : (<Resume/>)}
+            {isMobile ? ( <SResume className='mFlex'/>) : (<Resume className='mFlex'/>)}
         </>
     );
 }

@@ -4,13 +4,13 @@ import './Project.scss';
 
 const Huddle = () => {
     return (
-        <div className='project'>
-            <img src={process.env.PUBLIC_URL + '/huddel_landing.png'} className='screenshot' 
-                alt='Screen Shot of huddel landing page'></img>
+        <div className='project mFlex ' id='htProject'>
+          
         
         <div className='detailContainer '>
-        
-            <div class="cardHeader ">
+        <img src={process.env.PUBLIC_URL + '/huddel_landing.png'} className='screenshot' 
+                alt='Screen Shot of huddel landing page'></img>
+            <div class="cardHeader" id='htHeader'>
                 <h3 className='title'>Huddle landing page</h3>
                 <p className="grad">Completed after graduation</p>
 
@@ -20,14 +20,14 @@ const Huddle = () => {
                 </h5>
             </div>  
 
-            <p className="ipad-description"> All the projects are given from the site containing 
+            <p className="ipad-description" id='htDescription'> All the projects are given from the site containing 
                     a design Artifact that gives you basic, minimal direction. 
                     The goal is to produce a working demo as close to the image 
                     provided as possible. The picture you see is of  my final product. 
                     I have provided a link to the author, and to the design Artifact 
                     for comparison.
                 </p>
-                <h6 className='iconL'>
+                <h6 className='iconL' id='htLogo'>
 
                     <Icon url='https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0'
                             linkClassName='github'
