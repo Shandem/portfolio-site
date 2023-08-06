@@ -7,7 +7,7 @@
     margin-top: 3vh;
     margin-right: -20vw;
     margin-left:1vw ;
-    z-index: 3;
+    z-index: 1;
     font-family: 'Lucida Console', monospace;
     border-radius: 35px;
     box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
@@ -47,7 +47,7 @@
 
 @media  screen and (max-width: 1180px){
     .about{
-        z-index: 3 !important;
+        z-index: 1;
         margin-left: -30vw;
   
        
@@ -57,7 +57,7 @@
 
 @media only screen and (max-width: 970px){
   .blurb-a{
-    z-index: 3 !important;
+    z-index: 1;
     padding-top: 0vh;
     font-size: 15px !important;
   

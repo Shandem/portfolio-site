@@ -27,9 +27,7 @@ const header2 = () => {
                     <NavDropdown.Item href="#">
                         <Link to={ '/project2'}>Pokemon Tracker</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                        <Link to={ '/project3'}>Gayme-it</Link>
-                    </NavDropdown.Item>
+                  
                     
                     <NavDropdown.Item href="#">
                         <Link to={ '/pokeball'}>Poke-ball</Link>
@@ -46,6 +44,10 @@ const header2 = () => {
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#">
                         <Link to={ '/tetris'}>Tetris</Link>
+                    </NavDropdown.Item>
+                    
+                    <NavDropdown.Item href="#">
+                        <Link to={ '/project3'}>Gayme-it</Link>
                     </NavDropdown.Item>
                      
                     <NavDropdown.Item href="#">

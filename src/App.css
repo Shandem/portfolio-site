@@ -1,6 +1,8 @@
 
 body{
   background-color: #343A40;
+  width: 60%;
+  height: 60%;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -8,41 +10,73 @@ body{
 h4{
   color: #06D493;
 }
+.App{
+  border:  solid thin red;
+  width: 100vw;
+  height: 100vh;
+}
 
 .circle{
-  margin-top: -400px;
-  margin-left: -80px;
-  height:800px; 
-  width:800px;
-  z-index: -1;
-  border-radius: 800px; 
-  background: rgb(52,58,64);
-  background: linear-gradient(90deg, rgba(52,58,64,1) 0%, rgba(104,109,113,1) 100%);
-}
-.b-circle{
-  height:800px; 
-  width:800px;
-  z-index: -1;
-  border-radius: 800px; 
-  background: rgb(52,58,64);
-  background: linear-gradient(90deg, rgba(52,58,64,1) 0%, rgba(104,109,113,1) 100%);
-}
-.r-cirlce{
-
-  margin-left: 650px;
-  margin-top: -1200px;
+  margin: -35% 0 0 0;
   z-index: -2;
   position: absolute;
-  height:650px; 
-  width:650px;
-  border-radius: 650px; 
+  height:85vh; 
+  width:65vw;
+  border-radius: 75%; 
   background: rgb(52,58,64);
-  background: linear-gradient(287deg, rgba(52,58,64,1) 0%, rgba(104,109,113,1) 100%);
+  background: linear-gradient(287deg, rgba(52,58,64,1) 0%, rgba(104,109,113,1) 100%); 
 }
-@media only screen and (max-width: 920px){
+.b-circle{
+
+  margin: 9.5% 0 0 0;
+  z-index: -2;
+  position: absolute;
+  height:85vh; 
+  width:65vw;
+  border-radius: 75%; 
+  background: rgb(52,58,64);
+  background: linear-gradient(287deg, rgba(52,58,64,1) 0%, rgba(104,109,113,1) 100%); 
+}
+.r-circle{
+
+  left:57%;
+  top: 20%;
+  right:-122%;
+  z-index: -2;
+  position: absolute;
+  height:85vh; 
+  width:65vw;
+  border-radius: 75%; 
+  background: rgb(52,58,64);
+  background: linear-gradient(287deg, rgba(52,58,64,1) 0%, rgba(104,109,113,1) 100%); 
+}
+@media only screen and (max-width: 1180px){
+  .circle{
+    z-index: -1;
+    margin-top: -85%;
+  }
+  .r-circle{
+    position: absolute;
+    top: 0;
+    margin: 11% 50% 0 -17% !important;
+  }
+  .b-circle{
+    margin-top: -45%;
+  }
+  .circle, .b-circle, .r-circle{
+    transform: scale(.7);
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 768px){
   .App{
     overflow-x: hidden; 
     overflow-y: hidden;
+    .circle{
+      margin-top: -110%;
+    }
+    .b-circle{
+    margin-top: -60% !important;
+    }
   }
 }
 @media  screen and (max-width: 767px){
@@ -50,10 +84,8 @@ h4{
     position: relative;
     overflow-x: hidden; 
     overflow-y: hidden;
-   
     height: 100vh;
-    width: 100%;
-    margin-right: -5%;
+    width: 100vw;
     .componitContainer{
       top: 0;
       gap: 10px;
@@ -61,20 +93,32 @@ h4{
       position: relative;
       display: flex;
       flex-direction: column;
-  
       width: 96%;
       height:100%;
       gap:1;
       flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
     }
-
     .mFlex{
       position: relative;
-       /* Allow items to grow and shrink equally */
+                       /* Allow items to grow and shrink equally */
       min-width: 100%; /* Minimum width for each item */
       max-width: 100%; /* Maximum width for each item */
-      
       box-sizing: border-box;
     }
+}
+.circle{
+  margin-top: -110%;
+  height:75vh; 
+}
+.r-circle{
+  left: 55%;
+  margin-left: 0%;
+  margin-top: 20% !important;
+  height:75vh; 
+}
+.b-circle{
+  bottom: -20%;
+  margin-left: -3% !important;
+  height:75vh; 
 }
 }

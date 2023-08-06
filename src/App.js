@@ -32,22 +32,22 @@ function App() {
   return (
     <div className="App">
 
-    <div>
-      {isMobile ? ( 
-        <SmallNav/>
-      ) : (        
-        <Head2/> 
-      )}
-    </div>
+      <div className='navContainer'>
+        {isMobile ? ( 
+          <SmallNav/>
+        ) : (        
+          <Head2/> 
+        )}
+      </div>
 
-        <div className='componitContainer'>
-          <About/>
-          { routes }
-        </div>
+      <div className='componitContainer'>
+        <About/>
+        { routes }
+      </div>
 
-        <div className='circle'></div>
-        <div className="b-circle"></div>
-        <div className="r-cirlce"></div>
+      <div className='circle'></div>
+      <div className="b-circle"></div>
+      <div className="r-circle"></div>
         
     </div>
   );

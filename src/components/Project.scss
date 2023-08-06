@@ -16,11 +16,8 @@ p{
 }
 
 .project{
-    position: absolute;
-    z-index: 4;
-    display: flex;
-    flex-direction: row;
-    flex: left;
+    position: relative;
+    z-index: 1;
     margin-left: 43vw;
     margin-top: -18%;
     margin-right: 1vw;
@@ -43,6 +40,7 @@ p{
     text-align:  left;
     padding-left: 20px;
     font-family: 'Lucida Console', monospace;
+  
 
     .iconL{
         display: flex;
@@ -81,9 +79,9 @@ p{
     .componitContainer{
         margin-top: 0%; 
      position: relative;
-     border: solid thin red;
-     width: 90vw;
-     height: 90%;
+     
+     width: 100%;
+     height: 100%;
     }
     .about{
         position: relative;
@@ -114,14 +112,14 @@ p{
    
     .project{
         position: relative;
-        width: 70% !important;
+        width: 55% !important;
         height: 80%;
-        margin-top: 2%;
-       right: 0;
-      
+        top:-9%;
+       right: 00%;
+        border:  solid 2px black;
         .screenshot{
         position: relative;
-            z-index:3;
+            z-index: index 1;;
             left: 0%;
            width: 40% !important;
             margin-bottom: -3em;
@@ -137,7 +135,7 @@ p{
         width:auto !important;
         height: auto;
         margin-top: 0%;
-        
+       
 
         .cardHeader{
             position: relative;
@@ -166,7 +164,7 @@ p{
             margin-top: 15%;
         }
         #htLogo{
-            margin-top: -6%;
+            margin-top: -2%;
             padding: 0% 4% 0 4%;
           
         }
@@ -191,17 +189,18 @@ p{
 
 @media only screen and (max-width: 970px) and (min-width: 901px){
     .componitContainer{
+
         position: absolute;
      flex-direction: column;
      flex: left;
      display: flex;
    margin-left: 0%;
-     width: 80%;
+     width: 97%;
     }
     .about{
         position: relative;
-        width: 00vw ;
-        height: 30% !important;
+        width: 100% !important;
+        height: auto !important;
         margin-left: 2%vw !important;
         
         padding-top: 1vh;
@@ -216,8 +215,7 @@ p{
         }
         .blurb-a{
             position: relative;
-            border: solid thin red;
-            width: 80% !important;
+            width: 95% !important;
             height: 95% !important;
             font-size: 20px !important;
             margin-top: 2vh !important;
@@ -229,45 +227,38 @@ p{
 
     
     .project{
-        position: absolute;
-        height: 50%;
-        margin-top: 50%;
-        left:-30%;
-        width: 65vw;
-        .iconL{
-            display: flex;
-            flex-direction: column;
-            flex:left;
-            justify-content: space-between;
-            align-items: center;
-            height:25vh;
-            width:10vw;
-            margin-left:-15vw;
-            margin-top: -30vh;
-      
-        }
+        position: relative;
+        height: auto;
+        margin-top: 10%;
+        left:-43%;
+        width: 100% !important;
+    
         .screenshot{
             position: relative;
             margin-top: 1vh;
             width:25vw !important;
             height: 20vh !important;
-            margin-left:-10vw;
+            margin-left:-0vw;
         }
      
         .detailContainer{
-            position: absolute;
+            position:relative;
             width: 100%!important;
+            height: 100%;
             margin-left: 2vw;
-            top:40%;
+            top:-0%;
             border: none !important;
-            margin-top: 0vh;
+            
             padding: 0;
+            border:  solid thick red;
             .cardHeader{
+               
                 position: relative;
-                    margin-left: 40% ;
-                    margin-top: -27%;
+                    margin-left:5% ;
+                    left: 20%;
+                    margin-top: -10%;
                     margin-right: 3%;
-                    width: auto;
+                    width: 69%;
                     h5{
                         font-size: 15px !important;
                     }
@@ -277,17 +268,26 @@ p{
                 margin-top: 9% !important;
             }
             .ipad-description{
-            margin-top: 3%;;
+            margin-top: 8%;;
+            margin-bottom: 0%;
             width: 94%;
+            border:  solid thin red;
             padding-bottom: 0;
             }
+     
             .iconL{
-                margin: 0;
-                margin-top: -2.5%;
+                display: flex;
+                flex-direction: row;
+                flex:left;
+                justify-content: space-between;
+                align-items: center;
                 height: auto;
                 width: 94% !important;
+                margin-left:-0vw;
+                margin-top: -0vh;
+                border:  solid thin red;
+          
             }
-           
 
 
         }
@@ -325,9 +325,12 @@ p{
 }
     
 @media only screen and (max-width: 900px) and (min-width: 768px){
-   
+    .componitContainer{
+        position: relative;
+    }
      .about{
-            height: auto !important;
+        position: relative;
+            min-height:23.5%  !important;
             width: 95% !important;
             margin-top: 1vh;
             margin-bottom: -1vh !important;
@@ -339,10 +342,24 @@ p{
             height: auto !important;
             border: solid 2px black;
             .me{
-                margin-top: 2 !important;
+                position: relative;
+                margin: auto;
                 height: 23vh;
-                width: 23vw !important;
+                width: 19vw !important;
+              
                 margin-left: 0vw !important;
+            }
+            .blurb-a{
+                  
+                position: relative;          
+                margin-top: 2vh !important;
+                margin-left: 23vw !important;
+                font-size: 20px !important;
+                line-height: 1.3;
+                width: 75% !important;  
+                height: auto;       
+                color: var(--font-color);
+                padding-bottom: 0;
             }
                 .expandable-container{
                     display: show;
@@ -362,23 +379,12 @@ p{
                         margin-left: 23vw !important;
                         font-size: 19px !important;
                         line-height: 1.3;
-                        width: 70%;  
+                        width: 50%;  
                         height: auto;       
                         color: var(--font-color);
                     }
                 }
-                .blurb-a{
-                    border-top: solid thin black;
-                    position: relative;          
-                    margin-top: 2vh !important;
-                    margin-left: 23vw !important;
-                    font-size: 20px !important;
-                    line-height: 1.3;
-                    width: 70%;  
-                    height: auto;       
-                    color: var(--font-color);
-                    padding-bottom: 0;
-                }
+               
         
     }
     .cssart{
@@ -395,31 +401,35 @@ p{
     }
    
     .project{
-        position: absolute;
-        margin-left:1%;
-        margin-top: 30%;
-        height: 50%;
-        width: 96%;
+        position: relative;
+       left:-41%;
+        margin-top: 10%;
+        height: auto;
+        width: 96% !important;
         border: solid 2px black;
-
+        padding-bottom: 5% !important;
         .screenshot{
             position: relative;
-            width: 20vw !important;
-            height: 13vh !important;
-            left:12% !important;
+            width: 25vw !important;
+            height: 18vh !important;
+            left:10% !important;
             margin-top:1vh;
             margin-left: -11%;
         } 
 
         .detailContainer{
+            position: relative;
+           
+            height: auto;
             margin-top: -0% !important;
-            margin-bottom: 0% !important;
+            margin-bottom: -3% !important;
             margin-left: .5%;
             line-height: normal;
-            border: none;
+         
         .cardHeader{
-            margin-top:1.5%;
-            margin-left: 22%;
+           
+            margin-top:-9%;
+            margin-left: -15%;
             width: 72% !important;
             position: relative;
             width: 85%;
@@ -439,16 +449,18 @@ p{
         }
 
         .ipad-description{
-            padding-top: 1vh;
+           
+            margin-top: 3% !important;
             padding-left: 0;
             padding-right: 2vh;
-            width: 95.5%;
+            width: 100%;
+            line-height: 1.5;
             margin-left: -1.5%;
             margin-right: 3vw;
-            font-size: 15px;
+            font-size: 17px;
         }
        .iconL{
-        margin-top: 1%;
+        margin-top: -2%;
       
         padding-bottom: 0;
         margin-left: -1.5%;
@@ -465,6 +477,55 @@ p{
     }
 
 }
+@media only screen and (max-width: 767px) and (min-width: 574px){
+.about{
+    margin-left: -0% !important;
+  
+}
+ .project{
+    left: 0;
+    top: 18%;
+    height: auto;
+    margin-left: -0%;
+    margin-bottom: -50 !important;
+    padding-bottom: -0% !important;
+    .detailContainer{
+        position: relative;
+        border: solid thin red;
+        padding-bottom: 0 !important;
+        .cardHeader{
+            margin-left: -2%;
+            margin-top: -20%;
+        }
+    }
+}
+
+}
+@media screen and (max-width:573px) and (min-width: 414px) {
+   .about{
+    .me{
+        margin-top: 0;
+        height: auto;
+        width: 20%;
+    }
+   }
+
+   .project{
+    position: relative;
+    margin-left: -0% !important;
+    top: 10%;
+ 
+        .detailContainer{
+         
+            #htHeader{
+                margin-top: -27%;
+             
+    
+                }
+        }
+      
+}
+}
 @media screen and (max-width: 415px ) and (min-width: 391px) {
     .about{
         position: relative !important;
@@ -479,7 +540,7 @@ p{
             height: 95% !important;
             width: 25% !important;
             margin: 0 auto;
-            border: solid thin red;
+          
         }
         .blurb-a{
             position: relative;
@@ -502,7 +563,7 @@ p{
             margin-left: 30px;
            margin-left: 10%;
         
-           border: solid thin red;
+         
         }
         .expandable-header::target-text{
             
@@ -532,11 +593,13 @@ p{
     padding-bottom: 15%;
 }
     .project{
+        position: relative;;
         display: block;
         position: relative;
         height: auto;
-        padding-bottom: 7%;
+        padding-bottom: 0%;
         margin-bottom: 13% !important;
+        margin-top: 22%;
         bottom: 0% !important;
     
         margin-left:0;
@@ -561,7 +624,7 @@ p{
                 width: 30% !important;
                 height: 35% !important;
             
-                margin: 0% 0 0 -20%;
+                margin: 0% 0 0 0%;
                 padding: 2% 0 0 2%;
                 border-top-left-radius: 35px;
             }
@@ -570,7 +633,7 @@ p{
                 padding-bottom: 10%;
             }
             .cardHeader{
-              margin: -28% 0 0 28%;
+              margin: -37% 0 0 -10% !important;
                 padding: 0 0 0 2%;
            
                 height: auto !important;
