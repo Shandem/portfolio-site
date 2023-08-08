@@ -1,92 +1,108 @@
-
-body{
-  background-color: #343A40;
+body {
+  background-color: #343a40;
   width: 60%;
   height: 60%;
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
-h4{
-  color: #06D493;
+h4 {
+  color: #06d493;
 }
-.App{
 
+.App {
   width: 100vw;
   height: 100vh;
 }
 
-.circle{
+.circle {
   margin: -35% 0 0 0;
-  z-index: -2;
+  z-index: 0;
   position: absolute;
-  height:85vh; 
-  width:65vw;
-  border-radius: 75%; 
-  background: rgb(52,58,64);
-  background: linear-gradient(287deg, rgba(52,58,64,1) 0%, rgba(104,109,113,1) 100%); 
+  height: 85vh;
+  width: 65vw;
+  border-radius: 75%;
+  background: rgb(52, 58, 64);
+  background: linear-gradient(287deg,
+      rgba(52, 58, 64, 1) 0%,
+      rgba(104, 109, 113, 1) 100%);
 }
-.b-circle{
 
+.b-circle {
   margin: 9.5% 0 0 0;
-  z-index: -2;
+  z-index: 0;
   position: absolute;
-  height:85vh; 
-  width:65vw;
-  border-radius: 75%; 
-  background: rgb(52,58,64);
-  background: linear-gradient(287deg, rgba(52,58,64,1) 0%, rgba(104,109,113,1) 100%); 
+  height: 85vh;
+  width: 65vw;
+  border-radius: 75%;
+  background: rgb(52, 58, 64);
+  background: linear-gradient(287deg,
+      rgba(52, 58, 64, 1) 0%,
+      rgba(104, 109, 113, 1) 100%);
 }
-.r-circle{
 
-  left:57%;
+.r-circle {
+  left: 57%;
   top: 20%;
-  right:-122%;
-  z-index: -2;
+  right: -122%;
+  z-index: 0;
   position: absolute;
-  height:85vh; 
-  width:65vw;
-  border-radius: 75%; 
-  background: rgb(52,58,64);
-  background: linear-gradient(287deg, rgba(52,58,64,1) 0%, rgba(104,109,113,1) 100%); 
+  height: 85vh;
+  width: 65vw;
+  border-radius: 75%;
+  background: rgb(52, 58, 64);
+  background: linear-gradient(287deg,
+      rgba(52, 58, 64, 1) 0%,
+      rgba(104, 109, 113, 1) 100%);
 }
-@media only screen and (max-width: 1180px){
-  .circle{
+
+@media only screen and (max-width: 1180px) {
+  .circle {
     z-index: -1;
     margin-top: -85%;
   }
-  .r-circle{
+
+  .r-circle {
     position: absolute;
     top: 0;
     margin: 11% 50% 0 -17% !important;
   }
-  .b-circle{
+
+  .b-circle {
     margin-top: -45%;
   }
-  .circle, .b-circle, .r-circle{
-    transform: scale(.7);
+
+  .circle,
+  .b-circle,
+  .r-circle {
+    transform: scale(0.8);
   }
 }
-@media only screen and (max-width: 900px) and (min-width: 768px){
-  .App{
-    overflow-x: hidden; 
+
+@media only screen and (max-width: 900px) and (min-width: 768px) {
+  .App {
+    overflow-x: hidden;
     overflow-y: hidden;
-    .circle{
+
+    .circle {
       margin-top: -110%;
     }
-    .b-circle{
-    margin-top: -60% !important;
+
+    .b-circle {
+      margin-top: -60% !important;
     }
   }
 }
-@media  screen and (max-width: 767px){
-  .App{
+
+@media screen and (max-width: 767px) {
+  .App {
     position: relative;
-    overflow-x: hidden; 
+    overflow-x: hidden;
     overflow-y: hidden;
     height: 100vh;
     width: 100vw;
-    .componitContainer{
+
+    .componitContainer {
       top: 0;
       gap: 10px;
       margin: 0 1% 0 2%;
@@ -94,31 +110,38 @@ h4{
       display: flex;
       flex-direction: column;
       width: 96%;
-      height:100%;
-      gap:1;
-      flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
+      height: 100%;
+      gap: 1;
+      flex-wrap: wrap;
+      /* Allows items to wrap to the next line if needed */
     }
-    .mFlex{
+
+    .mFlex {
       position: relative;
-                       /* Allow items to grow and shrink equally */
-      min-width: 100%; /* Minimum width for each item */
-      max-width: 100%; /* Maximum width for each item */
+      /* Allow items to grow and shrink equally */
+      min-width: 100%;
+      /* Minimum width for each item */
+      max-width: 100%;
+      /* Maximum width for each item */
       box-sizing: border-box;
     }
-}
-.circle{
-  margin-top: -110%;
-  height:75vh; 
-}
-.r-circle{
-  left: 55%;
-  margin-left: 0%;
-  margin-top: 20% !important;
-  height:75vh; 
-}
-.b-circle{
-  bottom: -20%;
-  margin-left: -3% !important;
-  height:75vh; 
-}
+  }
+
+  .circle {
+    margin-top: -110%;
+    height: 75vh;
+  }
+
+  .r-circle {
+    left: 55%;
+    margin-left: 0%;
+    margin-top: 20% !important;
+    height: 75vh;
+  }
+
+  .b-circle {
+    bottom: -20%;
+    margin-left: -3% !important;
+    height: 75vh;
+  }
 }

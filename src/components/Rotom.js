@@ -1,5 +1,5 @@
 import React from 'react';
-import './Thecity.css'
+import './Thecity.scss'
 
 const Rotom = () => {
     return (

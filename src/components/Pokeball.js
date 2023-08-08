@@ -1,12 +1,12 @@
 import React from 'react';
-import './Thecity.css'
+import './Thecity.scss'
 
 const Pokeball = () => {
     return (
         <div className='cssart'>
             <div className="pokeball">  
 
-                <div id="pokeball " className='mFlex'>
+                <div id="pokeball " >
                     <div id="layer1">
                         <div id="center"></div>
                         <div id="bottom-half"></div>
