@@ -631,18 +631,31 @@ p {
       }
     }
   }
+  .pokeball{
+    position: absolute;
+ 
+  }
+  #pokeball {
+    position: absolute;
+    margin-right: 20%;
 
+    transform: scale(0.8);
+
+  }
   .cssart {
+
     bottom: 0;
-    #pokeball {
-      position: absolute;
-      margin-left: -35%;
-      margin-top: -86%;
-      transform: scale(0.5);
+    width: 85vw !important;
+    height: 50vh !important;
+    margin: 0;
+ 
+    .pokeball{
+   
     }
     .bblurb {
       font-size: 17px !important;
-      width: 105% !important;
+      width: 50% !important;
+      margin-bottom: -40% !important;
     }
   }
  
@@ -663,11 +676,10 @@ p {
     border: solid thin red;
   }
 #htProject{
-  margin:70% 0 0 -80% !important;
   padding-bottom: 20%;
 
     #htHeader{
-      margin: -40% 0 0 -10% !important;
+      margin: -35% 0 0 -10% !important;
       border:  solid thin red;
     }
 }
