@@ -53,6 +53,10 @@ const SmallNav = () => {
                         <Link to={ '/mom'} className='itemBackground'>Gabys's Crafty Things</Link>
                     </NavDropdown.Item>
                     
+                    <NavDropdown.Item href="#">
+                        <Link to={ '/Mixellance'}>Mixellance</Link>
+                    </NavDropdown.Item>
+                    
                     <NavDropdown.Item href="#" className="item">
                         
                         <Nav className='iconL'>

@@ -13,6 +13,7 @@ import Mom from '../components/Moms'
 import H2 from '../components/header2.0/header2'
 import Nasa from '../components/Nasa';
 import Reslover from '../components/Reslover';
+import Mixellance from '../components/mixellance'
 
 
 
@@ -32,6 +33,7 @@ export default (
         <Route path='/mom' component={ Mom }/>
         <Route path='/h2'   component={ H2}/>
         <Route path='/nasa' component={ Nasa } />
+        <Route path='/mixellance' component={Mixellance}/>
     </Switch>
 );
 

@@ -60,6 +60,10 @@ const header2 = () => {
                     <NavDropdown.Item href="#">
                         <Link to={ '/mom'}>Gabys's Crafty Things</Link>
                     </NavDropdown.Item>
+
+                    <NavDropdown.Item href="#">
+                        <Link to={ '/Mixellance'}>Mixellance</Link>
+                    </NavDropdown.Item>
                     </NavDropdown>
 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav responsive-navbar-nav-button" />
