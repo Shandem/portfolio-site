@@ -46,7 +46,8 @@ function App() {
         <About/>
         { routes }
         
-          <PopupWidget
+        {isMobile ? ('') : 
+        ( <PopupWidget
           className='schedule'
           url="https://calendly.com/gutierrezjoshuah/15min"
           /*
@@ -57,7 +58,8 @@ function App() {
           text="Let's chat! Schedule a 15-minute meeting"
           textColor="#ffffff"
           color="#00a2ff"
-        />
+        /> )}
+       
         
         
       </div>

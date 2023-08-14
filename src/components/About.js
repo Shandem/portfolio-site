@@ -25,8 +25,8 @@ const About = () => {
   }, []);
 
   const title = `Hi, I'm Joshuah Gutierrez` 
-  const click = 'Click here' 
- const  title2= `for more`
+  const click = `Click here` 
+ const  title2= ` for more info`
   const intro =  <p className='blurb-a'>Hi, I'm Joshuah Gutierrez, a graduate of General Assembly's Software Engineering Immersive course. I am currently a Lead apprentice with Alpha Works
   for their React Cohort. Before that, I had seven years of experience 
   in the hospitality area. With five of those years in a management position. I am a 
