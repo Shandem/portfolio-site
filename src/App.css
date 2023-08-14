@@ -61,7 +61,11 @@ h4 {
     z-index: -1;
     margin-top: -85%;
   }
-
+  .calendly-badge-widget{
+    left: 0 ;
+    width: auto;
+    
+  }
   .r-circle {
     position: absolute;
     top: 0;

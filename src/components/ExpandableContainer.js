@@ -15,7 +15,7 @@ const ExpandableContainer = (props) => {
   return (
     <div className="expandable-container">
       <div className="expandable-header" onClick={handleToggle}>
-        {isExpanded ? null : props.title}
+        {isExpanded ? null : props.title + props.clickHere + props.title2}
         <span className={isExpanded ? 'arrow arrow-expanded' : 'arrow'}></span>
       </div>
       {isExpanded && (
