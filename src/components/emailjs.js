@@ -30,6 +30,7 @@ export const Emailjs = () => {
   return (
     <div className='project mFlex'>  
         <div className='detailContainer'>
+        <p>Send me some Mail</p>
             <form ref={form} onSubmit={(e) => sendEmail  (e.target.value='')  }>
                 <label>Name</label>
                 <input type="text" name="user_name"  />
