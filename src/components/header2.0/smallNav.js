@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useEffect, useState} from 'react';
+import ReactDOM from 'react-dom';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
@@ -8,7 +9,20 @@ import { PopupWidget } from 'react-calendly'
 import './header2.scss' 
 import { Link } from 'react-router-dom';
 
+
+
+
+// Configure your email service
+
+
 const SmallNav = () => {
+  
+   
+   
+
+
+
+  
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
@@ -26,6 +40,10 @@ const SmallNav = () => {
         window.removeEventListener('resize', handleResize);
       };
     }, []);
+    const email = `gutierrezjoshuah@gmail.com`
+    
+        const mailtoLink = `mailto:${email}`;
+    
     return (
          <Navbar collapseOnSelect className='sNavagation' expand="lg" bg="dark" color='$teal-500' variant="dark">
             
@@ -88,11 +106,8 @@ const SmallNav = () => {
                                     img='/Icons/catopuss.png'
                                     imgClassName='catopuss-icon'
                                     />
-                            <Icon url='mailto:gutierrezjoshuah@gmail.com'
-                                linkClassName='email'
-                                img='/Icons/cartoonEmail.png'
-                                imgClassName='browser-icon'
-                            />
+                       
+                       <Link to={ '/emailjs'} >Message Me</Link>
 
                         </Nav>
                     </NavDropdown.Item>
@@ -117,6 +132,6 @@ const SmallNav = () => {
 </Navbar>
 
     );
-}
+            }
 
 export default SmallNav;

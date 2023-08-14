@@ -14,6 +14,7 @@ import H2 from '../components/header2.0/header2'
 import Nasa from '../components/Nasa';
 import Reslover from '../components/Reslover';
 import Mixellance from '../components/mixellance'
+import emailjs from '../components/emailjs'
 
 
 
@@ -34,6 +35,7 @@ export default (
         <Route path='/h2'   component={ H2}/>
         <Route path='/nasa' component={ Nasa } />
         <Route path='/mixellance' component={Mixellance}/>
+        <Route path='/emailjs' component={emailjs}/>
     </Switch>
 );
 

@@ -83,11 +83,7 @@ const header2 = () => {
                                 img='/Icons/catopuss.png'
                                 imgClassName='catopuss-icon2-n nIcon'
                                 />
-                        <Icon url='mailto:gutierrezjoshuah@gmail.com'
-                            linkClassName='email'
-                            img='/Icons/cartoonEmail.png'
-                            imgClassName='email-icon-n nIcon'
-                        />
+                        <Link to={ '/emailjs'} >Message Me</Link>
                 </Nav>
 
                     </Navbar.Collapse>

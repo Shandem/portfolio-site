@@ -5,13 +5,13 @@ import Head2 from './components/header2.0/header2'
 import routes from './config/routes';
 import { PopupWidget } from 'react-calendly'
 import './components/Newhome.scss'
-
+import 'dotenv/config'
 import './App.css';
 
 
 
 function App() {
- 
+  require('dotenv').config()
 
   const [isMobile, setIsMobile] = useState(false);
 

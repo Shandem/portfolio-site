@@ -7,6 +7,13 @@
 p {
   color: #05ebe2;
 }
+form{
+  display: flex;
+  flex: left;
+  flex-direction: column;
+  border-radius: 33px;
+ 
+}
 .componitContainer {
   margin: 0;
   padding: 0;
