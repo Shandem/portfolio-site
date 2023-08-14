@@ -1,6 +1,6 @@
 import React, { useEffect, useState }  from 'react';
 import ExpandableContainer from './ExpandableContainer'
-import { PopupWidget } from "react-calendly";
+
 import './About.css'
 
 
@@ -42,19 +42,7 @@ const About = () => {
                 for their React Cohort. Before that, I had seven years of experience 
                 in the hospitality area. With five of those years in a management position. I am a 
                 lifelong gamer and snowboarder.  It's not a job if it's fun!
-                </p> )}
-                <PopupWidget
-          className='schedule'
-          url="https://calendly.com/gutierrezjoshuah/15min"
-          /*
-          * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-          * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-          */
-          rootElement={document.getElementById("root")}
-          text="Let's chat! Schedule a 15-minute meeting"
-          textColor="#ffffff"
-          color="#00a2ff"
-        />
+                </p>)}
           </div>
        
       </>
