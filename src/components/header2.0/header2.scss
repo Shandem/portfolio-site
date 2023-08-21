@@ -42,25 +42,36 @@ nav {
     
     }
 }
-@media only screen and (max-width: 1180px){
+@media only screen and (max-width: 1180px) and (min-width: 971px){
     .navContainer{
-    width: 100%;
+    width: 167%;
     }
-    .calendly-badge-widget{
-        top: 0 ;
-        left:50% !important;
-        width: auto;
-     
+    .calendly-badge-widget, .calendly-badge-content{
+        position: absolute;
+        top: 0;
+        margin-left: 60%;
+        margin-top: -1%; 
+        width: 25vw !important;
+        border: solid thin red;
         height: 7%;
       }
    
 }
-@media only screen and (max-width: 970px) and (min-width: 768){
-
+@media only screen and (max-width: 970px) and (min-width: 768px){
+    .calendly-badge-widget, .calendly-badge-content{
+      bottom: 40%;
+       border: none;
+    }
+    @media only screen and (max-width: 900px) and (min-width: 768px) {
+        .calendly-badge-widget, .calendly-badge-content{
+            bottom: 0%;
+             border: none;
+          } 
+    }
     nav{
         height: auto;
         .navagation{
-            width: 100% !important;
+            width: 78% !important;
             height: 8vh;
                 .deskNavWrap{
                     align-content: center;
@@ -82,13 +93,13 @@ nav {
     nav{
         z-index: 5;
         margin: 0vh !important;
-        width: 100% !important;
+        width: 60% !important;
         
         .deskNavWrap{
             display: none !important;
         }
        .nIconList {
-        position: absolute;
+            position: absolute;
             margin-top:  5vh !important;
             margin-left: -8vw;
             height: 25vh !important;
@@ -97,10 +108,8 @@ nav {
             flex-direction: column;
             background-color: var(--background-color);
             border-radius: 15px;
-           
             flex: left;
         }
-     
     }
     
    .sNavagation{
@@ -110,18 +119,16 @@ nav {
 
         #smallNav{
             display: show !important;
-       
             padding: 0;
 
             .navbar-brand{
                 margin-left: 50% !important;
+
                 #collasible-nav-dropdown{
-                    margin-left: 60% !important;
+                   margin: 0 0 0 150% !important;
                     align-items: center !important;
-           
                     font-size: 22px;
                     padding: 0;
-                   
                 }
                 div.dropdown-menu.show{
                     box-shadow: 0 0 4px 0 rgba(0,0,0,.25);
@@ -129,12 +136,12 @@ nav {
                     width: 100vw;
                     margin-left: 0vw !important;
                     padding: 0;
+
                     a{
                         font-size: 22px;
                         padding:  2% ;
                         text-align: center;
                     }
-                 
                     a:nth-child(5){
                         border-top: solid thin black;
                         border-bottom: solid thin black;
@@ -142,7 +149,6 @@ nav {
                     a:nth-child(10){
                         border-bottom: solid thin black;
                     }
-
                     .iconL{
                       
                         display: flex;
@@ -173,20 +179,11 @@ nav {
                             width: 55px;
                         }
                     }
-
                 }
-                   
-                
                 height: 5% !important;
                 display: show !important;
                 margin: 0 !important;
             }
-            
-            
-  
         }
-        
-
     }
-
 }

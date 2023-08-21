@@ -1,20 +1,16 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Project.scss'
 import 'dotenv/config'
 
 export const Emailjs = () => {
     require('dotenv').config()
-    const [nameStatus, setNameStatus] = useState("");
-    const [emailStatus, setEmailStatus] = useState("");
-    const [meassageStatus, setMessageStatus] = useState("");
+
     const REACT_APP_YOUR_SERVICE_ID='service_dydjnmc'
     const REACT_APP_YOUR_TEMPLATE_ID='template_jvnbsz8'
     const REACT_APP_YOUR_PUBLIC_KEY='gi72uXlCWGpOh3E5P'
-  const form = useRef();
-  function showAlert() {
-    alert('This is an alert message!');
-  }
+    const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
     console.log( form.current)
