@@ -89,7 +89,7 @@ nav {
         }
     }
 }
-@media only screen and (max-width: 767px) and (min-width: 280px){
+@media only screen and (max-width: 767px) and (min-width: 5740px){
     nav{
         z-index: 5;
         margin: 0vh !important;
@@ -187,3 +187,77 @@ nav {
         }
     }
 }
+@media only screen and (max-width: 573px){
+    nav{
+        width: 66%;
+        height: 5vh !important;
+        margin-left: -2% !important;
+       .dropdown-toggle, .nav-link {
+        margin-left:75%;
+        border: solid thin red;
+        width: 100%;
+       }
+    
+    }
+    div.dropdown-menu.show{
+        box-shadow: 0 0 4px 0 rgba(0,0,0,.25);
+        background-color: var(--background-color);
+        width: 100vw;
+        margin-left: 0vw !important;
+        padding: 0;
+
+        a{
+            font-size: 22px;
+            padding:  2% ;
+            text-align: center;
+        }
+        a:nth-child(5){
+            border-top: solid thin black;
+            border-bottom: solid thin black;
+        }
+        a:nth-child(10){
+            border-bottom: solid thin black;
+        }
+        .iconL{
+          
+            display: flex;
+            flex: left;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 108% !important; 
+            margin-left: -4%;
+            margin-bottom: -4%;
+            border-bottom: solid 2px black;
+            .github-icon{
+                height: 25px;
+                width: 75px;
+            }
+            .catopuss-icon{
+                height: 45px;
+                width: 45px;
+                margin-top: 6px;
+                margin-left: 20%;
+            }
+            .browser-icon{
+                height: 50px;
+                width: 50px;
+               
+            }
+            .linkedin-icon{
+                height: 55px;
+                width: 55px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 415px) and (min-width: 391px) {
+    #smallNav{
+        margin-right: 2% !important;
+    }
+    .dropdown-toggle, .nav-link {
+        margin-right: -20vw !important;
+    }
+    div.dropdown-menu.show{
+        margin-left: -5% !important;
+    }
+  }
