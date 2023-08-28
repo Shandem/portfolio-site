@@ -30,7 +30,7 @@ const About = () => {
   const intro =  <p className='blurb-a'>Hi, I'm Joshuah Gutierrez, My most recent position was a
     Lead apprentice with AlphaWorks for their React Cohort. Before that, I was part of Enki.Ai and 
     reported directly to the CTO. Also, I had seven years of experience in the hospitality area. 
-    With five of those years in a management position. I am a lifelong gamer and snowboarder and 
+    With five of those years in a management position. I am a lifelong gamer, snowboarder and 
     programmer in my past time. It's not a job if it's fun!
   </p>
     return (
@@ -39,10 +39,11 @@ const About = () => {
               
               <img src={process.env.PUBLIC_URL + '/me.jpg'} className='me'alt='Self-Portrait'/>
               {isMobile ? (<ExpandableContainer title={title} clickHere={click} title2={title2} children={intro}/>) :
-              ( <p className='blurb-a'>Hi, I'm Joshuah Gutierrez, a graduate of General Assembly's Software Engineering Immersive course. I am currently a Lead apprentice with Alpha Works
-                for their React Cohort. Before that, I had seven years of experience 
-                in the hospitality area. With five of those years in a management position. I am a 
-                lifelong gamer and snowboarder.  It's not a job if it's fun!
+              ( <p className='blurb-a'>Hi, I'm Joshuah Gutierrez, My most recent position was a
+                      Lead apprentice with AlphaWorks for their React Cohort. Before that, I was part of Enki.Ai and 
+                      reported directly to the CTO. Also, I had seven years of experience in the hospitality area. 
+                      With five of those years in a management position. I am a lifelong gamer, snowboarder and 
+                      programmer in my past time. It's not a job if it's fun!
                 </p>)}
           </div>
        
