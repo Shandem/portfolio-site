@@ -69,6 +69,7 @@ nav {
           } 
     }
     nav{
+        
         height: auto;
         .navagation{
             width: 78% !important;
@@ -88,6 +89,7 @@ nav {
             }
         }
     }
+
 }
 @media only screen and (max-width: 767px) and (min-width: 574px){
     nav{
@@ -192,6 +194,7 @@ nav {
         width: 66%;
         height: 5vh !important;
         margin-left: -2% !important;
+       
        .dropdown-toggle, .nav-link {
         margin-left:75%;
         width: 100%;
@@ -249,12 +252,25 @@ nav {
         }
     }
 }
-@media only screen and (max-width: 415px) and (min-width: 391px){
+@media only screen and (max-width: 415px) and (min-width: 280px){
+.navContainer{
+height: 5%;
+box-shadow: 0 0 4px 0 rgba(0,0,0,.25);
+}
+    nav{
+    height: 10%;
+    
+   }
     #smallNav{
         margin-right: 2% !important;
+        height: 10%;
+        
     }
     .dropdown-toggle, .nav-link {
-        margin-right: -20vw !important;
+        margin-right: -40% !important;
+        text-align: center;
+        width: auto;
+       
     }
     div.dropdown-menu.show{
         margin-left: -5% !important;
