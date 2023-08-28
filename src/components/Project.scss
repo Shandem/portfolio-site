@@ -75,10 +75,13 @@ form{
   height: 50px;
   width: 50px;
 }
-.myClassname {
-  width: 100px;
-  height: 90vh;
+.myClassname, .res-contain {
+  z-index: 3;
+  width: 40vw;
+  height: 78vh;
   border-radius: 45px;
+  margin-top: -23%;
+  margin-left: 35%;
 }
 
 
@@ -100,7 +103,7 @@ form{
     margin-top: 2% !important;
     .me {
       height: 17vh ;
-      width: 20vw; 
+      width: 13vw; 
     }
     .me::after{
       margin-top: 2vh;
@@ -178,14 +181,7 @@ form{
     margin-right: -30%;
     margin-top: 30%;
   }
-  .res-contain,
-  #myId {
-    position: absolute;
-    height: 92%;
-    width: 70%;
-    margin-top: 1vh;
-    right: -11%;
-  }
+
 }
 
 @media only screen and (max-width: 970px) and (min-width: 901px) {

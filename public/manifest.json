@@ -5,22 +5,22 @@
     {
       "src":  "./Logos/favicon.ico",
       "sizes": "16x16",
-      "type": "image/svg"
+      "type": "icon"
     },
     {
       "src": "./Logos/favicon.ico",
       "sizes": "32x32",
-      "type": "image/png"
+      "type": "icon"
     },
     {
       "src": "./Logos/favicon.ico",
       "sizes": "48x48",
-      "type": "image/png"
+      "type": "icon"
     },
     {
       "src": "./Logos/favicon.ico",
       "sizes": "64x64 ",
-      "type": "image/png"
+      "type": "icon"
     }
 
   ],

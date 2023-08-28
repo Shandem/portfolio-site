@@ -49,10 +49,10 @@ nav {
     .calendly-badge-widget, .calendly-badge-content{
         position: absolute;
         top: 0;
-        margin-left: 60%;
+        margin-left: 45%;
         margin-top: -1%; 
         width: 25vw !important;
-        border: solid thin red;
+  
         height: 7%;
       }
    
@@ -89,7 +89,7 @@ nav {
         }
     }
 }
-@media only screen and (max-width: 767px) and (min-width: 5740px){
+@media only screen and (max-width: 767px) and (min-width: 574px){
     nav{
         z-index: 5;
         margin: 0vh !important;
@@ -187,18 +187,17 @@ nav {
         }
     }
 }
-@media only screen and (max-width: 573px){
+@media only screen and (max-width: 573px) and (min-width: 416px){
     nav{
         width: 66%;
         height: 5vh !important;
         margin-left: -2% !important;
        .dropdown-toggle, .nav-link {
         margin-left:75%;
-        border: solid thin red;
         width: 100%;
-       }
-    
+       }  
     }
+    
     div.dropdown-menu.show{
         box-shadow: 0 0 4px 0 rgba(0,0,0,.25);
         background-color: var(--background-color);
@@ -250,7 +249,7 @@ nav {
         }
     }
 }
-@media screen and (max-width: 415px) and (min-width: 391px) {
+@media only screen and (max-width: 415px) and (min-width: 391px){
     #smallNav{
         margin-right: 2% !important;
     }
